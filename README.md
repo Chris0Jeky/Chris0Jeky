@@ -11,4 +11,4 @@ You can click the Preview link to take a look at your changes.
 [![Chris Jeky's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chris0Jeky&show_icons=true&theme=radical)](https://github.com/Chris0Jeky/github-readme-stats)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Chris0Jeky&layout=compact&theme=radical)](https://github.com/Chris0Jeky/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Chris0Jeky&hide_progress=true&theme=radical)](https://github.com/Chris0Jeky/github-readme-stats)
