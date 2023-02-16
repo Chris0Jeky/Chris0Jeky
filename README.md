@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Chris0Jeky
-- 👀 I’m interested in Philosophy 
-- 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on any project as long as it's interesting
-- 📫 How to reach me: DM me on Discord Zangetsu(Chris-to_Kun)#1872 , I don't use socials nor messaging platforms
+- 👋 Hi, I’m Chris
+- 👀 I’m interested in Philosophy, Tech and Science 
+- 🌱 I’m currently learning C++ and mostly using Java
+- 💞️ I’m a sociable person open to interesting conversations 
+- 📫 How to reach me: DM me on Discord Zangetsu(Chris-to_Kun)#1872, Linkedin: Cristian Tcaci
 
 <!---
 Chris0Jeky/Chris0Jeky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
