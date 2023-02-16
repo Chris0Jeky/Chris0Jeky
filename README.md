@@ -16,3 +16,5 @@ You can click the Preview link to take a look at your changes.
 <a href="https://github.com/Chris0Jeky/convoychat">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chris0Jeky&hide_progress=true&theme=radical" />
 </a>
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=Chris0Jeky&theme=dark)](https://git.io/streak-stats)
