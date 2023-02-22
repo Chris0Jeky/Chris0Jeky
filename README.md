@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Chris
-- 👀 I’m interested in Philosophy, Tech and Science 
+- 👀 I like reading and learning. My favourite topics are: Tech, Philosophy, Psychology and Science! 
 - 🌱 I’m currently learning C++ and mostly using Java
 - 💞️ I’m a sociable person open to interesting conversations 
 - 📫 How to reach me: DM me on Discord Zangetsu(Chris-to_Kun)#1872, Linkedin: Cristian Tcaci
