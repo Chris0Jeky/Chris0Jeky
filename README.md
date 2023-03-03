@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Chris
+- 👋 Hi, I’m Chris, a 2nd year computer science student
 - 👀 I like reading and learning. My favourite topics are: Tech, Philosophy, Psychology and Science! 
 - 🌱 I’m currently learning C++ and mostly using Java
 - 💞️ I’m a sociable person open to interesting conversations 
