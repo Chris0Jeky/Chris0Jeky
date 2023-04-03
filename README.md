@@ -1,8 +1,8 @@
-- 👋 Hi, I’m Chris, a 2nd year computer science student currently applying for Software Engineering Internships
-- 👀 I like reading and learning. My favourite topics are: Tech, Philosophy, Psychology and Science! 
-- 🌱 I’m currently learning C++ and mostly using Java
-- 💞️ I’m a sociable person open to interesting conversations 
-- 📫 How to reach me: DM me on Discord Zangetsu(Chris-to_Kun)#1872, Linkedin: Cristian Tcaci
+👋 Hey there! I'm Chris, a 2nd-year CompSci student 🎓, currently seeking Software Engineering Internships 💻
+📚 I love diving into Tech, Philosophy, Psychology & Science, always eager to learn more and broaden my horizons 🧠
+🔧 Skilled in Java, and currently mastering C++ to expand my programming prowess 🚀
+🤝 Friendly and always up for engaging discussions - let's connect and explore ideas together 🌍
+📩 Reach out to me: Discord: Zangetsu(Chris-to_Kun)#1872, LinkedIn: Cristian Tcaci
 
 <!---
 Chris0Jeky/Chris0Jeky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
