@@ -1,7 +1,11 @@
 👋 Hey there! I'm Chris, a 2nd-year CompSci student 🎓, currently seeking Software Engineering Internships 💻
+
 📚 I love diving into Tech, Philosophy, Psychology & Science, always eager to learn more and broaden my horizons 🧠
+
 🔧 Skilled in Java, and currently mastering C++ to expand my programming prowess 🚀
+
 🤝 Friendly and always up for engaging discussions - let's connect and explore ideas together 🌍
+
 📩 Reach out to me: Discord: Zangetsu(Chris-to_Kun)#1872, LinkedIn: Cristian Tcaci
 
 <!---
