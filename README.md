@@ -6,7 +6,7 @@
 
 🤝 Friendly and always up for engaging discussions - let's connect and explore ideas together 🌍
 
-📩 Reach out to me: Discord: Zangetsu(Chris-to_Kun)#1872, LinkedIn: Cristian Tcaci
+📩 Reach out to me: Discord: Zangetsu(Chris-to_Kun)#1872, LinkedIn: Cristian (Chris) Tcaci
 
 <!---
 Chris0Jeky/Chris0Jeky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
