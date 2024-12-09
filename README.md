@@ -24,7 +24,3 @@ LANGUAGES & TOOLS:
 ![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
-<a href="https://www.data-card-for-spotify.com/card?user_id=11132387720">
-  <img src="https://www.data-card-for-spotify.com/api/card?user_id=11132387720" alt="Data Card for Spotify">
-</a>
