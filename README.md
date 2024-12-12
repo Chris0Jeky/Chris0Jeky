@@ -8,13 +8,6 @@
 
 📩 Reach out to me: Discord: Zangetsu(Chris-to_Kun)#1872, LinkedIn: Cristian (Chris) Tcaci
 
-<!---
-Chris0Jeky/Chris0Jeky is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=Chris0Jeky&theme=dark)](https://git.io/streak-stats)
-
 LANGUAGES & TOOLS:
 
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
