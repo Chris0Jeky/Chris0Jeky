@@ -17,3 +17,5 @@ LANGUAGES & TOOLS:
 ![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+[![Chris's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chris0Jeky)](https://github.com/Chris0Jkey/github-readme-stats)
