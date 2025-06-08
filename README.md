@@ -1,4 +1,4 @@
-👋 Hey there! I'm Chris, a 2nd-year CompSci student 🎓, currently seeking Software Engineering Internships 💻
+👋 Hey there! I'm Chris, a CompSci Graduate 🎓, currently seeking Software Engineering roles 💻
 
 📚 I love diving into Tech, Philosophy, Psychology & Science, always eager to learn more and broaden my horizons 🧠
 
