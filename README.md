@@ -2,7 +2,7 @@
 
 📚 I love diving into Tech, Philosophy, Psychology & Science, always eager to learn more and broaden my horizons 🧠
 
-🔧 Skilled in Java, and currently mastering C++ to expand my programming prowess 🚀
+🔧 Skilled in Java, and currently mastering Python to expand my programming prowess 🚀
 
 🤝 Friendly and always up for engaging discussions - let's connect and explore ideas together 🌍
 
