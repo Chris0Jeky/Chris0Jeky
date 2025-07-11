@@ -71,7 +71,7 @@ For exceptional contributions to the 533 Release and 2023 successes
     <td width="50%">
       <h3 align="center">🤖 AI Analytics Platform</h3>
       <div align="center">
-        <a href="https://github.com/Chris0Jeky/AI-Analytics-Platform](https://github.com/Chris0Jeky/CST3133-Advanced-Topics-in-Data-Science-and-Artificial-Intelligence">
+        <a href="https://github.com/Chris0Jeky/CST3133-Advanced-Topics-in-Data-Science-and-Artificial-Intelligence">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=AI-Analytics-Platform&theme=tokyonight&hide_border=true" />
         </a>
         <p>
