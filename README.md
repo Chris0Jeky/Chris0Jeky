@@ -72,7 +72,7 @@ For exceptional contributions to the 533 Release and 2023 successes
       <h3 align="center">🤖 AI Analytics Platform</h3>
       <div align="center">
         <a href="https://github.com/Chris0Jeky/CST3133-Advanced-Topics-in-Data-Science-and-Artificial-Intelligence">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=AI-Analytics-Platform&theme=tokyonight&hide_border=true" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=CST3133-Advanced-Topics-in-Data-Science-and-Artificial-Intelligence&theme=tokyonight&hide_border=true" />
         </a>
         <p>
           <img src="https://img.shields.io/badge/Accuracy-99.99%25-brightgreen?style=flat-square" />
