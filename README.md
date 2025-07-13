@@ -219,7 +219,7 @@ graph LR
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!%20Let's%20build%20the%20future%20together%20🚀&fontSize=20&fontAlignY=70" />
 </div>
 
-<!-- Hidden Analytics -->
+<!-- Hidden Analytics BB -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Chris0Jeky&style=flat-square&color=blue" alt="Profile views" />
 </div>
