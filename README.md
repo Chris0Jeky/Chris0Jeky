@@ -18,7 +18,7 @@
 
 ---
 
-### 👨‍💻 About Me
+### Hi there! I'm Chris 👋
 
 I'm a software engineer passionate about building high-impact solutions that bridge the gap between legacy systems and modern, cloud-native architecture. My journey has taken me from spearheading enterprise DevOps initiatives at **GE Digital**, where I automated security protocols for large-scale AWS pipelines, to the forefront of academic AI research, where I'm currently working to publish my findings on multi-agent reinforcement learning.
 
@@ -30,53 +30,56 @@ I'm a software engineer passionate about building high-impact solutions that bri
 
 ### 🚀 Featured Work & Case Studies
 
-<table>
+<table width="100%">
   <tbody>
     <!-- Row 1 -->
     <tr>
       <!-- Project 1: N-IPD Research -->
       <td width="33.3%" valign="top">
-        <div align="center">
-          <h3>AI & Game Theory Research</h3>
-        </div>
-        <a href="https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation" target="_blank">
-          <img width="100%" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" /> <!-- Replace with your project image/gif -->
-        </a>
-        <p align="center">
-          A framework for simulating and analyzing agent behavior in N-Person Prisoner's Dilemma scenarios. My thesis work, currently being prepared for academic publication.
-        </p>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&theme=dark&perline=6" />
+        <div style="border: 1px solid #4A3B31; border-radius: 8px; padding: 16px; height: 100%; background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center;">
+          <div style="background-color: rgba(30, 27, 24, 0.85); backdrop-filter: blur(4px); border-radius: 6px; padding: 16px; height: 100%;">
+            <div align="center">
+              <h3><a href="https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation" target="_blank">AI & Game Theory Research</a></h3>
+            </div>
+            <p align="center">
+              A framework for simulating agent behavior in N-Person Prisoner's Dilemma scenarios. My thesis work, being prepared for academic publication.
+            </p>
+            <div align="center">
+              <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow&theme=dark&perline=6" />
+            </div>
+          </div>
         </div>
       </td>
       <!-- Project 2: EduHub Full-Stack App -->
       <td width="33.3%" valign="top">
-        <div align="center">
-          <h3>Full-Stack Learning Platform</h3>
-        </div>
-        <a href="https://github.com/Chris0Jeky/EduHub-Vue-Client" target="_blank">
-          <img width="100%" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" /> <!-- Replace with your project image/gif -->
-        </a>
-        <p align="center">
-          A modern education platform with a Vue.js frontend and a Node.js/Express backend, featuring real-time search, cart functionality, and secure JWT authentication.
-        </p>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=vue,nodejs,express,mongodb,js&theme=dark&perline=5" />
+        <div style="border: 1px solid #4A3B31; border-radius: 8px; padding: 16px; height: 100%; background-image: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center;">
+          <div style="background-color: rgba(30, 27, 24, 0.85); backdrop-filter: blur(4px); border-radius: 6px; padding: 16px; height: 100%;">
+            <div align="center">
+              <h3><a href="https://github.com/Chris0Jeky/EduHub-Vue-Client" target="_blank">Full-Stack Learning Platform</a></h3>
+            </div>
+            <p align="center">
+              A modern education platform with a Vue.js frontend and a Node.js/Express backend, featuring real-time search and secure JWT authentication.
+            </p>
+            <div align="center">
+              <img src="https://skillicons.dev/icons?i=vue,nodejs,express,mongodb,js&theme=dark&perline=5" />
+            </div>
+          </div>
         </div>
       </td>
-      <!-- Project 3: Enterprise Nmap Automation (Case Study) -->
+      <!-- Project 3: Enterprise DevOps & Security -->
       <td width="33.3%" valign="top">
-        <div align="center">
-          <h3>Enterprise DevOps & Security</h3>
-        </div>
-        <a href="https://chris0jeky.github.io/CV_and_Portfolio/Portfolio/projects/nmap-case-study.html" target="_blank">
-          <img width="100%" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" /> <!-- Replace with your project image/gif -->
-        </a>
-        <p align="center">
-          <strong>(Case Study)</strong> Spearheaded the integration of automated Nmap scanning into ~72 AWS CI/CD pipelines at GE Digital, enhancing pre-release security posture.
-        </p>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=aws,jenkins,bash,groovy,docker&theme=dark&perline=5" />
+        <div style="border: 1px solid #4A3B31; border-radius: 8px; padding: 16px; height: 100%; background-image: url('https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop'); background-size: cover; background-position: center;">
+          <div style="background-color: rgba(30, 27, 24, 0.85); backdrop-filter: blur(4px); border-radius: 6px; padding: 16px; height: 100%;">
+            <div align="center">
+              <h3><a href="https://chris0jeky.github.io/CV_and_Portfolio/Portfolio/projects/nmap-case-study.html" target="_blank">Enterprise DevOps & Security</a></h3>
+            </div>
+            <p align="center">
+              <strong>(Case Study)</strong> Spearheaded the integration of automated Nmap scanning into ~72 AWS CI/CD pipelines at GE Digital.
+            </p>
+            <div align="center">
+              <img src="https://skillicons.dev/icons?i=aws,jenkins,bash,groovy,docker&theme=dark&perline=5" />
+            </div>
+          </div>
         </div>
       </td>
     </tr>
@@ -84,47 +87,50 @@ I'm a software engineer passionate about building high-impact solutions that bri
     <tr>
       <!-- Project 4: AI Data Analytics Suite -->
       <td width="33.3%" valign="top">
-        <div align="center">
-          <h3>AI & Data Analytics Suite</h3>
-        </div>
-        <a href="https://github.com/Chris0Jeky/AI-Data-Analytics-Suite-Python" target="_blank">
-          <img width="100%" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" /> <!-- Replace with your project image/gif -->
-        </a>
-        <p align="center">
-          Dual-model Python suite showcasing practical ML for student performance prediction (Random Forest, 98% R²) and NLP for fake news detection (LSTM, 99.9% Accuracy).
-        </p>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,pandas,jupyter&theme=dark&perline=5" />
+        <div style="border: 1px solid #4A3B31; border-radius: 8px; padding: 16px; height: 100%; background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center;">
+          <div style="background-color: rgba(30, 27, 24, 0.85); backdrop-filter: blur(4px); border-radius: 6px; padding: 16px; height: 100%;">
+            <div align="center">
+              <h3><a href="https://github.com/Chris0Jeky/AI-Data-Analytics-Suite-Python" target="_blank">AI & Data Analytics Suite</a></h3>
+            </div>
+            <p align="center">
+              Dual-model Python suite for student performance prediction (Random Forest, 98% R²) and fake news detection (LSTM, 99.9% Accuracy).
+            </p>
+            <div align="center">
+              <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,pandas,jupyter&theme=dark&perline=5" />
+            </div>
+          </div>
         </div>
       </td>
       <!-- Project 5: C++ Music Library -->
       <td width="33.3%" valign="top">
-        <div align="center">
-          <h3>High-Performance C++ Library</h3>
-        </div>
-        <a href="https://github.com/Chris0Jeky/CPP-ThreadSafe-Music-Library" target="_blank">
-          <img width="100%" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" /> <!-- Replace with your project image/gif -->
-        </a>
-        <p align="center">
-          A robust, thread-safe music library built with modern C++17, featuring advanced search (fuzzy, regex), optimized data structures, and a clean, high-performance API.
-        </p>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=cpp,cmake&theme=dark&perline=5" />
+        <div style="border: 1px solid #4A3B31; border-radius: 8px; padding: 16px; height: 100%; background-image: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center;">
+          <div style="background-color: rgba(30, 27, 24, 0.85); backdrop-filter: blur(4px); border-radius: 6px; padding: 16px; height: 100%;">
+            <div align="center">
+              <h3><a href="https://github.com/Chris0Jeky/CPP-ThreadSafe-Music-Library" target="_blank">High-Performance C++ Library</a></h3>
+            </div>
+            <p align="center">
+              A robust, thread-safe music library built with modern C++17, featuring advanced search, optimized data structures, and a clean API.
+            </p>
+            <div align="center">
+              <img src="https://skillicons.dev/icons?i=cpp,cmake&theme=dark&perline=5" />
+            </div>
+          </div>
         </div>
       </td>
       <!-- Project 6: OOP Vehicle Rental System -->
       <td width="33.3%" valign="top">
-        <div align="center">
-          <h3>OOP Vehicle Rental System</h3>
-        </div>
-        <a href="https://github.com/Chris0Jeky/CPP-OOP-Vehicle-Rental-System" target="_blank">
-          <img width="100%" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" /> <!-- Replace with your project image/gif -->
-        </a>
-        <p align="center">
-          A vehicle rental management system in C++ demonstrating core Object-Oriented principles like inheritance, polymorphism, and abstraction via UML design.
-        </p>
-        <div align="center">
-          <img src="https://skillicons.dev/icons?i=cpp,idea&theme=dark&perline=5" />
+        <div style="border: 1px solid #4A3B31; border-radius: 8px; padding: 16px; height: 100%; background-image: url('https://images.unsplash.com/photo-1541443131876-44b73de101c5?q=80&w=1974&auto=format&fit=crop'); background-size: cover; background-position: center;">
+          <div style="background-color: rgba(30, 27, 24, 0.85); backdrop-filter: blur(4px); border-radius: 6px; padding: 16px; height: 100%;">
+            <div align="center">
+              <h3><a href="https://github.com/Chris0Jeky/CPP-OOP-Vehicle-Rental-System" target="_blank">OOP Vehicle Rental System</a></h3>
+            </div>
+            <p align="center">
+              A vehicle rental system in C++ demonstrating core OOP principles like inheritance, polymorphism, and abstraction via UML design.
+            </p>
+            <div align="center">
+              <img src="https://skillicons.dev/icons?i=cpp,idea&theme=dark&perline=5" />
+            </div>
+          </div>
         </div>
       </td>
     </tr>
@@ -159,4 +165,10 @@ I'm a software engineer passionate about building high-impact solutions that bri
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chris0Jeky&theme=tokyonight&hide_border=true&background=1E1B18&ring=B71C1C&fire=FF8F00&currStreakNum=EFEBE4&sideNums=EFEBE4&sideLabels=EFEBE4&currStreakLabel=EFEBE4" />
   <br>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Chris0Jeky&bg_color=1E1B18&color=EFEBE4&line=B71C1C&point=FF8F00&area=true&hide_border=true" width="98.5%" />
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&gradient=B71C1C..FF8F00&height=100§ion=footer&text=Let's%20build%20the%20future%20together%20🚀&fontSize=20&fontAlignY=70&fontColor=EFEBE4" />
 </div>
