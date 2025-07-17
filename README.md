@@ -84,8 +84,8 @@ For exceptional contributions to the 533 Release and 2023 successes
     <td width="50%">
       <h3 align="center">🎵 C++ Audio Library</h3>
       <div align="center">
-        <a href="https://github.com/Chris0Jeky/SWECW2-AudioLibrary">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=SWECW2-AudioLibrary&theme=radical&hide_border=true" />
+        <a href="https://github.com/Chris0Jeky/CPP-ThreadSafe-Music-Library">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=CPP-ThreadSafe-Music-Library&theme=radical&hide_border=true" />
         </a>
         <p>
           <img src="https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=c%2B%2B" />
@@ -99,8 +99,8 @@ For exceptional contributions to the 533 Release and 2023 successes
     <td width="50%">
       <h3 align="center">📚 EduHub Platform</h3>
       <div align="center">
-        <a href="https://github.com/Chris0Jeky/CST3144-Coursework-FullstackDev-FrontEnd">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=CST3144-Coursework-FullstackDev-FrontEnd&theme=gruvbox&hide_border=true" />
+        <a href="https://github.com/Chris0Jeky/EduHub-Vue-Client">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=EduHub-Vue-Client&theme=gruvbox&hide_border=true" />
         </a>
         <p>
           <img src="https://img.shields.io/badge/Vue.js-3-4FC08D?style=flat-square&logo=vue.js" />
