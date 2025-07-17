@@ -71,7 +71,7 @@ For exceptional contributions to the 533 Release and 2023 successes
     <td width="50%">
       <h3 align="center">🤖 AI Analytics Platform</h3>
       <div align="center">
-        <a href="https://github.com/Chris0Jeky/https://github.com/Chris0Jeky/AI-Data-Analytics-Suite-Python">
+        <a href="https://github.com/Chris0Jeky/AI-Data-Analytics-Suite-Python">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Chris0Jeky&repo=AI-Data-Analytics-Suite-Python&theme=tokyonight&hide_border=true" />
         </a>
         <p>
