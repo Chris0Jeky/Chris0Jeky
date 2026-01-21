@@ -169,6 +169,8 @@ I'm a software engineer passionate about building high-impact solutions that bri
 
 ---
 
+
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&gradient=B71C1C..FF8F00&height=100§ion=footer&text=Let's%20build%20the%20future%20together%20🚀&fontSize=20&fontAlignY=70&fontColor=EFEBE4" />
 </div>
