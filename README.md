@@ -20,11 +20,21 @@
 
 ### Hi there! I'm Chris 👋
 
-I'm a software engineer passionate about building high-impact solutions that bridge the gap between legacy systems and modern, cloud-native architecture. My journey has taken me from spearheading enterprise DevOps initiatives at **GE Digital**, where I automated security protocols for large-scale AWS pipelines, to the forefront of academic AI research, where I'm currently working to publish my findings on multi-agent reinforcement learning.
+I build **local-first developer tools** with **trust-first automation** (reviewable proposals, auditability, safe defaults).
 
-*   🔭 **Right now, I'm:** Co-authoring a scientific paper, building automation solutions for clients at DeliveraSoft, and diving deeper into Kubernetes and Infrastructure as Code.
-*   💡 **My Philosophy:** Technology is a tool for solving real-world problems. I thrive on translating complex technical challenges into elegant, maintainable, and secure code.
-*   🌱 **My Goal:** To contribute to a passionate, forward-thinking team where I can solve challenging problems, grow my skills in distributed systems, and help build the future of software.
+**Building now:** **[Taskdeck](https://github.com/Chris0Jeky/Taskdeck)** — LLM-assisted execution workspace (Vue 3 + .NET 8 + SQLite)
+
+**Featured projects**
+- 🧩 Taskdeck — capture → proposal diff → explicit apply (review-first automation)
+- 🔎 [RepoScope](https://github.com/Chris0Jeky/RepoScope) — offline Git analytics + HTML reports
+- 🛡️ [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) — MV3 navigation intent firewall (browser extension security)
+- 🧰 [DevFoundry](https://github.com/Chris0Jeky/DevFoundry) — offline developer toolbox (CLI + UI, shared core)
+
+**Selected proof**
+- Enterprise DevOps/security: automated scanning integrated into ~72 AWS CI/CD pipelines (case study in portfolio)
+- Research: multi-agent simulation work (game theory / MARL)
+
+**Links:** [Portfolio](https://chris0jeky.github.io/CV_and_Portfolio/) • [LinkedIn](https://www.linkedin.com/in/cristian-tcaci/) • Email: jeky.tck@gmail.com
 
 ---
 
