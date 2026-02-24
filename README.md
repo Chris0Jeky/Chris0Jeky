@@ -68,11 +68,11 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 <details>
   <summary><strong>GitHub stats (optional)</strong></summary>
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Chris0Jeky&show_icons=true&hide_border=true&theme=tokyonight" height="150" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Chris0Jeky&hide_border=true&theme=tokyonight" height="150" />
-
+<div align="center"> 
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chris0Jeky&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=1E1B18&text_color=EFEBE4&title_color=B71C1C&icon_color=FF8F00" /> 
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chris0Jeky&theme=tokyonight&hide_border=true&background=1E1B18&ring=B71C1C&fire=FF8F00&currStreakNum=EFEBE4&sideNums=EFEBE4&sideLabels=EFEBE4&currStreakLabel=EFEBE4" /> 
+<br> 
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Chris0Jeky&bg_color=1E1B18&color=EFEBE4&line=B71C1C&point=FF8F00&area=true&hide_border=true" width="98.5%" /> 
 </div>
 
 </details>
