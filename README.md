@@ -59,7 +59,7 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 <details>
   <summary><strong>Tech stack (expanded)</strong></summary>
 
-**Languages:** C#, TypeScript, JavaScript, Python, C++, Bash  
+**Languages:** C#, Java, TypeScript, JavaScript, Python, C++, Bash  
 **Backend/Platform:** .NET, Node.js, SQLite/Postgres, Docker  
 **Frontend:** Vue 3 (and friends)  
 **DevOps:** CI/CD, AWS, Jenkins, container workflows
@@ -71,8 +71,8 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Chris0Jeky&show_icons=true&hide_border=true" height="150" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Chris0Jeky&hide_border=true" height="150" />
+<img src="https://github-readme-stats.vercel.app/api?username=Chris0Jeky&show_icons=true&hide_border=true&theme=tokyonight" height="150" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Chris0Jeky&hide_border=true&theme=tokyonight" height="150" />
 
 </div>
 
