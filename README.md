@@ -28,7 +28,6 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 
 ➡️ **Repo:** https://github.com/Chris0Jeky/Taskdeck
 
-> Tip: add a short GIF here. Put it in this profile repo as `assets/taskdeck-demo.gif`,
 ![Taskdeck demo](./kanban-banner.svg)
 
 ---
