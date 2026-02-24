@@ -18,7 +18,7 @@
 
 ---
 
-## Start here: Taskdeck (flagship)
+## Start here: Taskdeck 
 **Taskdeck** is my local-first execution workspace: capture → **proposal diff** → explicit apply.  
 It’s built around **trust-first automation**: reviewable changes, auditability, safe defaults.
 
@@ -56,7 +56,7 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 ---
 
 <details>
-  <summary><strong>Tech stack (expanded)</strong></summary>
+  <summary><strong>Tech stack </strong></summary>
 
 **Languages:** C#, Java, TypeScript, JavaScript, Python, C++, Bash  
 **Backend/Platform:** .NET, Node.js, SQLite/Postgres, Docker  
@@ -66,7 +66,7 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 </details>
 
 <details>
-  <summary><strong>GitHub stats (optional)</strong></summary>
+  <summary><strong>GitHub stats </strong></summary>
 
 <div align="center"> 
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chris0Jeky&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=1E1B18&text_color=EFEBE4&title_color=B71C1C&icon_color=FF8F00" /> 
