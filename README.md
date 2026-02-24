@@ -32,7 +32,7 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 
 ---
 
-## Proof (high signal)
+## Proof 
 - **Enterprise DevOps/security:** integrated automated scanning into **~72 AWS CI/CD pipelines** (Jenkins + Bash/Groovy) — write-up in my portfolio  
 - **Research:** published work on multi-agent simulation / game theory (N‑Person Prisoner’s Dilemma)
 
