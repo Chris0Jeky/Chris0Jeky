@@ -25,8 +25,9 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 - **Stack:** Vue 3 · .NET 8 · SQLite  
 - **Target user:** developers who like keyboard-first workflows and low overhead  
 - **Why it’s different:** “AI assistance” is *proposal-first*, not autopilot
+- **Status:** active source project; a public desktop release is not available yet
 
-➡️ **Repo:** https://github.com/Chris0Jeky/Taskdeck
+➡️ **[Repository](https://github.com/Chris0Jeky/Taskdeck)** · **[Documentation](https://chris0jeky.github.io/Taskdeck/)**
 
 ![Taskdeck demo](./kanban-banner.svg)
 
@@ -39,12 +40,15 @@ It’s built around **trust-first automation**: reviewable changes, auditability
 ---
 
 ## Projects worth your time
-| Project | What it is | Link |
+
+| Project | What it demonstrates | Current public status |
 |---|---|---|
-| **RepoScope** | Local/offline Git repository analyzer & report generator | https://github.com/Chris0Jeky/RepoScope |
-| **NavSentinel** | MV3 browser extension — navigation intent firewall | https://github.com/Chris0Jeky/NavSentinel |
-| **DevFoundry** | Offline developer toolbox (CLI + UI, shared core) | https://github.com/Chris0Jeky/DevFoundry |
-| **N‑Person IPD Research** | Multi-agent simulation framework + analysis | https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation |
+| **[Developer Lens](https://github.com/Chris0Jeky/developer-lens)** | Privacy-safe, local-first GitHub development analytics | [Synthetic showcase](https://chris0jeky.github.io/developer-lens/) |
+| **[LLM Release Gate](https://github.com/Chris0Jeky/llm-release-gate)** | Deterministic regression gates for prompt, model, retrieval, tool, and configuration changes | CLI + GitHub Action, v0.1.2 |
+| **[MDviewer](https://github.com/Chris0Jeky/MDviewer)** | Browser-based Markdown-to-PDF editing with live pagination | [Live application](https://mdviewer-c9r.pages.dev/) |
+| **[RepoScope](https://github.com/Chris0Jeky/RepoScope)** | Local Git analysis through a .NET CLI, interactive dashboard, and shareable reports | Source and development instructions |
+| **[WealthLens HQ](https://github.com/Chris0Jeky/wealthlens-hq)** | Accessible, source-backed interactive charts on UK wealth inequality | [Live charts](https://chris0jeky.github.io/wealthlens-hq/) |
+| **[N‑Person IPD Research](https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation)** | Multi-agent simulation and game-theory research | Published research code; licensing PR currently gated |
 
 ---
 
