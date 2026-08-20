@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@8372d655870ba1ef33d439a9449f904d1471db82
+        uses: Chris0Jeky/CommitAtlas@1cdabfa37981866cfedad5571fb2221e9cb9d67e
         with:
           config: .commitatlas.json
 
@@ -69,7 +69,7 @@ jobs:
       - name: Commit refreshed public assets
         shell: bash
         run: |
-          git add -- assets/commitatlas
+          git add -- README.md assets/commitatlas
           if git diff --cached --quiet; then
             echo "CommitAtlas assets are already current."
             exit 0
