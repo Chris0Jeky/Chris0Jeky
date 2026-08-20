@@ -1,0 +1,61 @@
+name: Refresh CommitAtlas profile
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: commitatlas-profile-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'Chris0Jeky/Chris0Jeky'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Generate public CommitAtlas assets
+        id: commitatlas
+        uses: Chris0Jeky/CommitAtlas@68ac8985de842773768726c9c324cd7385065501
+        with:
+          config: .commitatlas.json
+
+      - name: Validate generated bundle
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const crypto = require('node:crypto');
+          const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas.outputs.manifest }}', 'utf8'));
+          if (manifest.user !== 'Chris0Jeky' || manifest.artifacts.length !== 6) {
+            throw new Error('Unexpected CommitAtlas manifest identity or card count');
+          }
+          for (const artifact of manifest.artifacts) {
+            const path = `assets/commitatlas/${artifact.path}`;
+            const body = fs.readFileSync(path);
+            const digest = crypto.createHash('sha256').update(body).digest('hex');
+            if (body.length !== artifact.bytes || digest !== artifact.sha256) {
+              throw new Error(`Manifest mismatch for ${artifact.path}`);
+            }
+          }
+          NODE
+
+      - name: Commit refreshed public assets
+        shell: bash
+        run: |
+          git add -- assets/commitatlas
+          if git diff --cached --quiet; then
+            echo "CommitAtlas assets are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): refresh CommitAtlas assets"
+          git push origin HEAD:main
