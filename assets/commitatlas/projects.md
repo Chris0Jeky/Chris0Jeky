@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-20T12:00:00.000Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-20T23:20:21.517Z`.
 Window: `2025-08-21` → `2026-08-20` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -9,7 +9,7 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 
 - **Repository:** `chris0jeky/Taskdeck`
 - **Lifecycle:** Active
-- **CI:** CI unavailable (`ci-required.yml`)
+- **CI:** Passing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
 - **Stats:** 0 stars · 0 forks · 141 open issues
 - **Release:** Taskdeck v0\.1\.0 (`v0.1.0`)
@@ -28,7 +28,7 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** CI unavailable (`ci.yml`)
+- **CI:** Passing (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
 - **Stats:** 0 stars · 0 forks · 7 open issues
 
@@ -43,7 +43,7 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 
 - **Repository:** `chris0jeky/IdleHarbor`
 - **Lifecycle:** Active
-- **CI:** CI unavailable (`ci.yml`)
+- **CI:** Passing (`ci.yml`)
 - **Description:** Lightweight native Windows mouse jiggler and keep\-awake utility with power requests, smart pause safeguards, portable use, and visible controls\.
 - **Stats:** 0 stars · 0 forks · 10 open issues
 - **Release:** v0\.1\.0 (`v0.1.0`)

@@ -3,7 +3,7 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-20T12:00:00.000Z",
+  "generatedAt": "2026-08-20T23:20:21.517Z",
   "window": {
     "from": "2025-08-21",
     "to": "2026-08-20",
@@ -24,8 +24,8 @@
       "openIssues": 141,
       "pushedAt": "2026-08-20T23:02:32Z",
       "ci": {
-        "state": "unavailable",
-        "label": "CI unavailable",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci-required.yml",
         "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32425241989"
       },
@@ -95,8 +95,8 @@
       "openIssues": 7,
       "pushedAt": "2026-08-20T23:14:52Z",
       "ci": {
-        "state": "unavailable",
-        "label": "CI unavailable",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32427839557"
       },
@@ -139,8 +139,8 @@
       "openIssues": 10,
       "pushedAt": "2026-08-20T23:08:44Z",
       "ci": {
-        "state": "unavailable",
-        "label": "CI unavailable",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32427369700"
       },
