@@ -17,7 +17,7 @@ I build systems that make complex work reviewable, observable, and safe.
 <div align="center">
   <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
     <picture>
-      <source media="(max-width: 600px)" srcset="./assets/commitatlas-compact/atlas.svg" />
+      <source media="(max-width: 600px)" srcset="./assets/commitatlas/atlas-compact.svg" />
       <img width="860" alt="CommitAtlas developer atlas for Chris0Jeky with contribution density, streaks, activity mix, momentum, languages, and project health" src="./assets/commitatlas/atlas.svg" />
     </picture>
   </a>
