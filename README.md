@@ -31,10 +31,11 @@ I build systems that make complex work reviewable, observable, and safe.
 
 <div align="center">
   <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
-    <img width="49%" alt="CommitAtlas public profile snapshot for Chris0Jeky" src="./commitatlas-profile.svg" />
+    <img width="98.5%" alt="CommitAtlas public profile snapshot for Chris0Jeky" src="./commitatlas-profile.svg" />
   </a>
+  <br />
   <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
-    <img width="49%" alt="CommitAtlas public language snapshot for Chris0Jeky" src="./commitatlas-languages.svg" />
+    <img width="98.5%" alt="CommitAtlas public language snapshot for Chris0Jeky" src="./commitatlas-languages.svg" />
   </a>
   <br />
   <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
