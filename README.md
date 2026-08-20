@@ -1,6 +1,6 @@
 <div align="center">
 
-# Cristian (Chris) Tcaci
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:B71C1C,100:FF8F00&height=132&section=header&text=Cristian%20(Chris)%20Tcaci&fontSize=34&fontColor=ffffff&animation=fadeIn" alt="Cristian Tcaci animated profile banner" />
 
 ### Backend & platform engineer · Local-first developer tools · Trust-first automation
 
@@ -9,6 +9,22 @@ I build systems that make complex work reviewable, observable, and safe.
 [Portfolio](https://chris0jeky.github.io/CV_and_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/cristian-tcaci/) · [Email](mailto:jeky.tck@gmail.com) · [CommitAtlas Studio](https://commitatlas.jeky-tck.chatgpt.site/studio)
 
 </div>
+
+---
+
+## Activity pulse
+
+<div align="center">
+  <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
+    <img width="58%" alt="Current GitHub contribution streak for Chris0Jeky" src="https://streak-stats.demolab.com?user=Chris0Jeky&hide_border=true&background=0D1117&ring=FF8F00&fire=FF8F00&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=FF9A66&sideLabels=C9D1D9&dates=8B949E" />
+  </a>
+  <br />
+  <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
+    <img width="98.5%" alt="GitHub contribution activity graph for Chris0Jeky" src="https://github-readme-activity-graph.vercel.app/graph?username=Chris0Jeky&bg_color=0D1117&color=C9D1D9&line=FF7B54&point=FFB347&area=true&area_color=7A2E1D&hide_border=true&custom_title=Contribution%20density" />
+  </a>
+</div>
+
+<sub>Live public activity surfaces update through their providers. CommitAtlas replacements are being built with scheduled, source-backed generation so the profile remains useful during that transition.</sub>
 
 ---
 
@@ -27,23 +43,26 @@ I build systems that make complex work reviewable, observable, and safe.
 
 ---
 
-## Live portfolio signals
+## Project radar
 
 <div align="center">
-  <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
-    <img width="98.5%" alt="CommitAtlas public profile snapshot for Chris0Jeky" src="./commitatlas-profile.svg" />
-  </a>
-  <br />
-  <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
-    <img width="98.5%" alt="CommitAtlas public language snapshot for Chris0Jeky" src="./commitatlas-languages.svg" />
-  </a>
-  <br />
   <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
     <img width="98.5%" alt="CommitAtlas project lifecycle and CI snapshot for six selected Chris0Jeky projects" src="./commitatlas-projects.svg" />
   </a>
 </div>
 
-These reliable profile embeds were rendered by **[CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas)** from public GitHub data on **20 August 2026**. Project lifecycle is deliberately curated; CI is read only from each named workflow. Open the [live Studio](https://commitatlas.jeky-tck.chatgpt.site/studio) for current previews. Private contribution data is not requested or exposed.
+This reliable project snapshot was rendered by **[CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas)** from public GitHub data on **20 August 2026**. Project lifecycle is deliberately curated; CI is read only from each named workflow. Open the [live Studio](https://commitatlas.jeky-tck.chatgpt.site/studio) for current previews.
+
+<details>
+  <summary><strong>Public profile and language snapshot provenance</strong></summary>
+
+  <div align="center">
+    <img width="49%" alt="CommitAtlas public profile snapshot for Chris0Jeky" src="./commitatlas-profile.svg" />
+    <img width="49%" alt="CommitAtlas public language snapshot for Chris0Jeky" src="./commitatlas-languages.svg" />
+  </div>
+
+  These dated cards use public repository data only. Private contribution data is not requested or exposed.
+</details>
 
 ## Selected work
 
@@ -87,4 +106,6 @@ More systems and research: [WealthLens HQ](https://chris0jeky.github.io/wealthle
   <em>Interested in trustworthy developer tools, local-first systems, or practical platform engineering?</em>
   <br />
   <a href="mailto:jeky.tck@gmail.com">Let’s talk.</a>
+  <br />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:B71C1C,100:FF8F00&height=92&section=footer" alt="Profile footer" />
 </div>
