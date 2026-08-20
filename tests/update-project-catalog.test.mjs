@@ -55,6 +55,7 @@ test("renders the ordered catalog and is idempotent", () => {
   const rendered = fs.readFileSync(paths.readmePath, "utf8");
   assert.match(rendered, /\| Project \| Status \| Signals\/actions \|/);
   assert.match(rendered, /\[Alpha\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha\)/);
+  assert.match(rendered, /1 open issues\/PRs/);
   assert.match(rendered, /\[Docs\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha#readme\)/);
   assert.equal((rendered.match(new RegExp(START, "g")) ?? []).length, 1);
   assert.equal((rendered.match(new RegExp(END, "g")) ?? []).length, 1);

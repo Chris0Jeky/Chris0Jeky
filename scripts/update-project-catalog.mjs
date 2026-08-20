@@ -123,7 +123,7 @@ export function renderProjectTable(catalog) {
     const projectLink = `[${escapeTable(project.label)}](${markdownDestination(source.url)})`;
     const status = `${escapeTable(capitalize(project.lifecycle))} · CI ${escapeTable(project.ci.state)}`;
     const signals = [
-      `${project.stars} stars · ${project.forks} forks · ${project.openIssues} open issues`,
+      `${project.stars} stars · ${project.forks} forks · ${project.openIssues} open issues/PRs`,
       project.primaryLanguage ? `Language: ${escapeTable(project.primaryLanguage)}` : null,
       project.ci.workflow ? `Workflow: ${escapeTable(project.ci.workflow)}` : null,
       project.release ? `Release: ${escapeTable(project.release.tag)}` : null,
