@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-20T23:29:35.432Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-20T23:43:55.273Z`.
 Window: `2025-08-21` → `2026-08-20` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -9,16 +9,16 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 
 - **Repository:** `chris0jeky/Taskdeck`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci-required.yml`)
+- **CI:** Pending (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 0 stars · 0 forks · 141 open issues
+- **Stats:** 0 stars · 0 forks · 141 open issues/PRs
 - **Release:** Taskdeck v0\.1\.0 (`v0.1.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32425241989) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32429627514) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.0/taskdeck-v0.1.0-linux-x64.tar.gz) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -28,15 +28,15 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Pending (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 0 stars · 0 forks · 7 open issues
+- **Stats:** 0 stars · 0 forks · 7 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commitatlas.jeky-tck.chatgpt.site/) — observed
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32427839557) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32429814147) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured
 
 ## IdleHarbor
@@ -45,7 +45,7 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci.yml`)
 - **Description:** Lightweight native Windows mouse jiggler and keep\-awake utility with power requests, smart pause safeguards, portable use, and visible controls\.
-- **Stats:** 0 stars · 0 forks · 10 open issues
+- **Stats:** 0 stars · 0 forks · 10 open issues/PRs
 - **Release:** v0\.1\.0 (`v0.1.0`)
 
 ### Actions
@@ -61,7 +61,7 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`pages.yml`)
 - **Description:** A private local GitHub development retrospective with a privacy\-safe public showcase\.
-- **Stats:** 0 stars · 0 forks · 39 open issues
+- **Stats:** 0 stars · 0 forks · 39 open issues/PRs
 
 ### Actions
 
@@ -76,7 +76,7 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 - **Lifecycle:** Maintenance
 - **CI:** Stale result (`ci.yml`)
 - **Description:** An open\-source CLI plus GitHub Action that prevents unsafe prompt, model, retrieval, tool, or configuration changes from being merged
-- **Stats:** 0 stars · 0 forks · 0 open issues
+- **Stats:** 0 stars · 0 forks · 0 open issues/PRs
 - **Release:** llm\-release\-gate v0\.1\.2 (`v0.1.2`)
 
 ### Actions
@@ -92,7 +92,7 @@ Window: `2025-08-21` → `2026-08-20` (365 days).
 - **Lifecycle:** Maintenance
 - **CI:** Stale result (`ci.yml`)
 - **Description:** Browser\-based Markdown\-to\-PDF editor with live pagination and page\-break\-safe export for technical and research documents\.
-- **Stats:** 0 stars · 0 forks · 5 open issues
+- **Stats:** 0 stars · 0 forks · 5 open issues/PRs
 
 ### Actions
 
