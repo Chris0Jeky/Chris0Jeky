@@ -8,17 +8,22 @@
     "to": "2026-08-20",
     "days": 365
   },
-  "generatedAt": "2026-08-20T19:40:53.915Z",
+  "generatedAt": "2026-08-20T20:12:30.000Z",
   "artifacts": [
     {
       "path": "activity.svg",
       "bytes": 22947,
-      "sha256": "c2e2bc351ddbf382fd7021a87099903a40bf22a3200343f05b59eb06dfca00fa"
+      "sha256": "2eb16188458df6b12b11f16458c9f43ed8af12006b3af06ac31bb34feed3a773"
+    },
+    {
+      "path": "atlas-compact.svg",
+      "bytes": 16619,
+      "sha256": "c8fb4311dc12888a33a0639382ff44df3f9cf73688f30187f5f46af1639e5b99"
     },
     {
       "path": "atlas.svg",
       "bytes": 16524,
-      "sha256": "ccffb93154cbbbebf8bf8a0a1944b5984be3fb9531373d3357f2320449aaf44b"
+      "sha256": "7fad33f5c3e21fd7dad7909f8d5bf6848059f8d2e0123e2f10531ebd0be1b538"
     },
     {
       "path": "languages.svg",
