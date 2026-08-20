@@ -27,6 +27,15 @@ I build systems that make complex work reviewable, observable, and safe.
 
 ---
 
+<div align="center">
+  <img width="420" alt="CommitAtlas annual public-profile contribution breakdown percentages for Chris0Jeky, not requested-window counts" src="./assets/commitatlas/breakdown.svg" />
+  <img width="420" alt="CommitAtlas personal consistency rhythm score for Chris0Jeky, not a GitHub rank" src="./assets/commitatlas/rhythm.svg" />
+</div>
+
+<p align="center"><sub>Breakdown shows annual public-profile activity percentages, not exact counts for the requested window. Rhythm is a personal consistency signal, not a GitHub rank.</sub></p>
+
+---
+
 ## Now building: Taskdeck
 
 **[Taskdeck](https://github.com/Chris0Jeky/Taskdeck)** is a local-first, review-first action-item engine. It turns notes, emails, and checklists into source-linked proposals; you review the diff, then explicitly apply the changes.
@@ -74,12 +83,19 @@ good snapshot online.
 
 ## Selected work
 
-- **[Taskdeck](https://github.com/Chris0Jeky/Taskdeck)** — local-first proposal/review/apply automation · [Docs](https://chris0jeky.github.io/Taskdeck/) · [Download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.0/taskdeck-v0.1.0-win-x64.zip) · [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.0)
-- **[CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas)** — first-party GitHub analytics and portfolio dashboards · [Studio](https://commitatlas.jeky-tck.chatgpt.site/studio) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme)
-- **[IdleHarbor](https://github.com/Chris0Jeky/IdleHarbor)** — explicit native Windows idle prevention · [CI](https://github.com/Chris0Jeky/IdleHarbor/actions/workflows/ci.yml)
-- **[Developer Lens](https://github.com/Chris0Jeky/developer-lens)** — privacy-safe local development analytics · [Showcase](https://chris0jeky.github.io/developer-lens/)
-- **[LLM Release Gate](https://github.com/Chris0Jeky/llm-release-gate)** — deterministic regression gates for AI changes · [v0.1.2](https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2)
-- **[MDviewer](https://github.com/Chris0Jeky/MDviewer)** — live Markdown-to-PDF editing and pagination · [Live app](https://mdviewer-c9r.pages.dev/)
+This compact catalog is generated from the CommitAtlas public snapshot. Project links come only
+from emitted source or configured actions; no URLs are inferred here.
+
+<!-- commitatlas:project-catalog:start -->
+| Project | Status | Signals/actions |
+| --- | --- | --- |
+| [Taskdeck](https://github.com/Chris0Jeky/Taskdeck) | Active · CI unavailable | 0 stars · 0 forks · 141 open issues; Language: C#; Workflow: ci-required.yml; Release: v0.1.0; Actions: [Website](https://chris0jeky.github.io/Taskdeck/) · [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32425241989) · [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.0) · [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.0/taskdeck-v0.1.0-linux-x64.tar.gz) · [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) · [Download](https://github.com/Chris0Jeky/Taskdeck/releases/latest) |
+| [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · CI unavailable | 0 stars · 0 forks · 7 open issues; Language: TypeScript; Workflow: ci.yml; Actions: [Website](https://commitatlas.jeky-tck.chatgpt.site/) · [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32427839557) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) |
+| [IdleHarbor](https://github.com/Chris0Jeky/IdleHarbor) | Active · CI unavailable | 0 stars · 0 forks · 10 open issues; Language: C++; Workflow: ci.yml; Release: v0.1.0; Actions: [CI](https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32427369700) · [Release](https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.1.0) · [Release download](https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.1.0/IdleHarbor-0.1.0-windows-arm64-portable.zip) |
+| [Developer Lens](https://github.com/Chris0Jeky/developer-lens) | Active · CI passing | 0 stars · 0 forks · 39 open issues; Language: TypeScript; Workflow: pages.yml; Actions: [Website](https://chris0jeky.github.io/developer-lens/) · [CI](https://github.com/Chris0Jeky/developer-lens/actions/runs/32088205628) · [Docs](https://github.com/Chris0Jeky/developer-lens#readme) |
+| [LLM Release Gate](https://github.com/Chris0Jeky/llm-release-gate) | Maintenance · CI stale | 0 stars · 0 forks · 0 open issues; Language: Python; Workflow: ci.yml; Release: v0.1.2; Actions: [CI](https://github.com/Chris0Jeky/llm-release-gate/actions/runs/31659253403) · [Release](https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2) · [Download](https://github.com/Chris0Jeky/llm-release-gate/releases/latest) |
+| [MDviewer](https://github.com/Chris0Jeky/MDviewer) | Maintenance · CI stale | 0 stars · 0 forks · 5 open issues; Language: TypeScript; Workflow: ci.yml; Actions: [Website](https://mdviewer-c9r.pages.dev/) · [CI](https://github.com/Chris0Jeky/MDviewer/actions/runs/31952484736) · [Docs](https://github.com/Chris0Jeky/MDviewer#readme) |
+<!-- commitatlas:project-catalog:end -->
 
 More systems and research: [WealthLens HQ](https://chris0jeky.github.io/wealthlens-hq/) · [RepoScope](https://github.com/Chris0Jeky/RepoScope) · [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) · [N-person IPD simulation](https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation)
 

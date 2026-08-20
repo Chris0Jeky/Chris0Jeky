@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "generator": "CommitAtlas",
+  "user": "Chris0Jeky",
+  "source": "github-public-rest",
+  "generatedAt": "2026-08-20T12:00:00.000Z",
+  "window": {
+    "from": "2025-08-21",
+    "to": "2026-08-20",
+    "days": 365,
+    "observedDays": 365,
+    "complete": true
+  },
+  "projects": [
+    {
+      "repo": "chris0jeky/Taskdeck",
+      "name": "Taskdeck",
+      "label": "Taskdeck",
+      "description": "Local-first Kanban + capture pipeline for developers — review-first automation (proposal diffs), offline by default.",
+      "lifecycle": "active",
+      "primaryLanguage": "C#",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 141,
+      "pushedAt": "2026-08-20T23:02:32Z",
+      "ci": {
+        "state": "unavailable",
+        "label": "CI unavailable",
+        "workflow": "ci-required.yml",
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32425241989"
+      },
+      "release": {
+        "tag": "v0.1.0",
+        "name": "Taskdeck v0.1.0",
+        "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.0",
+        "download": {
+          "name": "taskdeck-v0.1.0-linux-x64.tar.gz",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.0/taskdeck-v0.1.0-linux-x64.tar.gz"
+        }
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/Taskdeck",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "website",
+          "label": "Website",
+          "url": "https://chris0jeky.github.io/Taskdeck/",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32425241989",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "release",
+          "label": "Release",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.0",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "release-download",
+          "label": "Release download",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.0/taskdeck-v0.1.0-linux-x64.tar.gz",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/Taskdeck#readme",
+          "origin": "config"
+        },
+        {
+          "kind": "download",
+          "label": "Download",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/latest",
+          "origin": "config"
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/CommitAtlas",
+      "name": "CommitAtlas",
+      "label": "CommitAtlas",
+      "description": "A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards.",
+      "lifecycle": "active",
+      "primaryLanguage": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 7,
+      "pushedAt": "2026-08-20T23:14:52Z",
+      "ci": {
+        "state": "unavailable",
+        "label": "CI unavailable",
+        "workflow": "ci.yml",
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32427839557"
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "website",
+          "label": "Website",
+          "url": "https://commitatlas.jeky-tck.chatgpt.site/",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32427839557",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas#readme",
+          "origin": "config"
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/IdleHarbor",
+      "name": "IdleHarbor",
+      "label": "IdleHarbor",
+      "description": "Lightweight native Windows mouse jiggler and keep-awake utility with power requests, smart pause safeguards, portable use, and visible controls.",
+      "lifecycle": "active",
+      "primaryLanguage": "C++",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 10,
+      "pushedAt": "2026-08-20T23:08:44Z",
+      "ci": {
+        "state": "unavailable",
+        "label": "CI unavailable",
+        "workflow": "ci.yml",
+        "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32427369700"
+      },
+      "release": {
+        "tag": "v0.1.0",
+        "name": "v0.1.0",
+        "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.1.0",
+        "download": {
+          "name": "IdleHarbor-0.1.0-windows-arm64-portable.zip",
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.1.0/IdleHarbor-0.1.0-windows-arm64-portable.zip"
+        }
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/IdleHarbor",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32427369700",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "release",
+          "label": "Release",
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.1.0",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "release-download",
+          "label": "Release download",
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.1.0/IdleHarbor-0.1.0-windows-arm64-portable.zip",
+          "origin": "snapshot"
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/developer-lens",
+      "name": "developer-lens",
+      "label": "Developer Lens",
+      "description": "A private local GitHub development retrospective with a privacy-safe public showcase.",
+      "lifecycle": "active",
+      "primaryLanguage": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 39,
+      "pushedAt": "2026-08-18T01:59:32Z",
+      "ci": {
+        "state": "passing",
+        "label": "Passing",
+        "workflow": "pages.yml",
+        "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/32088205628"
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/developer-lens",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "website",
+          "label": "Website",
+          "url": "https://chris0jeky.github.io/developer-lens/",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/32088205628",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/developer-lens#readme",
+          "origin": "config"
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/llm-release-gate",
+      "name": "llm-release-gate",
+      "label": "LLM Release Gate",
+      "description": "An open-source CLI plus GitHub Action that prevents unsafe prompt, model, retrieval, tool, or configuration changes from being merged",
+      "lifecycle": "maintenance",
+      "primaryLanguage": "Python",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 0,
+      "pushedAt": "2026-08-13T01:55:59Z",
+      "ci": {
+        "state": "stale",
+        "label": "Stale result",
+        "workflow": "ci.yml",
+        "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/31659253403"
+      },
+      "release": {
+        "tag": "v0.1.2",
+        "name": "llm-release-gate v0.1.2",
+        "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2"
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/llm-release-gate",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/31659253403",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "release",
+          "label": "Release",
+          "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "download",
+          "label": "Download",
+          "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/latest",
+          "origin": "config"
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/MDviewer",
+      "name": "MDviewer",
+      "label": "MDviewer",
+      "description": "Browser-based Markdown-to-PDF editor with live pagination and page-break-safe export for technical and research documents.",
+      "lifecycle": "maintenance",
+      "primaryLanguage": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssues": 5,
+      "pushedAt": "2026-08-17T23:57:14Z",
+      "ci": {
+        "state": "stale",
+        "label": "Stale result",
+        "workflow": "ci.yml",
+        "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/31952484736"
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/MDviewer",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "website",
+          "label": "Website",
+          "url": "https://mdviewer-c9r.pages.dev/",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/31952484736",
+          "origin": "snapshot"
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/MDviewer#readme",
+          "origin": "config"
+        }
+      ]
+    }
+  ]
+}

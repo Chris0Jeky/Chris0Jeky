@@ -34,7 +34,7 @@ jobs:
           const fs = require('node:fs');
           const crypto = require('node:crypto');
           const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas.outputs.manifest }}', 'utf8'));
-          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'languages.svg', 'profile.svg', 'projects.svg', 'streak.svg'];
+          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'breakdown.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'rhythm.svg', 'streak.svg'];
           const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
           if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
             throw new Error('Unexpected CommitAtlas responsive manifest');
@@ -42,6 +42,16 @@ jobs:
           if ('${{ steps.commitatlas.outputs.atlas-compact }}' !== 'assets/commitatlas/atlas-compact.svg') {
             throw new Error('Compact Atlas output is missing');
           }
+          const expectedOutputs = {
+            breakdown: 'assets/commitatlas/breakdown.svg',
+            rhythm: 'assets/commitatlas/rhythm.svg',
+            'projects-json': 'assets/commitatlas/projects.json',
+            'projects-markdown': 'assets/commitatlas/projects.md',
+          };
+          if ('${{ steps.commitatlas.outputs.breakdown }}' !== expectedOutputs.breakdown) throw new Error('Breakdown output is missing');
+          if ('${{ steps.commitatlas.outputs.rhythm }}' !== expectedOutputs.rhythm) throw new Error('Rhythm output is missing');
+          if ('${{ steps.commitatlas.outputs['projects-json'] }}' !== expectedOutputs['projects-json']) throw new Error('Projects JSON output is missing');
+          if ('${{ steps.commitatlas.outputs['projects-markdown'] }}' !== expectedOutputs['projects-markdown']) throw new Error('Projects Markdown output is missing');
           for (const artifact of manifest.artifacts) {
             const path = `assets/commitatlas/${artifact.path}`;
             const body = fs.readFileSync(path);
@@ -51,6 +61,10 @@ jobs:
             }
           }
           NODE
+
+      - name: Update generated selected work catalog
+        shell: bash
+        run: node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
 
       - name: Commit refreshed public assets
         shell: bash
