@@ -8,7 +8,7 @@
     "to": "2026-08-20",
     "days": 365
   },
-  "generatedAt": "2026-08-20T23:20:21.517Z",
+  "generatedAt": "2026-08-20T23:29:35.432Z",
   "artifacts": [
     {
       "path": "activity.svg",
@@ -18,12 +18,12 @@
     {
       "path": "atlas-compact.svg",
       "bytes": 16749,
-      "sha256": "7abf222d4b5462741400791152c3b9c9e1e218128a212351f9679f2897ff2417"
+      "sha256": "1dcc9ee8d844af4145f09a88dc267b180dca282ecc82519b5ca5a6b6a5b1a9f5"
     },
     {
       "path": "atlas.svg",
       "bytes": 16654,
-      "sha256": "b7ae4482d226a9106ac4eab4032b557f7496d50d3f3a000c27b32b164bd34dc7"
+      "sha256": "1c27f993a421017f151b62d05265361705f55d5dc7cf707d58e9502961e08bbe"
     },
     {
       "path": "breakdown.svg",
@@ -43,12 +43,12 @@
     {
       "path": "projects.json",
       "bytes": 10138,
-      "sha256": "1c630dff9473c7177d413a8f252038213e0c54c769deb971217f80148f8084ce"
+      "sha256": "fb0f4bdce2f37a6ad23667cab9a175b940a3e6580589d76b3001b81ee34a226f"
     },
     {
       "path": "projects.md",
       "bytes": 4590,
-      "sha256": "9250c60803f9c59bd6fbde4064f472700077c3cef45e96a25bdb43135e290ea3"
+      "sha256": "f6140a7ed61e18329292b59235cd11aee64fc3ab4ffca427e3b56ef5f47ccbdb"
     },
     {
       "path": "projects.svg",
