@@ -23,15 +23,9 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@68ac8985de842773768726c9c324cd7385065501
+        uses: Chris0Jeky/CommitAtlas@d2927e2eafb4b74b485d0cc28634f6768a21b707
         with:
           config: .commitatlas.json
-
-      - name: Generate compact mobile Atlas
-        id: commitatlas_compact
-        uses: Chris0Jeky/CommitAtlas@68ac8985de842773768726c9c324cd7385065501
-        with:
-          config: .commitatlas.compact.json
 
       - name: Validate generated bundle
         shell: bash
@@ -39,43 +33,21 @@ jobs:
           node <<'NODE'
           const fs = require('node:fs');
           const crypto = require('node:crypto');
-          const wideConfig = JSON.parse(fs.readFileSync('.commitatlas.json', 'utf8'));
-          const compactConfig = JSON.parse(fs.readFileSync('.commitatlas.compact.json', 'utf8'));
-          const { layout: _wideLayout, outputDir: _wideOutput, cards: _wideCards, ...wideShared } = wideConfig;
-          const { layout: _compactLayout, outputDir: _compactOutput, cards: _compactCards, ...compactShared } = compactConfig;
-          if (
-            JSON.stringify(wideShared) !== JSON.stringify(compactShared) ||
-            compactConfig.layout !== 'compact' ||
-            compactConfig.outputDir !== 'assets/commitatlas-compact' ||
-            JSON.stringify(compactConfig.cards) !== JSON.stringify(['atlas'])
-          ) {
-            throw new Error('Compact Atlas configuration drifted from the primary public snapshot');
+          const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas.outputs.manifest }}', 'utf8'));
+          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'languages.svg', 'profile.svg', 'projects.svg', 'streak.svg'];
+          const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
+          if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
+            throw new Error('Unexpected CommitAtlas responsive manifest');
           }
-          const bundles = [
-            {
-              manifestPath: '${{ steps.commitatlas.outputs.manifest }}',
-              outputDir: 'assets/commitatlas',
-              expectedArtifacts: ['activity.svg', 'atlas.svg', 'languages.svg', 'profile.svg', 'projects.svg', 'streak.svg'],
-            },
-            {
-              manifestPath: '${{ steps.commitatlas_compact.outputs.manifest }}',
-              outputDir: 'assets/commitatlas-compact',
-              expectedArtifacts: ['atlas.svg'],
-            },
-          ];
-          for (const bundle of bundles) {
-            const manifest = JSON.parse(fs.readFileSync(bundle.manifestPath, 'utf8'));
-            const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
-            if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(bundle.expectedArtifacts)) {
-              throw new Error(`Unexpected CommitAtlas manifest for ${bundle.outputDir}`);
-            }
-            for (const artifact of manifest.artifacts) {
-              const path = `${bundle.outputDir}/${artifact.path}`;
-              const body = fs.readFileSync(path);
-              const digest = crypto.createHash('sha256').update(body).digest('hex');
-              if (body.length !== artifact.bytes || digest !== artifact.sha256) {
-                throw new Error(`Manifest mismatch for ${path}`);
-              }
+          if ('${{ steps.commitatlas.outputs.atlas-compact }}' !== 'assets/commitatlas/atlas-compact.svg') {
+            throw new Error('Compact Atlas output is missing');
+          }
+          for (const artifact of manifest.artifacts) {
+            const path = `assets/commitatlas/${artifact.path}`;
+            const body = fs.readFileSync(path);
+            const digest = crypto.createHash('sha256').update(body).digest('hex');
+            if (body.length !== artifact.bytes || digest !== artifact.sha256) {
+              throw new Error(`Manifest mismatch for ${path}`);
             }
           }
           NODE
@@ -83,7 +55,7 @@ jobs:
       - name: Commit refreshed public assets
         shell: bash
         run: |
-          git add -- assets/commitatlas assets/commitatlas-compact
+          git add -- assets/commitatlas
           if git diff --cached --quiet; then
             echo "CommitAtlas assets are already current."
             exit 0

@@ -5,6 +5,7 @@
   "days": 365,
   "motion": "subtle",
   "layout": "wide",
+  "responsiveAtlas": true,
   "outputDir": "assets/commitatlas",
   "cards": ["atlas", "profile", "streak", "activity", "languages", "projects"],
   "projects": [
