@@ -1,86 +1,89 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B71C1C,100:FF8F00&height=120&section=header&text=Cristian%20(Chris)%20Tcaci&fontSize=34&fontColor=ffffff&animation=fadeIn" alt="banner" />
+# Cristian (Chris) Tcaci
 
-### Software Engineer (Backend/Platform) · Local-first dev tools · Trust-first automation
+### Backend & platform engineer · Local-first developer tools · Trust-first automation
 
-<a href="https://chris0jeky.github.io/CV_and_Portfolio/" target="_blank">
-  <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-B71C1C?style=for-the-badge&logo=vercel&logoColor=white" />
-</a>
-<a href="https://www.linkedin.com/in/cristian-tcaci/" target="_blank">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-<a href="mailto:jeky.tck@gmail.com">
-  <img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
+I build systems that make complex work reviewable, observable, and safe.
+
+[Portfolio](https://chris0jeky.github.io/CV_and_Portfolio/) · [LinkedIn](https://www.linkedin.com/in/cristian-tcaci/) · [Email](mailto:jeky.tck@gmail.com) · [CommitAtlas Studio](https://commitatlas.jeky-tck.chatgpt.site/studio)
 
 </div>
 
 ---
 
-## Start here: Taskdeck 
-**Taskdeck** is my local-first execution workspace: capture → **proposal diff** → explicit apply.  
-It’s built around **trust-first automation**: reviewable changes, auditability, safe defaults.
+## Now building: Taskdeck
 
-- **Stack:** Vue 3 · .NET 8 · SQLite  
-- **Target user:** developers who like keyboard-first workflows and low overhead  
-- **Why it’s different:** “AI assistance” is *proposal-first*, not autopilot
-- **Status:** active source project; a public desktop release is not available yet
+**[Taskdeck](https://github.com/Chris0Jeky/Taskdeck)** is a local-first, review-first action-item engine. It turns notes, emails, and checklists into source-linked proposals; you review the diff, then explicitly apply the changes.
 
-➡️ **[Repository](https://github.com/Chris0Jeky/Taskdeck)** · **[Documentation](https://chris0jeky.github.io/Taskdeck/)**
+- **Why it exists:** useful automation should preserve human control and provenance.
+- **Core loop:** capture → proposal → review → apply.
+- **Stack:** C# · .NET 8 · Vue 3 · TypeScript · SQLite.
+- **Status:** public beta, with self-contained desktop builds in `v0.1.0`.
 
-![Taskdeck demo](./kanban-banner.svg)
+**[Download for Windows](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.0/taskdeck-v0.1.0-win-x64.zip)** · [Release notes](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.0) · [Documentation](https://chris0jeky.github.io/Taskdeck/) · [Source](https://github.com/Chris0Jeky/Taskdeck)
 
----
-
-## Proof 
-- **Enterprise DevOps/security:** integrated automated scanning into **~72 AWS CI/CD pipelines** (Jenkins + Bash/Groovy) — write-up in my portfolio & Working on MetricAlgo
-- **Research:** published work on multi-agent simulation / game theory (N‑Person Prisoner’s Dilemma)
+![Taskdeck capture, proposal, review, and apply loop](./kanban-banner.svg)
 
 ---
 
-## Projects worth your time
-
-| Project | What it demonstrates | Current public status |
-|---|---|---|
-| **[Developer Lens](https://github.com/Chris0Jeky/developer-lens)** | Privacy-safe, local-first GitHub development analytics | [Synthetic showcase](https://chris0jeky.github.io/developer-lens/) |
-| **[LLM Release Gate](https://github.com/Chris0Jeky/llm-release-gate)** | Deterministic regression gates for prompt, model, retrieval, tool, and configuration changes | CLI + GitHub Action, v0.1.2 |
-| **[MDviewer](https://github.com/Chris0Jeky/MDviewer)** | Browser-based Markdown-to-PDF editing with live pagination | [Live application](https://mdviewer-c9r.pages.dev/) |
-| **[RepoScope](https://github.com/Chris0Jeky/RepoScope)** | Local Git analysis through a .NET CLI, interactive dashboard, and shareable reports | Source and development instructions |
-| **[WealthLens HQ](https://github.com/Chris0Jeky/wealthlens-hq)** | Accessible, source-backed interactive charts on UK wealth inequality | [Live charts](https://chris0jeky.github.io/wealthlens-hq/) |
-| **[N‑Person IPD Research](https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation)** | Multi-agent simulation and game-theory research | Published research code; licensing PR currently gated |
-
----
-
-## What I’m optimizing for
-- Building products end-to-end (architecture → CI/testing → release discipline → UX)
-- Reliability and security basics as defaults (not “later”)
-- Local-first UX where it makes sense (speed, privacy, control)
-
----
-
-<details>
-  <summary><strong>Tech stack </strong></summary>
-
-**Languages:** C#, Java, TypeScript, JavaScript, Python, C++, Bash  
-**Backend/Platform:** .NET, Node.js, SQLite/Postgres, Docker  
-**Frontend:** Vue 3 (and friends)  
-**DevOps:** CI/CD, AWS, Jenkins, container workflows
-
-</details>
-
-<details>
-  <summary><strong>GitHub stats </strong></summary>
-
-<div align="center"> 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Chris0Jeky&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=1E1B18&text_color=EFEBE4&title_color=B71C1C&icon_color=FF8F00" /> 
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Chris0Jeky&theme=tokyonight&hide_border=true&background=1E1B18&ring=B71C1C&fire=FF8F00&currStreakNum=EFEBE4&sideNums=EFEBE4&sideLabels=EFEBE4&currStreakLabel=EFEBE4" /> 
-<br> 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Chris0Jeky&bg_color=1E1B18&color=EFEBE4&line=B71C1C&point=FF8F00&area=true&hide_border=true" width="98.5%" /> 
-</div>
-
-</details>
+## Live portfolio signals
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:B71C1C,100:FF8F00&height=110&section=footer&text=Let%27s%20build%20useful%20things&fontSize=18&fontColor=ffffff" alt="footer" />
+  <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
+    <img width="49%" alt="CommitAtlas public profile snapshot for Chris0Jeky" src="./commitatlas-profile.svg" />
+  </a>
+  <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
+    <img width="49%" alt="CommitAtlas public language snapshot for Chris0Jeky" src="./commitatlas-languages.svg" />
+  </a>
+  <br />
+  <a href="https://commitatlas.jeky-tck.chatgpt.site/studio">
+    <img width="98.5%" alt="CommitAtlas project lifecycle and CI snapshot for six selected Chris0Jeky projects" src="./commitatlas-projects.svg" />
+  </a>
+</div>
+
+These reliable profile embeds were rendered by **[CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas)** from public GitHub data on **20 August 2026**. Project lifecycle is deliberately curated; CI is read only from each named workflow. Open the [live Studio](https://commitatlas.jeky-tck.chatgpt.site/studio) for current previews. Private contribution data is not requested or exposed.
+
+## Selected work
+
+| Project | What it demonstrates | Open it |
+| --- | --- | --- |
+| **Taskdeck** | Local-first product engineering and proposal-first automation | [Docs](https://chris0jeky.github.io/Taskdeck/) · [Download](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.0) · [Source](https://github.com/Chris0Jeky/Taskdeck) |
+| **CommitAtlas** | Accessible GitHub cards, honest CI/lifecycle signals, and a configurable portfolio Studio | [Live Studio](https://commitatlas.jeky-tck.chatgpt.site/studio) · [Source](https://github.com/Chris0Jeky/CommitAtlas) |
+| **IdleHarbor** | A lightweight native Windows utility with explicit, visible idle prevention | [Source](https://github.com/Chris0Jeky/IdleHarbor) · [CI](https://github.com/Chris0Jeky/IdleHarbor/actions/workflows/ci.yml) |
+| **Developer Lens** | Privacy-safe, local-first development analytics with a synthetic public showcase | [Showcase](https://chris0jeky.github.io/developer-lens/) · [Source](https://github.com/Chris0Jeky/developer-lens) |
+| **LLM Release Gate** | Deterministic regression gates for prompt, model, retrieval, tool, and configuration changes | [v0.1.2](https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2) · [Source](https://github.com/Chris0Jeky/llm-release-gate) |
+| **MDviewer** | Browser-based Markdown-to-PDF editing with live pagination | [Live app](https://mdviewer-c9r.pages.dev/) · [Source](https://github.com/Chris0Jeky/MDviewer) |
+
+More systems and research: [WealthLens HQ](https://chris0jeky.github.io/wealthlens-hq/) · [RepoScope](https://github.com/Chris0Jeky/RepoScope) · [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) · [N-person IPD simulation](https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation)
+
+---
+
+## Proof and working principles
+
+- Integrated automated security scanning into **~72 AWS CI/CD pipelines** using Jenkins, Bash, and Groovy.
+- Published work on multi-agent simulation and game theory through the [N-person Prisoner's Dilemma project](https://github.com/Chris0Jeky/N-person-prisoners-dilemma-simulation).
+- Build products end to end: architecture → tests and CI → release discipline → user experience.
+- Treat reliability, security, accessibility, and honest unknown states as product features.
+- Prefer local-first designs when they improve speed, privacy, ownership, and control.
+
+<details>
+  <summary><strong>Current toolkit</strong></summary>
+
+**Languages:** C# · TypeScript/JavaScript · Python · C++ · Bash/PowerShell · SQL
+
+**Backend & platform:** .NET · Node.js · SQLite/Postgres · REST · MCP · Docker
+
+**Frontend:** Vue 3 · React · Vite
+
+**Delivery:** GitHub Actions · AWS · Jenkins · container workflows · automated security scanning
+
+</details>
+
+---
+
+<div align="center">
+  <em>Interested in trustworthy developer tools, local-first systems, or practical platform engineering?</em>
+  <br />
+  <a href="mailto:jeky.tck@gmail.com">Let’s talk.</a>
 </div>
