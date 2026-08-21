@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-20T23:43:55.273Z",
+  "generatedAt": "2026-08-21T05:53:24.299Z",
   "window": {
-    "from": "2025-08-21",
-    "to": "2026-08-20",
+    "from": "2025-08-22",
+    "to": "2026-08-21",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 0,
       "forks": 0,
-      "openIssues": 141,
-      "pushedAt": "2026-08-20T23:43:12Z",
+      "openIssues": 148,
+      "pushedAt": "2026-08-21T05:50:46Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "failing",
+        "label": "Failing",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32429627514"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32449949293"
       },
       "release": {
         "tag": "v0.1.0",
@@ -54,7 +54,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32429627514",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32449949293",
           "origin": "snapshot"
         },
         {
@@ -93,12 +93,12 @@
       "stars": 0,
       "forks": 0,
       "openIssues": 7,
-      "pushedAt": "2026-08-20T23:43:14Z",
+      "pushedAt": "2026-08-20T23:46:12Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32429814147"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32430019026"
       },
       "actions": [
         {
@@ -116,7 +116,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32429814147",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32430019026",
           "origin": "snapshot"
         },
         {
@@ -192,8 +192,8 @@
       "openIssues": 39,
       "pushedAt": "2026-08-18T01:59:32Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "pages.yml",
         "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/32088205628"
       },
