@@ -20,9 +20,11 @@ const ACTION_KINDS = new Set(["source", "website", "ci", "release", "release-dow
  *
  * - **1** — what the currently pinned generator emits: `openIssues`, actions with no host fields.
  *   `host`/`external` are *optional* here rather than rejected, because CommitAtlas shipped them
- *   (PR #53) before the version was bumped, so a v1 catalog carrying them genuinely exists on
- *   `CommitAtlas@main`. They are additive and nothing here renders them, so tolerating them keeps a
- *   partial SHA bump from turning the refresh red.
+ *   (PR #53) before the version was bumped. `CommitAtlas@main` has since moved on to version 2, but
+ *   commits `7b507dc`..`8eee522f` on it emit version 1 *with* those keys, and a pin can still land
+ *   there. They are additive and nothing here renders them, so tolerating them keeps a partial SHA
+ *   bump from turning the refresh red, and keeps a future additive generator change from being
+ *   breaking for a field this consumer never reads.
  * - **2** — `openIssues` renamed to `openIssuesAndPullRequests` (the value always counted pull
  *   requests too), and `host`/`external` now *required* on every action.
  *
@@ -141,10 +143,16 @@ function validateProject(value, index, repositories, shape) {
     safeHttps(action.url, `${actionPrefix}.url`);
     if (action.origin !== "snapshot" && action.origin !== "config") fail(`${actionPrefix}.origin is invalid`);
     if (action.kind === "source" && action.origin !== "snapshot") fail(`${actionPrefix}.source action must be observed in the snapshot`);
-    // `host` and `external` are the destination-disclosure pair. Nothing in the README renders
-    // them, but accepting them unchecked would launder an inconsistent catalog: a `host` that
-    // disagrees with its own `url` is a generator defect, and the value CommitAtlas emits is
-    // literally `new URL(url).hostname.toLowerCase()`, so agreement is exact, not approximate.
+    // `host` and `external` are the destination-disclosure pair, and they are checked to different
+    // depths on purpose. Nothing in the README renders either one.
+    //
+    // `host` is reconciled with its own `url`: CommitAtlas emits literally
+    // `new URL(url).hostname.toLowerCase()`, so agreement is exact rather than approximate and this
+    // rule can never drift away from the generator. A `host` that disagrees is a generator defect.
+    //
+    // `external` is only type-checked. Deriving it needs CommitAtlas's GITHUB_OWNED_HOSTS, a policy
+    // list that upstream owns and revises; a copy here would turn the next hostname it adds into a
+    // red scheduled run on a correct catalog. That boundary is enforced where the list lives.
     if (action.host !== undefined) actionHost(action.host, `${actionPrefix}.host`, action.url);
     if (action.external !== undefined && typeof action.external !== "boolean") fail(`${actionPrefix}.external must be a boolean`);
   });

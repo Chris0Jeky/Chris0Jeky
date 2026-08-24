@@ -155,9 +155,14 @@ test("requires host and external on every version 2 action", () => {
 
 test("rejects an action host that disagrees with its own URL", () => {
   const website = (overrides) => disclosed(ACTIONS).map((action) => action.kind === "website" ? { ...action, ...overrides } : action);
-  rejects(project(catalog(), { actions: website({ host: "github.com" }) }), /host must match the hostname of its own action URL/);
-  rejects(project(catalog(), { actions: website({ host: "Chris0Jeky.GitHub.io" }) }), /host must be a lowercase hostname/);
-  rejects(project(catalog(), { actions: website({ external: "true" }) }), /external must be a boolean/);
+  // Both versions, deliberately. Tolerating these keys under v1 must not mean skipping their value
+  // checks: v1-with-disclosure is exactly the shape the next pin bump is most likely to produce, so
+  // a change that made these checks version-2-only has to break a test.
+  for (const base of [catalog(), catalogV1()]) {
+    rejects(project(base, { actions: website({ host: "github.com" }) }), /host must match the hostname of its own action URL/);
+    rejects(project(base, { actions: website({ host: "Chris0Jeky.GitHub.io" }) }), /host must be a lowercase hostname/);
+    rejects(project(base, { actions: website({ external: "true" }) }), /external must be a boolean/);
+  }
 });
 
 test("fails closed for missing, duplicate, and reversed markers", () => {
