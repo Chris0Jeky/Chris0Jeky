@@ -10,6 +10,39 @@ const LIFECYCLES = new Set(["planned", "active", "maintenance", "paused", "archi
 const CI_STATES = new Set(["unavailable", "unconfigured", "stale", "passing", "failing", "pending"]);
 const ACTION_KINDS = new Set(["source", "website", "ci", "release", "release-download", "docs", "install", "download"]);
 
+/**
+ * Every catalog shape this consumer can read, keyed by the `version` field that CommitAtlas emits.
+ *
+ * `version` is the *only* compatibility gate, so it has to carry the whole shape difference. Both
+ * supported versions are listed because the two ends move independently: `.github/workflows/
+ * commitatlas.yml` pins the generator by SHA, so the daily refresh keeps producing whichever shape
+ * the pinned commit produces until that pin is deliberately moved.
+ *
+ * - **1** — what the currently pinned generator emits: `openIssues`, actions with no host fields.
+ *   `host`/`external` are *optional* here rather than rejected, because CommitAtlas shipped them
+ *   (PR #53) before the version was bumped, so a v1 catalog carrying them genuinely exists on
+ *   `CommitAtlas@main`. They are additive and nothing here renders them, so tolerating them keeps a
+ *   partial SHA bump from turning the refresh red.
+ * - **2** — `openIssues` renamed to `openIssuesAndPullRequests` (the value always counted pull
+ *   requests too), and `host`/`external` now *required* on every action.
+ *
+ * A version outside this table is rejected outright. That is the point of the field: an unreadable
+ * catalog must fail loudly rather than let a renamed key be read back as `undefined`.
+ */
+const CATALOG_SHAPES = new Map([
+  [1, {
+    issueCountKey: "openIssues",
+    requiredActionKeys: ["kind", "label", "url", "origin"],
+    optionalActionKeys: ["host", "external"],
+  }],
+  [2, {
+    issueCountKey: "openIssuesAndPullRequests",
+    requiredActionKeys: ["kind", "label", "url", "origin", "host", "external"],
+    optionalActionKeys: [],
+  }],
+]);
+const SUPPORTED_VERSIONS = [...CATALOG_SHAPES.keys()];
+
 export function updateProjectCatalog(readmePath, catalogPath) {
   const readme = readBounded(readmePath, MAX_README_BYTES, "README");
   const rawCatalog = readBounded(catalogPath, MAX_CATALOG_BYTES, "project catalog");
@@ -29,7 +62,7 @@ export function updateProjectCatalog(readmePath, catalogPath) {
 export function validateCatalog(catalog) {
   const root = object(catalog, "catalog");
   exactKeys(root, ["version", "generator", "user", "source", "generatedAt", "window", "projects"], "catalog");
-  if (root.version !== 1) fail("catalog.version must be exactly 1");
+  const shape = catalogShape(root.version);
   if (root.generator !== "CommitAtlas") fail("catalog.generator must be CommitAtlas");
   text(root.user, "catalog.user", 80);
   if (root.source !== "github-public-rest") fail("catalog.source must be github-public-rest");
@@ -49,14 +82,14 @@ export function validateCatalog(catalog) {
     fail("catalog.projects must contain between one and six entries");
   }
   const repositories = new Set();
-  root.projects.forEach((project, index) => validateProject(project, index, repositories));
+  root.projects.forEach((project, index) => validateProject(project, index, repositories, shape));
   return root;
 }
 
-function validateProject(value, index, repositories) {
+function validateProject(value, index, repositories, shape) {
   const prefix = `catalog.projects[${index}]`;
   const project = object(value, prefix);
-  exactKeys(project, ["repo", "name", "label", "lifecycle", "stars", "forks", "openIssues", "ci", "actions"], prefix, ["description", "primaryLanguage", "pushedAt", "release"]);
+  exactKeys(project, ["repo", "name", "label", "lifecycle", "stars", "forks", shape.issueCountKey, "ci", "actions"], prefix, ["description", "primaryLanguage", "pushedAt", "release"]);
   text(project.repo, `${prefix}.repo`, 140);
   if (!/^[^/\s]+\/[^/\s]+$/.test(project.repo)) fail(`${prefix}.repo must be an owner/name repository slug`);
   const repositoryKey = project.repo.toLowerCase();
@@ -70,7 +103,7 @@ function validateProject(value, index, repositories) {
   if (project.pushedAt !== undefined) text(project.pushedAt, `${prefix}.pushedAt`, 80);
   integer(project.stars, `${prefix}.stars`, 0, Number.MAX_SAFE_INTEGER);
   integer(project.forks, `${prefix}.forks`, 0, Number.MAX_SAFE_INTEGER);
-  integer(project.openIssues, `${prefix}.openIssues`, 0, Number.MAX_SAFE_INTEGER);
+  integer(project[shape.issueCountKey], `${prefix}.${shape.issueCountKey}`, 0, Number.MAX_SAFE_INTEGER);
 
   const ci = object(project.ci, `${prefix}.ci`);
   exactKeys(ci, ["state", "label", "workflow"], `${prefix}.ci`, ["url"]);
@@ -99,7 +132,7 @@ function validateProject(value, index, repositories) {
   project.actions.forEach((value, actionIndex) => {
     const actionPrefix = `${prefix}.actions[${actionIndex}]`;
     const action = object(value, actionPrefix);
-    exactKeys(action, ["kind", "label", "url", "origin"], actionPrefix);
+    exactKeys(action, shape.requiredActionKeys, actionPrefix, shape.optionalActionKeys);
     if (!ACTION_KINDS.has(action.kind)) fail(`${actionPrefix}.kind is invalid`);
     if (kinds.has(action.kind)) fail(`${prefix}.actions contains duplicate kind ${action.kind}`);
     kinds.add(action.kind);
@@ -108,12 +141,19 @@ function validateProject(value, index, repositories) {
     safeHttps(action.url, `${actionPrefix}.url`);
     if (action.origin !== "snapshot" && action.origin !== "config") fail(`${actionPrefix}.origin is invalid`);
     if (action.kind === "source" && action.origin !== "snapshot") fail(`${actionPrefix}.source action must be observed in the snapshot`);
+    // `host` and `external` are the destination-disclosure pair. Nothing in the README renders
+    // them, but accepting them unchecked would launder an inconsistent catalog: a `host` that
+    // disagrees with its own `url` is a generator defect, and the value CommitAtlas emits is
+    // literally `new URL(url).hostname.toLowerCase()`, so agreement is exact, not approximate.
+    if (action.host !== undefined) actionHost(action.host, `${actionPrefix}.host`, action.url);
+    if (action.external !== undefined && typeof action.external !== "boolean") fail(`${actionPrefix}.external must be a boolean`);
   });
   if (sourceCount !== 1) fail(`${prefix}.actions must contain exactly one source action`);
 }
 
 export function renderProjectTable(catalog) {
   validateCatalog(catalog);
+  const shape = catalogShape(catalog.version);
   const rows = [
     "| Project | Status | Signals/actions |",
     "| --- | --- | --- |",
@@ -123,7 +163,7 @@ export function renderProjectTable(catalog) {
     const projectLink = `[${escapeTable(project.label)}](${markdownDestination(source.url)})`;
     const status = `${escapeTable(capitalize(project.lifecycle))} · CI ${escapeTable(project.ci.state)}`;
     const signals = [
-      `${project.stars} stars · ${project.forks} forks · ${project.openIssues} open issues/PRs`,
+      `${project.stars} stars · ${project.forks} forks · ${project[shape.issueCountKey]} open issues/PRs`,
       project.primaryLanguage ? `Language: ${escapeTable(project.primaryLanguage)}` : null,
       project.ci.workflow ? `Workflow: ${escapeTable(project.ci.workflow)}` : null,
       project.release ? `Release: ${escapeTable(project.release.tag)}` : null,
@@ -163,6 +203,24 @@ function readBounded(filePath, limit, label) {
   return fs.readFileSync(filePath, "utf8");
 }
 
+/**
+ * Resolve the shape for a catalog version, or refuse to read the catalog at all.
+ *
+ * Lookup is by `Map` identity, so no coercion happens: `"2"`, `2.0000001`, `null` and a missing
+ * field all miss the table and fail here rather than further down where a renamed key would read
+ * back as `undefined`.
+ */
+export function catalogShape(version) {
+  const shape = CATALOG_SHAPES.get(version);
+  if (!shape) fail(`catalog.version must be one of ${SUPPORTED_VERSIONS.join(", ")}, received ${describeVersion(version)}`);
+  return shape;
+}
+
+function describeVersion(value) {
+  if (typeof value !== "number") return `a non-numeric ${value === null ? "null" : typeof value} value`;
+  return Number.isFinite(value) ? String(value) : "a non-finite number";
+}
+
 function object(value, label) {
   if (value === null || typeof value !== "object" || Array.isArray(value)) fail(`${label} must be an object`);
   return value;
@@ -197,6 +255,18 @@ function safeHttps(value, label) {
     fail(`${label} must be a safe HTTPS URL`);
   }
   if (parsed.protocol !== "https:" || parsed.username || parsed.password) fail(`${label} must be a safe HTTPS URL without credentials`);
+}
+
+function actionHost(value, label, url) {
+  text(value, label, 253);
+  if (value !== value.toLowerCase()) fail(`${label} must be a lowercase hostname`);
+  let observed;
+  try {
+    observed = new URL(url).hostname.toLowerCase();
+  } catch {
+    fail(`${label} cannot be reconciled with an unparseable action URL`);
+  }
+  if (value !== observed) fail(`${label} must match the hostname of its own action URL`);
 }
 
 function escapeTable(value) {

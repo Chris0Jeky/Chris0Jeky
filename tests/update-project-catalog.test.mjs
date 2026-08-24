@@ -8,7 +8,28 @@ import { updateProjectCatalog } from "../scripts/update-project-catalog.mjs";
 const START = "<!-- commitatlas:project-catalog:start -->";
 const END = "<!-- commitatlas:project-catalog:end -->";
 
-function catalog(overrides = {}) {
+const ACTIONS = [
+  { kind: "source", label: "Source", url: "https://github.com/Chris0Jeky/Alpha", origin: "snapshot" },
+  { kind: "website", label: "Website", url: "https://chris0jeky.github.io/Alpha/", origin: "snapshot" },
+  { kind: "ci", label: "CI", url: "https://github.com/Chris0Jeky/Alpha/actions/workflows/ci.yml", origin: "snapshot" },
+  { kind: "docs", label: "Docs", url: "https://github.com/Chris0Jeky/Alpha#readme", origin: "config" },
+];
+
+/**
+ * Attach the version-2 disclosure pair the way CommitAtlas does: `host` is exactly
+ * `new URL(url).hostname.toLowerCase()`, and `external` is true for any host off the fixed
+ * GitHub-operated hostnames -- a `*.github.io` Pages host included, because that label is
+ * owner-chosen.
+ */
+function disclosed(actions) {
+  return actions.map((action) => {
+    const host = new URL(action.url).hostname.toLowerCase();
+    return { ...action, host, external: host !== "github.com" };
+  });
+}
+
+/** A version-1 catalog exactly as the currently pinned CommitAtlas Action emits it. */
+function catalogV1(overrides = {}) {
   return {
     version: 1,
     generator: "CommitAtlas",
@@ -28,15 +49,27 @@ function catalog(overrides = {}) {
         openIssues: 1,
         ci: { state: "passing", label: "Passing", workflow: "ci.yml", url: "https://github.com/Chris0Jeky/Alpha/actions/workflows/ci.yml" },
         release: { tag: "v1.0.0", name: "Alpha 1.0.0", url: "https://github.com/Chris0Jeky/Alpha/releases/tag/v1.0.0" },
-        actions: [
-          { kind: "source", label: "Source", url: "https://github.com/Chris0Jeky/Alpha", origin: "snapshot" },
-          { kind: "ci", label: "CI", url: "https://github.com/Chris0Jeky/Alpha/actions/workflows/ci.yml", origin: "snapshot" },
-          { kind: "docs", label: "Docs", url: "https://github.com/Chris0Jeky/Alpha#readme", origin: "config" },
-        ],
+        actions: ACTIONS.map((action) => ({ ...action })),
       },
     ],
     ...overrides,
   };
+}
+
+/** The version-2 catalog: the issue count is renamed, and every action carries host/external. */
+function catalog(overrides = {}) {
+  const base = catalogV1();
+  const { openIssues, ...entry } = base.projects[0];
+  return {
+    ...base,
+    version: 2,
+    projects: [{ ...entry, openIssuesAndPullRequests: openIssues, actions: disclosed(ACTIONS) }],
+    ...overrides,
+  };
+}
+
+function project(value, overrides) {
+  return { ...value, projects: [{ ...value.projects[0], ...overrides }] };
 }
 
 function fixture(readme, value = catalog()) {
@@ -48,20 +81,83 @@ function fixture(readme, value = catalog()) {
   return { readmePath, catalogPath };
 }
 
-test("renders the ordered catalog and is idempotent", () => {
-  const paths = fixture(`# Selected work\n\n${START}\nplaceholder\n${END}\n`);
-  const first = updateProjectCatalog(paths.readmePath, paths.catalogPath);
+function render(value) {
+  const paths = fixture(`# Selected work\n\n${START}\nplaceholder\n${END}\n`, value);
+  const result = updateProjectCatalog(paths.readmePath, paths.catalogPath);
+  return { ...result, readme: fs.readFileSync(paths.readmePath, "utf8"), paths };
+}
+
+function rejects(value, message) {
+  const readme = `${START}\n${END}\n`;
+  const paths = fixture(readme, value);
+  assert.throws(() => updateProjectCatalog(paths.readmePath, paths.catalogPath), message);
+  // Failing closed means failing before any write: the README keeps its untouched marker body.
+  assert.equal(fs.readFileSync(paths.readmePath, "utf8"), readme);
+}
+
+test("renders the ordered version 2 catalog and is idempotent", () => {
+  const first = render(catalog());
   assert.equal(first.changed, true);
-  const rendered = fs.readFileSync(paths.readmePath, "utf8");
-  assert.match(rendered, /\| Project \| Status \| Signals\/actions \|/);
-  assert.match(rendered, /\[Alpha\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha\)/);
-  assert.match(rendered, /1 open issues\/PRs/);
-  assert.match(rendered, /\[Docs\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha#readme\)/);
-  assert.equal((rendered.match(new RegExp(START, "g")) ?? []).length, 1);
-  assert.equal((rendered.match(new RegExp(END, "g")) ?? []).length, 1);
-  const second = updateProjectCatalog(paths.readmePath, paths.catalogPath);
+  assert.match(first.readme, /\| Project \| Status \| Signals\/actions \|/);
+  assert.match(first.readme, /\[Alpha\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha\)/);
+  // The count is read from openIssuesAndPullRequests and stays labelled as covering both.
+  assert.match(first.readme, /1 open issues\/PRs/);
+  assert.match(first.readme, /\[Docs\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha#readme\)/);
+  assert.equal((first.readme.match(new RegExp(START, "g")) ?? []).length, 1);
+  assert.equal((first.readme.match(new RegExp(END, "g")) ?? []).length, 1);
+  const second = updateProjectCatalog(first.paths.readmePath, first.paths.catalogPath);
   assert.equal(second.changed, false);
-  assert.equal(fs.readFileSync(paths.readmePath, "utf8"), rendered);
+  assert.equal(fs.readFileSync(first.paths.readmePath, "utf8"), first.readme);
+});
+
+test("renders a version 1 catalog from the pinned generator identically", () => {
+  // The pin in .github/workflows/commitatlas.yml still emits v1, so this is the shape the daily
+  // refresh actually feeds in today. Identical output proves the rename changed no rendering.
+  assert.equal(render(catalogV1()).readme, render(catalog()).readme);
+});
+
+test("tolerates the additive host and external keys on a version 1 catalog", () => {
+  // CommitAtlas shipped host/external (PR #53) before the version bump, so a version-1 catalog
+  // carrying them genuinely exists on CommitAtlas@main. Additive and unrendered: accepted.
+  assert.equal(render(project(catalogV1(), { actions: disclosed(ACTIONS) })).readme, render(catalog()).readme);
+});
+
+test("fails closed for every unsupported catalog version", () => {
+  for (const version of [0, 3, 1.5, -1, "2", "1", null, true, [2], { major: 2 }]) {
+    rejects(catalog({ version }), /catalog\.version must be one of 1, 2/);
+  }
+  // A missing version field is a missing required key, never a silently-defaulted one.
+  const { version, ...withoutVersion } = catalog();
+  rejects(withoutVersion, /catalog\.version is required/);
+});
+
+test("rejects a catalog whose issue-count key belongs to the other version", () => {
+  // The exact hazard the version bump exists to stop: a renamed key read back as undefined. Under
+  // each version the other name is an unknown field, and its own name is required.
+  const { openIssuesAndPullRequests, ...v2Entry } = catalog().projects[0];
+  rejects(project(catalog(), { openIssues: 1, openIssuesAndPullRequests: undefined }), /unknown field openIssues/);
+  rejects({ ...catalog(), projects: [v2Entry] }, /openIssuesAndPullRequests is required/);
+
+  const { openIssues, ...v1Entry } = catalogV1().projects[0];
+  rejects(project(catalogV1(), { openIssuesAndPullRequests: 1, openIssues: undefined }), /unknown field openIssuesAndPullRequests/);
+  rejects({ ...catalogV1(), projects: [v1Entry] }, /openIssues is required/);
+});
+
+test("requires host and external on every version 2 action", () => {
+  for (const dropped of ["host", "external"]) {
+    const actions = disclosed(ACTIONS).map((action) => {
+      const { [dropped]: removed, ...rest } = action;
+      return rest;
+    });
+    rejects(project(catalog(), { actions }), new RegExp(`actions\\[0\\]\\.${dropped} is required`));
+  }
+});
+
+test("rejects an action host that disagrees with its own URL", () => {
+  const website = (overrides) => disclosed(ACTIONS).map((action) => action.kind === "website" ? { ...action, ...overrides } : action);
+  rejects(project(catalog(), { actions: website({ host: "github.com" }) }), /host must match the hostname of its own action URL/);
+  rejects(project(catalog(), { actions: website({ host: "Chris0Jeky.GitHub.io" }) }), /host must be a lowercase hostname/);
+  rejects(project(catalog(), { actions: website({ external: "true" }) }), /external must be a boolean/);
 });
 
 test("fails closed for missing, duplicate, and reversed markers", () => {
@@ -71,30 +167,20 @@ test("fails closed for missing, duplicate, and reversed markers", () => {
   }
 });
 
-test("rejects unsupported versions, unknown schema fields, and unsafe URLs", () => {
-  const cases = [
-    [catalog({ version: 2 }), /version/],
-    [catalog({ unexpected: true }), /unknown field/],
-    [catalog({ projects: [{ ...catalog().projects[0], extra: true }] }), /unknown field/],
-    [catalog({ projects: [{ ...catalog().projects[0], actions: [{ ...catalog().projects[0].actions[0], url: "http://example.test/source" }] }] }), /safe HTTPS/],
-    [catalog({ projects: [{ ...catalog().projects[0], actions: [{ ...catalog().projects[0].actions[0], url: "https://user:pass@example.test/source" }] }] }), /credentials/],
-  ];
-  for (const [value, message] of cases) {
-    const paths = fixture(`${START}\n${END}\n`, value);
-    assert.throws(() => updateProjectCatalog(paths.readmePath, paths.catalogPath), message);
-  }
+test("rejects unknown schema fields and unsafe URLs", () => {
+  rejects(catalog({ unexpected: true }), /unknown field/);
+  rejects(project(catalog(), { extra: true }), /unknown field/);
+  const unsafe = (url) => project(catalog(), { actions: [{ ...disclosed(ACTIONS)[0], url }] });
+  rejects(unsafe("http://example.test/source"), /safe HTTPS/);
+  rejects(unsafe("https://user:pass@example.test/source"), /credentials/);
 });
 
 test("escapes table cells while retaining action destinations", () => {
-  const base = catalog().projects[0];
-  const value = catalog({ projects: [{
-    ...base,
+  const value = project(catalog(), {
     label: "A | B",
-    actions: base.actions.map((action) => action.kind === "docs" ? { ...action, label: "Docs | guide" } : action),
-  }] });
-  const paths = fixture(`${START}\n${END}\n`, value);
-  updateProjectCatalog(paths.readmePath, paths.catalogPath);
-  const rendered = fs.readFileSync(paths.readmePath, "utf8");
+    actions: disclosed(ACTIONS).map((action) => action.kind === "docs" ? { ...action, label: "Docs | guide" } : action),
+  });
+  const rendered = render(value).readme;
   assert.match(rendered, /\[A \\| B\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha\)/);
   assert.match(rendered, /\[Docs \\| guide\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha#readme\)/);
 });
