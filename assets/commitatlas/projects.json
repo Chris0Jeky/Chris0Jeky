@@ -1,9 +1,9 @@
 {
-  "version": 1,
+  "version": 2,
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-24T05:58:52.988Z",
+  "generatedAt": "2026-08-24T11:46:39.526Z",
   "window": {
     "from": "2025-08-25",
     "to": "2026-08-24",
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 0,
       "forks": 0,
-      "openIssues": 178,
-      "pushedAt": "2026-08-24T05:53:55Z",
+      "openIssuesAndPullRequests": 182,
+      "pushedAt": "2026-08-24T11:46:26Z",
       "ci": {
         "state": "pending",
         "label": "Pending",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32694984309"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32723580518"
       },
       "release": {
         "tag": "v0.1.1",
@@ -43,43 +43,57 @@
           "kind": "source",
           "label": "Source",
           "url": "https://github.com/Chris0Jeky/Taskdeck",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "website",
           "label": "Website",
           "url": "https://chris0jeky.github.io/Taskdeck/",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "chris0jeky.github.io",
+          "external": true
         },
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32694984309",
-          "origin": "snapshot"
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32723580518",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "release",
           "label": "Release",
           "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.1",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "release-download",
           "label": "Release download",
           "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.1/taskdeck-v0.1.1-provenance.txt",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "docs",
           "label": "Docs",
           "url": "https://github.com/Chris0Jeky/Taskdeck#readme",
-          "origin": "config"
+          "origin": "config",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "download",
           "label": "Download",
           "url": "https://github.com/Chris0Jeky/Taskdeck/releases/latest",
-          "origin": "config"
+          "origin": "config",
+          "host": "github.com",
+          "external": false
         }
       ]
     },
@@ -92,38 +106,46 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssues": 13,
-      "pushedAt": "2026-08-23T02:01:55Z",
+      "openIssuesAndPullRequests": 6,
+      "pushedAt": "2026-08-24T11:46:11Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32611064895"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32722934838"
       },
       "actions": [
         {
           "kind": "source",
           "label": "Source",
           "url": "https://github.com/Chris0Jeky/CommitAtlas",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "website",
           "label": "Website",
-          "url": "https://commitatlas.jeky-tck.chatgpt.site/",
-          "origin": "snapshot"
+          "url": "https://commit-atlas.commit-atlas.workers.dev/",
+          "origin": "snapshot",
+          "host": "commit-atlas.commit-atlas.workers.dev",
+          "external": true
         },
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32611064895",
-          "origin": "snapshot"
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32722934838",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "docs",
           "label": "Docs",
           "url": "https://github.com/Chris0Jeky/CommitAtlas#readme",
-          "origin": "config"
+          "origin": "config",
+          "host": "github.com",
+          "external": false
         }
       ]
     },
@@ -131,26 +153,26 @@
       "repo": "chris0jeky/IdleHarbor",
       "name": "IdleHarbor",
       "label": "IdleHarbor",
-      "description": "Lightweight native Windows mouse jiggler and keep-awake utility with power requests, smart pause safeguards, portable use, and visible controls.",
+      "description": "Free, open-source Windows mouse jiggler and keep-awake utility. Native C++20/Win32, ~500 KB, no runtime, no telemetry. Bounded motion modes, Windows power requests, and safeguards that pause on real input, lock, battery, or full-screen apps.",
       "lifecycle": "active",
       "primaryLanguage": "C++",
       "stars": 0,
       "forks": 0,
-      "openIssues": 14,
-      "pushedAt": "2026-08-24T04:32:42Z",
+      "openIssuesAndPullRequests": 18,
+      "pushedAt": "2026-08-24T11:46:34Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32612198955"
+        "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32723509791"
       },
       "release": {
-        "tag": "v0.1.0",
-        "name": "v0.1.0",
-        "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.1.0",
+        "tag": "v0.2.0",
+        "name": "v0.2.0",
+        "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.2.0",
         "download": {
-          "name": "IdleHarbor-0.1.0-windows-arm64-portable.zip",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.1.0/IdleHarbor-0.1.0-windows-arm64-portable.zip"
+          "name": "IdleHarbor-0.2.0-windows-arm64-portable.zip",
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.2.0/IdleHarbor-0.2.0-windows-arm64-portable.zip"
         }
       },
       "actions": [
@@ -158,25 +180,33 @@
           "kind": "source",
           "label": "Source",
           "url": "https://github.com/Chris0Jeky/IdleHarbor",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32612198955",
-          "origin": "snapshot"
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32723509791",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "release",
           "label": "Release",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.1.0",
-          "origin": "snapshot"
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.2.0",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "release-download",
           "label": "Release download",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.1.0/IdleHarbor-0.1.0-windows-arm64-portable.zip",
-          "origin": "snapshot"
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.2.0/IdleHarbor-0.2.0-windows-arm64-portable.zip",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         }
       ]
     },
@@ -189,38 +219,46 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssues": 42,
-      "pushedAt": "2026-08-23T02:02:52Z",
+      "openIssuesAndPullRequests": 43,
+      "pushedAt": "2026-08-24T11:38:03Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "pages.yml",
-        "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/32088205628"
+        "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/32722857271"
       },
       "actions": [
         {
           "kind": "source",
           "label": "Source",
           "url": "https://github.com/Chris0Jeky/developer-lens",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "website",
           "label": "Website",
           "url": "https://chris0jeky.github.io/developer-lens/",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "chris0jeky.github.io",
+          "external": true
         },
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/32088205628",
-          "origin": "snapshot"
+          "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/32722857271",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "docs",
           "label": "Docs",
           "url": "https://github.com/Chris0Jeky/developer-lens#readme",
-          "origin": "config"
+          "origin": "config",
+          "host": "github.com",
+          "external": false
         }
       ]
     },
@@ -233,7 +271,7 @@
       "primaryLanguage": "Python",
       "stars": 0,
       "forks": 0,
-      "openIssues": 0,
+      "openIssuesAndPullRequests": 0,
       "pushedAt": "2026-08-13T01:55:59Z",
       "ci": {
         "state": "stale",
@@ -251,25 +289,33 @@
           "kind": "source",
           "label": "Source",
           "url": "https://github.com/Chris0Jeky/llm-release-gate",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "ci",
           "label": "CI",
           "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/31659253403",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "release",
           "label": "Release",
           "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "download",
           "label": "Download",
           "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/latest",
-          "origin": "config"
+          "origin": "config",
+          "host": "github.com",
+          "external": false
         }
       ]
     },
@@ -282,7 +328,7 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssues": 5,
+      "openIssuesAndPullRequests": 5,
       "pushedAt": "2026-08-17T23:57:14Z",
       "ci": {
         "state": "stale",
@@ -295,25 +341,33 @@
           "kind": "source",
           "label": "Source",
           "url": "https://github.com/Chris0Jeky/MDviewer",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "website",
           "label": "Website",
           "url": "https://mdviewer-c9r.pages.dev/",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "mdviewer-c9r.pages.dev",
+          "external": true
         },
         {
           "kind": "ci",
           "label": "CI",
           "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/31952484736",
-          "origin": "snapshot"
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
         },
         {
           "kind": "docs",
           "label": "Docs",
           "url": "https://github.com/Chris0Jeky/MDviewer#readme",
-          "origin": "config"
+          "origin": "config",
+          "host": "github.com",
+          "external": false
         }
       ]
     }
