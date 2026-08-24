@@ -42,6 +42,15 @@ I build systems that make complex work reviewable, observable, and safe.
 
 <p align="center"><sub>Breakdown shows annual public-profile activity percentages, not exact counts for the requested window. Rhythm is a personal consistency signal, not a GitHub rank.</sub></p>
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/cadence.svg" />
+    <img width="720" alt="CommitAtlas weekly cadence card showing Chris0Jeky contribution share by day of week on UTC boundaries" src="./assets/commitatlas/cadence.svg" />
+  </picture>
+</div>
+
+<p align="center"><sub>Cadence shows contribution share by day of week on UTC day boundaries, scoped to the same 365-day window.</sub></p>
+
 ---
 
 ## Now building: Taskdeck
@@ -74,6 +83,15 @@ Lifecycle is deliberately curated; CI is read only from each named workflow. All
 public snapshot, with its exact date window and SHA-256 hashes recorded in the
 [generated manifest](./assets/commitatlas/manifest.json). A failed refresh keeps the last committed
 good snapshot online.
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/releases.svg" />
+    <img width="720" alt="CommitAtlas latest-releases card listing the most recent published release for each curated Chris0Jeky project" src="./assets/commitatlas/releases.svg" />
+  </picture>
+</div>
+
+<p align="center"><sub>Latest published release per curated project, newest first; projects without a published release are counted, not hidden.</sub></p>
 
 <details>
   <summary><strong>Explore individual CommitAtlas widgets</strong></summary>
@@ -112,8 +130,8 @@ from emitted source or configured actions; no URLs are inferred here.
 <!-- commitatlas:project-catalog:start -->
 | Project | Status | Signals/actions |
 | --- | --- | --- |
-| [Taskdeck](https://github.com/Chris0Jeky/Taskdeck) | Active · CI pending | 188 open issues/PRs; Language: C#; Workflow: ci-required.yml; Release: v0.1.1; Actions: [Website](https://chris0jeky.github.io/Taskdeck/) · [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32757377639) · [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.1) · [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.1/taskdeck-v0.1.1-provenance.txt) · [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) · [Download](https://github.com/Chris0Jeky/Taskdeck/releases/latest) |
-| [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · CI passing | 4 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Release: v0.3.0; Actions: [Website](https://commit-atlas.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32757465222) · [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.3.0) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) |
+| [Taskdeck](https://github.com/Chris0Jeky/Taskdeck) | Active · CI pending | 187 open issues/PRs; Language: C#; Workflow: ci-required.yml; Release: v0.1.1; Actions: [Website](https://chris0jeky.github.io/Taskdeck/) · [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32761153299) · [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.1) · [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.1/taskdeck-v0.1.1-provenance.txt) · [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) · [Download](https://github.com/Chris0Jeky/Taskdeck/releases/latest) |
+| [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · CI pending | 4 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Release: v0.3.0; Actions: [Website](https://commit-atlas.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32762441112) · [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.3.0) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) |
 | [IdleHarbor](https://github.com/Chris0Jeky/IdleHarbor) | Active · CI passing | 17 open issues/PRs; Language: C++; Workflow: ci.yml; Release: v0.2.0; Actions: [Website](https://chris0jeky.github.io/IdleHarbor/) · [CI](https://github.com/Chris0Jeky/IdleHarbor/actions/runs/32734889941) · [Release](https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.2.0) · [Release download](https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.2.0/IdleHarbor-0.2.0-windows-arm64-portable.zip) |
 | [Developer Lens](https://github.com/Chris0Jeky/developer-lens) | Active · CI passing | 43 open issues/PRs; Language: TypeScript; Workflow: pages.yml; Actions: [Website](https://chris0jeky.github.io/developer-lens/) · [CI](https://github.com/Chris0Jeky/developer-lens/actions/runs/32722857271) · [Docs](https://github.com/Chris0Jeky/developer-lens#readme) |
 | [LLM Release Gate](https://github.com/Chris0Jeky/llm-release-gate) | Maintenance · CI stale | 0 open issues/PRs; Language: Python; Workflow: ci.yml; Release: v0.1.2; Actions: [CI](https://github.com/Chris0Jeky/llm-release-gate/actions/runs/31659253403) · [Release](https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2) · [Download](https://github.com/Chris0Jeky/llm-release-gate/releases/latest) |

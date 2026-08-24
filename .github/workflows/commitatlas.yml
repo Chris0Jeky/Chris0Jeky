@@ -23,13 +23,13 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@e17e8664588f50418ac99b09b74ba13c52bd98c4
+        uses: Chris0Jeky/CommitAtlas@4a6b1c4903debad7ef267d1f50ecd90ed079569c
         with:
           config: .commitatlas.json
 
       - name: Generate light-scheme CommitAtlas assets
         id: commitatlas-light
-        uses: Chris0Jeky/CommitAtlas@e17e8664588f50418ac99b09b74ba13c52bd98c4
+        uses: Chris0Jeky/CommitAtlas@4a6b1c4903debad7ef267d1f50ecd90ed079569c
         with:
           config: .commitatlas.light.json
 
@@ -40,7 +40,7 @@ jobs:
           const fs = require('node:fs');
           const crypto = require('node:crypto');
           const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas.outputs.manifest }}', 'utf8'));
-          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'breakdown.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'rhythm.svg', 'streak.svg'];
+          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'breakdown.svg', 'cadence.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'releases.svg', 'rhythm.svg', 'streak.svg'];
           const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
           if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
             throw new Error('Unexpected CommitAtlas responsive manifest');
@@ -75,7 +75,7 @@ jobs:
           const fs = require('node:fs');
           const crypto = require('node:crypto');
           const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas-light.outputs.manifest }}', 'utf8'));
-          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'breakdown.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'rhythm.svg', 'streak.svg'];
+          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'breakdown.svg', 'cadence.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'releases.svg', 'rhythm.svg', 'streak.svg'];
           const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
           if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
             throw new Error('Unexpected CommitAtlas light manifest');
