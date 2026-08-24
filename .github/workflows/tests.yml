@@ -1,0 +1,40 @@
+name: Tests
+
+# The profile catalog consumer is the only executable code in this repository, and it runs
+# unattended in the daily refresh. Until now nothing exercised it on a pull request, so a shape
+# regression would first surface as a red scheduled run that had already rewritten README.md.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  node-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+
+      - name: Run the project catalog consumer tests
+        shell: bash
+        run: |
+          node --version
+          node --test tests/*.test.mjs
+
+      - name: Check the committed catalog still renders the committed README
+        shell: bash
+        run: |
+          node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
+          git diff --exit-code -- README.md
