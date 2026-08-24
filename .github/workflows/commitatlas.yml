@@ -23,9 +23,15 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@e07cee92407560090d3d20392bee1209821eb51d
+        uses: Chris0Jeky/CommitAtlas@e17e8664588f50418ac99b09b74ba13c52bd98c4
         with:
           config: .commitatlas.json
+
+      - name: Generate light-scheme CommitAtlas assets
+        id: commitatlas-light
+        uses: Chris0Jeky/CommitAtlas@e17e8664588f50418ac99b09b74ba13c52bd98c4
+        with:
+          config: .commitatlas.light.json
 
       - name: Validate generated bundle
         shell: bash
@@ -54,6 +60,28 @@ jobs:
           if ('${{ steps.commitatlas.outputs['projects-markdown'] }}' !== expectedOutputs['projects-markdown']) throw new Error('Projects Markdown output is missing');
           for (const artifact of manifest.artifacts) {
             const path = `assets/commitatlas/${artifact.path}`;
+            const body = fs.readFileSync(path);
+            const digest = crypto.createHash('sha256').update(body).digest('hex');
+            if (body.length !== artifact.bytes || digest !== artifact.sha256) {
+              throw new Error(`Manifest mismatch for ${path}`);
+            }
+          }
+          NODE
+
+      - name: Validate light bundle
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('node:fs');
+          const crypto = require('node:crypto');
+          const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas-light.outputs.manifest }}', 'utf8'));
+          const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'breakdown.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'rhythm.svg', 'streak.svg'];
+          const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
+          if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
+            throw new Error('Unexpected CommitAtlas light manifest');
+          }
+          for (const artifact of manifest.artifacts) {
+            const path = `assets/commitatlas/light/${artifact.path}`;
             const body = fs.readFileSync(path);
             const digest = crypto.createHash('sha256').update(body).digest('hex');
             if (body.length !== artifact.bytes || digest !== artifact.sha256) {
