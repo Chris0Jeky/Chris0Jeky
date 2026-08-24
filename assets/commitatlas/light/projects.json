@@ -3,7 +3,7 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-24T17:51:09.407Z",
+  "generatedAt": "2026-08-24T18:26:54.503Z",
   "window": {
     "from": "2025-08-25",
     "to": "2026-08-24",
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 189,
-      "pushedAt": "2026-08-24T17:47:01Z",
+      "openIssuesAndPullRequests": 187,
+      "pushedAt": "2026-08-24T18:13:11Z",
       "ci": {
         "state": "pending",
         "label": "Pending",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32757377639"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32761153299"
       },
       "release": {
         "tag": "v0.1.1",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32757377639",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32761153299",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -107,12 +107,12 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 4,
-      "pushedAt": "2026-08-24T17:35:00Z",
+      "pushedAt": "2026-08-24T18:26:30Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32757465222"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32762441112"
       },
       "release": {
         "tag": "v0.3.0",
@@ -139,7 +139,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32757465222",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32762441112",
           "origin": "snapshot",
           "host": "github.com",
           "external": false

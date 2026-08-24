@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-24T17:51:07.087Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-24T18:26:54.503Z`.
 Window: `2025-08-25` → `2026-08-24` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -12,14 +12,14 @@ Window: `2025-08-25` → `2026-08-24` (365 days).
 - **Lifecycle:** Active
 - **CI:** Pending (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 189 open issues/PRs
+- **Stats:** 187 open issues/PRs
 - **Release:** Taskdeck v0\.1\.1 (`v0.1.1`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32757377639) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32761153299) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.1) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.1/taskdeck-v0.1.1-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -29,7 +29,7 @@ Window: `2025-08-25` → `2026-08-24` (365 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Pending (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
 - **Stats:** 4 open issues/PRs
 - **Release:** CommitAtlas v0\.3\.0 — the cards, redrawn (`v0.3.0`)
@@ -38,7 +38,7 @@ Window: `2025-08-25` → `2026-08-24` (365 days).
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32757465222) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32762441112) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.3.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured
 
