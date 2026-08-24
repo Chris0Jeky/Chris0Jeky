@@ -171,7 +171,12 @@ export function renderProjectTable(catalog) {
     const projectLink = `[${escapeTable(project.label)}](${markdownDestination(source.url)})`;
     const status = `${escapeTable(capitalize(project.lifecycle))} · CI ${escapeTable(project.ci.state)}`;
     const signals = [
-      `${project.stars} stars · ${project.forks} forks · ${project[shape.issueCountKey]} open issues/PRs`,
+      // Zero-valued vanity counts are omitted; open work is always stated.
+      [
+        project.stars > 0 ? `${project.stars} stars` : null,
+        project.forks > 0 ? `${project.forks} forks` : null,
+        `${project[shape.issueCountKey]} open issues/PRs`,
+      ].filter(Boolean).join(" · "),
       project.primaryLanguage ? `Language: ${escapeTable(project.primaryLanguage)}` : null,
       project.ci.workflow ? `Workflow: ${escapeTable(project.ci.workflow)}` : null,
       project.release ? `Release: ${escapeTable(project.release.tag)}` : null,
