@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "user": "Chris0Jeky",
+  "theme": "paper",
+  "days": 365,
+  "motion": "subtle",
+  "layout": "wide",
+  "responsiveAtlas": true,
+  "outputDir": "assets/commitatlas/light",
+  "cards": [
+    "atlas",
+    "profile",
+    "streak",
+    "breakdown",
+    "rhythm",
+    "activity",
+    "languages",
+    "projects"
+  ],
+  "projects": [
+    {
+      "repo": "Chris0Jeky/Taskdeck",
+      "label": "Taskdeck",
+      "lifecycle": "active",
+      "workflow": "ci-required.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/Taskdeck#readme",
+        "download": "https://github.com/Chris0Jeky/Taskdeck/releases/latest"
+      }
+    },
+    {
+      "repo": "Chris0Jeky/CommitAtlas",
+      "label": "CommitAtlas",
+      "lifecycle": "active",
+      "workflow": "ci.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/CommitAtlas#readme"
+      }
+    },
+    {
+      "repo": "Chris0Jeky/IdleHarbor",
+      "label": "IdleHarbor",
+      "lifecycle": "active",
+      "workflow": "ci.yml",
+      "links": {}
+    },
+    {
+      "repo": "Chris0Jeky/developer-lens",
+      "label": "Developer Lens",
+      "lifecycle": "active",
+      "workflow": "pages.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/developer-lens#readme"
+      }
+    },
+    {
+      "repo": "Chris0Jeky/llm-release-gate",
+      "label": "LLM Release Gate",
+      "lifecycle": "maintenance",
+      "workflow": "ci.yml",
+      "links": {
+        "download": "https://github.com/Chris0Jeky/llm-release-gate/releases/latest"
+      }
+    },
+    {
+      "repo": "Chris0Jeky/MDviewer",
+      "label": "MDviewer",
+      "lifecycle": "maintenance",
+      "workflow": "ci.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/MDviewer#readme"
+      }
+    }
+  ]
+}
