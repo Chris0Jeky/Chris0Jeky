@@ -102,6 +102,11 @@ test("renders the ordered version 2 catalog and is idempotent", () => {
   assert.match(first.readme, /\[Alpha\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha\)/);
   // The count is read from openIssuesAndPullRequests and stays labelled as covering both.
   assert.match(first.readme, /1 open issues\/PRs/);
+  assert.match(first.readme, /12 stars · 3 forks · 1 open issues\/PRs/);
+  // Zero-valued vanity counts are omitted from the rendered table; open work is always stated.
+  const humble = render(catalog({ projects: [{ ...catalog().projects[0], stars: 0, forks: 0 }] }));
+  assert.match(humble.readme, /\| 1 open issues\/PRs;/);
+  assert.doesNotMatch(humble.readme, /\b0 stars|\b0 forks/);
   assert.match(first.readme, /\[Docs\]\(https:\/\/github\.com\/Chris0Jeky\/Alpha#readme\)/);
   assert.equal((first.readme.match(new RegExp(START, "g")) ?? []).length, 1);
   assert.equal((first.readme.match(new RegExp(END, "g")) ?? []).length, 1);
