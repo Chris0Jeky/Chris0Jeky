@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-24T18:26:54.503Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-24T18:31:16.959Z`.
 Window: `2025-08-25` → `2026-08-24` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -29,7 +29,7 @@ Window: `2025-08-25` → `2026-08-24` (365 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** Pending (`ci.yml`)
+- **CI:** Passing (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
 - **Stats:** 4 open issues/PRs
 - **Release:** CommitAtlas v0\.3\.0 — the cards, redrawn (`v0.3.0`)
