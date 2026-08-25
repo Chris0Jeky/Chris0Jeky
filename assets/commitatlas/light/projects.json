@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-24T18:31:18.935Z",
+  "generatedAt": "2026-08-25T05:53:01.331Z",
   "window": {
-    "from": "2025-08-25",
-    "to": "2026-08-24",
+    "from": "2025-08-26",
+    "to": "2026-08-25",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,21 +21,21 @@
       "primaryLanguage": "C#",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 187,
-      "pushedAt": "2026-08-24T18:13:11Z",
+      "openIssuesAndPullRequests": 180,
+      "pushedAt": "2026-08-25T01:04:11Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32761153299"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32796112944"
       },
       "release": {
-        "tag": "v0.1.1",
-        "name": "Taskdeck v0.1.1",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.1",
+        "tag": "v0.1.2",
+        "name": "Taskdeck v0.1.2",
+        "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.2",
         "download": {
-          "name": "taskdeck-v0.1.1-provenance.txt",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.1/taskdeck-v0.1.1-provenance.txt"
+          "name": "taskdeck-v0.1.2-provenance.txt",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.2/taskdeck-v0.1.2-provenance.txt"
         }
       },
       "actions": [
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32761153299",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/32796112944",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -66,7 +66,7 @@
         {
           "kind": "release",
           "label": "Release",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.1",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.2",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -74,7 +74,7 @@
         {
           "kind": "release-download",
           "label": "Release download",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.1/taskdeck-v0.1.1-provenance.txt",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.2/taskdeck-v0.1.2-provenance.txt",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -106,13 +106,13 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 4,
-      "pushedAt": "2026-08-24T18:26:30Z",
+      "openIssuesAndPullRequests": 5,
+      "pushedAt": "2026-08-24T18:43:09Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32762441112"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32763994180"
       },
       "release": {
         "tag": "v0.3.0",
@@ -139,7 +139,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32762441112",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32763994180",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -350,7 +350,7 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 5,
-      "pushedAt": "2026-08-17T23:57:14Z",
+      "pushedAt": "2026-08-24T23:55:30Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
