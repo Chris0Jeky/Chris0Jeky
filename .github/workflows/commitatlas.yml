@@ -23,13 +23,13 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@4a6b1c4903debad7ef267d1f50ecd90ed079569c
+        uses: Chris0Jeky/CommitAtlas@63278f5779d1c64de56a1f7a555c28e37240b80b
         with:
           config: .commitatlas.json
 
       - name: Generate light-scheme CommitAtlas assets
         id: commitatlas-light
-        uses: Chris0Jeky/CommitAtlas@4a6b1c4903debad7ef267d1f50ecd90ed079569c
+        uses: Chris0Jeky/CommitAtlas@63278f5779d1c64de56a1f7a555c28e37240b80b
         with:
           config: .commitatlas.light.json
 
