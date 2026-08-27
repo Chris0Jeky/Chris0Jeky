@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-27T16:35:06.028Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-27T21:42:21.403Z`.
 Window: `2025-08-28` → `2026-08-27` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -12,14 +12,14 @@ Window: `2025-08-28` → `2026-08-27` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 197 open issues/PRs
+- **Stats:** 202 open issues/PRs
 - **Release:** Taskdeck v0\.1\.2 (`v0.1.2`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/33029542889) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/33111961772) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.2) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.2/taskdeck-v0.1.2-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -38,7 +38,7 @@ Window: `2025-08-28` → `2026-08-27` (365 days).
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/32763994180) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33119079627) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.3.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured
 
