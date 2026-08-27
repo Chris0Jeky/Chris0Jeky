@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-26T05:55:14.350Z`.
-Window: `2025-08-27` → `2026-08-26` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-27T16:35:06.028Z`.
+Window: `2025-08-28` → `2026-08-27` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,14 +12,14 @@ Window: `2025-08-27` → `2026-08-26` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 180 open issues/PRs
+- **Stats:** 197 open issues/PRs
 - **Release:** Taskdeck v0\.1\.2 (`v0.1.2`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/32796112944) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/33029542889) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.2) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.2/taskdeck-v0.1.2-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -46,7 +46,7 @@ Window: `2025-08-27` → `2026-08-26` (365 days).
 
 - **Repository:** `chris0jeky/IdleHarbor`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** Free, open\-source Windows mouse jiggler and keep\-awake utility\. Native C\+\+20/Win32, ~530 KB, no runtime, no telemetry\. Bounded motion modes, Windows power requests, and safeguards that pause on real input, lock, battery, or full\-screen apps\.
 - **Stats:** 17 open issues/PRs
 - **Release:** v0\.2\.0 (`v0.2.0`)
@@ -63,7 +63,7 @@ Window: `2025-08-27` → `2026-08-26` (365 days).
 
 - **Repository:** `chris0jeky/developer-lens`
 - **Lifecycle:** Active
-- **CI:** Passing (`pages.yml`)
+- **CI:** Stale result (`pages.yml`)
 - **Description:** A private local GitHub development retrospective with a privacy\-safe public showcase\.
 - **Stats:** 43 open issues/PRs
 
