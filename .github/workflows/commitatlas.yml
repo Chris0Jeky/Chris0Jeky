@@ -23,15 +23,9 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@63278f5779d1c64de56a1f7a555c28e37240b80b
+        uses: Chris0Jeky/CommitAtlas@af71fbf8d1e889c3cb25255d7a92114d5bb15eb5
         with:
           config: .commitatlas.json
-
-      - name: Generate light-scheme CommitAtlas assets
-        id: commitatlas-light
-        uses: Chris0Jeky/CommitAtlas@63278f5779d1c64de56a1f7a555c28e37240b80b
-        with:
-          config: .commitatlas.light.json
 
       - name: Validate generated bundle
         shell: bash
@@ -74,11 +68,15 @@ jobs:
           node <<'NODE'
           const fs = require('node:fs');
           const crypto = require('node:crypto');
-          const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas-light.outputs.manifest }}', 'utf8'));
+          const primaryManifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas.outputs.manifest }}', 'utf8'));
+          const manifest = JSON.parse(fs.readFileSync('assets/commitatlas/light/manifest.json', 'utf8'));
           const expected = ['activity.svg', 'atlas-compact.svg', 'atlas.svg', 'breakdown.svg', 'cadence.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'releases.svg', 'rhythm.svg', 'streak.svg'];
           const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
           if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
             throw new Error('Unexpected CommitAtlas light manifest');
+          }
+          if (manifest.generatedAt !== primaryManifest.generatedAt || JSON.stringify(manifest.window) !== JSON.stringify(primaryManifest.window)) {
+            throw new Error('CommitAtlas theme manifests do not describe one atomic snapshot');
           }
           for (const artifact of manifest.artifacts) {
             const path = `assets/commitatlas/light/${artifact.path}`;
