@@ -2,6 +2,12 @@
   "version": 1,
   "user": "Chris0Jeky",
   "theme": "ember",
+  "themes": [
+    {
+      "theme": "paper",
+      "outputDir": "assets/commitatlas/light"
+    }
+  ],
   "days": 365,
   "motion": "subtle",
   "layout": "wide",
