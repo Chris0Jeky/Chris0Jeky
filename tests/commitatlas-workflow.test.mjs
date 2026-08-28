@@ -4,6 +4,7 @@ import test from "node:test";
 
 const configPath = new URL("../.commitatlas.json", import.meta.url);
 const retiredLightConfigPath = new URL("../.commitatlas.light.json", import.meta.url);
+const readmePath = new URL("../README.md", import.meta.url);
 const workflowPath = new URL("../.github/workflows/commitatlas.yml", import.meta.url);
 
 test("one pinned CommitAtlas invocation produces the dark and light bundles", async () => {
@@ -18,4 +19,13 @@ test("one pinned CommitAtlas invocation produces the dark and light bundles", as
   assert.match(workflow, /assets\/commitatlas\/light\/manifest\.json/);
   assert.match(workflow, /theme manifests do not describe one atomic snapshot/);
   await assert.rejects(readFile(retiredLightConfigPath, "utf8"), { code: "ENOENT" });
+});
+
+test("operating picture states the public-profile boundary and refresh fallback", async () => {
+  const readme = await readFile(readmePath, "utf8");
+
+  assert.match(readme, /GitHub's logged-out public profile view/);
+  assert.match(readme, /signed-in owner's contribution calendar can differ because it may include private activity/);
+  assert.match(readme, /Daily committed snapshot/);
+  assert.match(readme, /a failed refresh keeps the last good snapshot online/);
 });
