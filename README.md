@@ -20,12 +20,12 @@ I build systems that make complex work reviewable, observable, and safe.
       <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/commitatlas/light/atlas-compact.svg" />
       <source media="(max-width: 600px)" srcset="./assets/commitatlas/atlas-compact.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/atlas.svg" />
-      <img width="860" alt="CommitAtlas developer atlas for Chris0Jeky with contribution density, streaks, activity mix, momentum, languages, and project health" src="./assets/commitatlas/atlas.svg" />
+      <img width="860" alt="CommitAtlas developer atlas for Chris0Jeky from GitHub's logged-out public profile view, with contribution density, streaks, activity mix, momentum, languages, and project health" src="./assets/commitatlas/atlas.svg" />
     </picture>
   </a>
 </div>
 
-<p align="center"><sub>Daily committed snapshot from the public GitHub profile view · exact 365-day window ending on the date printed in the card · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
+<p align="center"><sub>Daily committed snapshot from GitHub's logged-out public profile view · the signed-in owner's contribution calendar can differ because it may include private activity · exact 365-day window ending on the date printed in the card · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
 
 ---
 
