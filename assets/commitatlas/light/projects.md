@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-28T02:47:03.345Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-28T17:30:23.788Z`.
 Window: `2025-08-29` → `2026-08-28` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -12,7 +12,7 @@ Window: `2025-08-29` → `2026-08-28` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 202 open issues/PRs
+- **Stats:** 209 open issues/PRs
 - **Release:** Taskdeck v0\.1\.2 (`v0.1.2`)
 
 ### Actions

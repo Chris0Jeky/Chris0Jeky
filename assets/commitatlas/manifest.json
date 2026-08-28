@@ -8,32 +8,32 @@
     "to": "2026-08-28",
     "days": 365
   },
-  "generatedAt": "2026-08-28T02:47:03.345Z",
+  "generatedAt": "2026-08-28T17:30:23.788Z",
   "artifacts": [
     {
       "path": "activity.svg",
-      "bytes": 24578,
-      "sha256": "247b43b98ab7ff530f59f2fd2d97a58670f281fe7a09eb59be8d78feeb373f7d"
+      "bytes": 24579,
+      "sha256": "8d18d36a3cb02db203c365d3057db749fef63c5e6adfdc6eaa354a49147f355e"
     },
     {
       "path": "atlas-compact.svg",
       "bytes": 21486,
-      "sha256": "835c916e64e76603c7a144772dda8b1ec7f89b8985643b70b4151660ff511e2b"
+      "sha256": "aba1012b2cbcd975c72aaf13941ec3747e2e48411ebb9353180895856cf2c346"
     },
     {
       "path": "atlas.svg",
       "bytes": 20541,
-      "sha256": "ddc9f1c35805b4ac5a0a1c6d56103ef0339f2d129ed10fb9aea6bbb4fa8c967d"
+      "sha256": "6974f859b3da9fc4066b54d026449085496ea554919d2994e7b7da4bfdf16124"
     },
     {
       "path": "breakdown.svg",
       "bytes": 5439,
-      "sha256": "89159b1639e82e205c59c8642bd29c43bbe4403cd2de0c2e8e511a4438eee64b"
+      "sha256": "db2ca8f5180a07c9adaf8eede27b47ee9ea75577743948df859156695420bfca"
     },
     {
       "path": "cadence.svg",
       "bytes": 6249,
-      "sha256": "8e2c77af1540c3a968f89cb5dd7ee4ef3bd08b4eca3b4fc05b8a8b187370ab6c"
+      "sha256": "db376263800057cdd25fbb1e826a99a66b6e29d9d6b1eeeb711220f206994d5f"
     },
     {
       "path": "languages.svg",
@@ -48,12 +48,12 @@
     {
       "path": "projects.json",
       "bytes": 12722,
-      "sha256": "660303a6e02d571021d3a30d4c4224526f538ac44a6ab22648ffd8f816e7224e"
+      "sha256": "c6c77b6900a7fe2a77e8d80bbd50310293568bc2fce49a6edf6888432c59d910"
     },
     {
       "path": "projects.md",
       "bytes": 5150,
-      "sha256": "11753a6d62ebd9f24537f06140ca98886d5ea575b113ea83bd93458d9e0df2b7"
+      "sha256": "e09e4fe3a9231e71f77e77dbcd558f6dae011715df0195a75664b83446c792e0"
     },
     {
       "path": "projects.svg",
@@ -68,7 +68,7 @@
     {
       "path": "rhythm.svg",
       "bytes": 5560,
-      "sha256": "d8cfe9ebc556b122e1e63ece6474c956e37f2bf9449d67c84971a0373b70015b"
+      "sha256": "55efec37c7764c6e7667b983a56348d6239a9eb746ca0e69e6e9ac61724c70d5"
     },
     {
       "path": "streak.svg",
