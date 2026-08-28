@@ -15,7 +15,7 @@ test("one pinned CommitAtlas invocation produces the dark and light bundles", as
   assert.deepEqual(config.themes, [{ theme: "paper", outputDir: "assets/commitatlas/light" }]);
   assert.equal(config.outputDir, "assets/commitatlas");
   assert.equal((workflow.match(/uses: Chris0Jeky\/CommitAtlas@[0-9a-f]{40}/g) ?? []).length, 1);
-  assert.match(workflow, /uses: Chris0Jeky\/CommitAtlas@af71fbf8d1e889c3cb25255d7a92114d5bb15eb5/);
+  assert.match(workflow, /uses: Chris0Jeky\/CommitAtlas@5b6b38cd6b1c8d60260f86dcfbbd0c4e6199c39a/);
   assert.match(workflow, /assets\/commitatlas\/light\/manifest\.json/);
   assert.match(workflow, /theme manifests do not describe one atomic snapshot/);
   await assert.rejects(readFile(retiredLightConfigPath, "utf8"), { code: "ENOENT" });
