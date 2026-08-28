@@ -1,2 +1,1 @@
-assets/commitatlas/*.svg text eol=lf
-assets/commitatlas/manifest.json text eol=lf
+assets/commitatlas/** text eol=lf
