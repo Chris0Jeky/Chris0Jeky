@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@5b6b38cd6b1c8d60260f86dcfbbd0c4e6199c39a
+        uses: Chris0Jeky/CommitAtlas@51817aabdd5402dece1824eef47f0c6b3d87230c
         with:
           config: .commitatlas.json
 

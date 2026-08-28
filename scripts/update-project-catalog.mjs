@@ -18,9 +18,9 @@ const ACTION_KINDS = new Set(["source", "website", "ci", "release", "release-dow
  * commitatlas.yml` pins the generator by SHA, so the daily refresh keeps producing whichever shape
  * the pinned commit produces until that pin is deliberately moved.
  *
- * - **1** — what the currently pinned generator emits: `openIssues`, actions with no host fields.
+ * - **1** — the retained legacy shape: `openIssues`, actions with no host fields.
  *   `host`/`external` are *optional* here rather than rejected, because CommitAtlas shipped them
- *   (PR #53) before the version was bumped. `CommitAtlas@main` has since moved on to version 2, but
+ *   (PR #53) before the version was bumped. The pinned generator now emits version 2, but
  *   commits `7b507dc`..`8eee522f` on it emit version 1 *with* those keys, and a pin can still land
  *   there. They are additive and nothing here renders them, so tolerating them keeps a partial SHA
  *   bump from turning the refresh red, and keeps a future additive generator change from being
