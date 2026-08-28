@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-28T00:45:58.115Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-28T01:08:29.139Z`.
 Window: `2025-08-29` → `2026-08-28` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -29,17 +29,17 @@ Window: `2025-08-29` → `2026-08-28` (365 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Pending (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 1 open issues/PRs
-- **Release:** CommitAtlas v0\.3\.0 — the cards, redrawn (`v0.3.0`)
+- **Stats:** 0 open issues/PRs
+- **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33130509941) — observed
-- [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.3.0) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33131914239) — observed
+- [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured
 
 ## IdleHarbor

@@ -3,7 +3,7 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-28T00:45:58.115Z",
+  "generatedAt": "2026-08-28T01:08:29.139Z",
   "window": {
     "from": "2025-08-29",
     "to": "2026-08-28",
@@ -106,18 +106,18 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 1,
-      "pushedAt": "2026-08-28T00:41:18Z",
+      "openIssuesAndPullRequests": 0,
+      "pushedAt": "2026-08-28T01:08:06Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33130509941"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33131914239"
       },
       "release": {
-        "tag": "v0.3.0",
-        "name": "CommitAtlas v0.3.0 — the cards, redrawn",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.3.0"
+        "tag": "v0.4.0",
+        "name": "CommitAtlas v0.4.0 — truthful under pressure",
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0"
       },
       "actions": [
         {
@@ -139,7 +139,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33130509941",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33131914239",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -147,7 +147,7 @@
         {
           "kind": "release",
           "label": "Release",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.3.0",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
