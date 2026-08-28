@@ -115,9 +115,9 @@ test("renders the ordered version 2 catalog and is idempotent", () => {
   assert.equal(fs.readFileSync(first.paths.readmePath, "utf8"), first.readme);
 });
 
-test("renders a version 1 catalog from the pinned generator identically", () => {
-  // The pin in .github/workflows/commitatlas.yml still emits v1, so this is the shape the daily
-  // refresh actually feeds in today. Identical output proves the rename changed no rendering.
+test("retains identical rendering for a supported version 1 catalog", () => {
+  // The pinned generator emits v2. Version 1 remains readable across a rollback or deliberate
+  // older pin, and identical output proves the rename changed no rendering.
   assert.equal(render(catalogV1()).readme, render(catalog()).readme);
 });
 
