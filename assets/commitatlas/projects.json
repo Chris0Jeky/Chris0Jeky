@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-28T17:30:23.788Z",
+  "generatedAt": "2026-08-29T11:42:06.559Z",
   "window": {
-    "from": "2025-08-29",
-    "to": "2026-08-28",
+    "from": "2025-08-30",
+    "to": "2026-08-29",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,21 +21,21 @@
       "primaryLanguage": "C#",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 209,
-      "pushedAt": "2026-08-28T14:45:37Z",
+      "openIssuesAndPullRequests": 229,
+      "pushedAt": "2026-08-29T10:06:36Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33111961772"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33246867409"
       },
       "release": {
-        "tag": "v0.1.2",
-        "name": "Taskdeck v0.1.2",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.2",
+        "tag": "v0.2.0",
+        "name": "Taskdeck v0.2.0",
+        "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0",
         "download": {
-          "name": "taskdeck-v0.1.2-provenance.txt",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.2/taskdeck-v0.1.2-provenance.txt"
+          "name": "taskdeck-v0.2.0-provenance.txt",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt"
         }
       },
       "actions": [
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33111961772",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33246867409",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -66,7 +66,7 @@
         {
           "kind": "release",
           "label": "Release",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.1.2",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -74,7 +74,7 @@
         {
           "kind": "release-download",
           "label": "Release download",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.1.2/taskdeck-v0.1.2-provenance.txt",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
