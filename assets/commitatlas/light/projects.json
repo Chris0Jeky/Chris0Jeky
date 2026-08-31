@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-08-30T10:32:49.973Z",
+  "generatedAt": "2026-08-31T11:41:24.163Z",
   "window": {
-    "from": "2025-08-31",
-    "to": "2026-08-30",
+    "from": "2025-09-01",
+    "to": "2026-08-31",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 269,
-      "pushedAt": "2026-08-30T10:10:27Z",
+      "openIssuesAndPullRequests": 286,
+      "pushedAt": "2026-08-31T11:11:08Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33304725447"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33356381843"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33304725447",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33356381843",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -106,8 +106,8 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 62,
-      "pushedAt": "2026-08-30T01:55:32Z",
+      "openIssuesAndPullRequests": 65,
+      "pushedAt": "2026-08-31T06:25:07Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
@@ -171,8 +171,8 @@
       "primaryLanguage": "C++",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 17,
-      "pushedAt": "2026-08-24T13:48:45Z",
+      "openIssuesAndPullRequests": 18,
+      "pushedAt": "2026-08-31T04:31:29Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",

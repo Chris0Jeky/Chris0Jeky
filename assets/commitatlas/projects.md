@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-30T10:32:49.973Z`.
-Window: `2025-08-31` → `2026-08-30` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-08-31T11:41:24.163Z`.
+Window: `2025-09-01` → `2026-08-31` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,14 +12,14 @@ Window: `2025-08-31` → `2026-08-30` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 269 open issues/PRs
+- **Stats:** 286 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/33304725447) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/33356381843) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -31,7 +31,7 @@ Window: `2025-08-31` → `2026-08-30` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 62 open issues/PRs
+- **Stats:** 65 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions
@@ -48,7 +48,7 @@ Window: `2025-08-31` → `2026-08-30` (365 days).
 - **Lifecycle:** Active
 - **CI:** Stale result (`ci.yml`)
 - **Description:** Free, open\-source Windows mouse jiggler and keep\-awake utility\. Native C\+\+20/Win32, ~530 KB, no runtime, no telemetry\. Bounded motion modes, Windows power requests, and safeguards that pause on real input, lock, battery, or full\-screen apps\.
-- **Stats:** 17 open issues/PRs
+- **Stats:** 18 open issues/PRs
 - **Release:** v0\.2\.0 (`v0.2.0`)
 
 ### Actions
