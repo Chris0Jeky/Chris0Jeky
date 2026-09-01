@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-08-31T11:41:24.163Z`.
-Window: `2025-09-01` → `2026-08-31` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-01T10:15:10.076Z`.
+Window: `2025-09-02` → `2026-09-01` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
