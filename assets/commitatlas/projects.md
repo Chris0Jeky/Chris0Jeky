@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-01T10:15:10.076Z`.
-Window: `2025-09-02` → `2026-09-01` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-02T09:44:08.246Z`.
+Window: `2025-09-03` → `2026-09-02` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,16 +10,16 @@ Window: `2025-09-02` → `2026-09-01` (365 days).
 
 - **Repository:** `chris0jeky/Taskdeck`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci-required.yml`)
+- **CI:** Pending (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 286 open issues/PRs
+- **Stats:** 1 stars · 287 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/33356381843) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/33615404149) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -29,7 +29,7 @@ Window: `2025-09-02` → `2026-09-01` (365 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
 - **Stats:** 65 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
@@ -63,7 +63,7 @@ Window: `2025-09-02` → `2026-09-01` (365 days).
 
 - **Repository:** `chris0jeky/developer-lens`
 - **Lifecycle:** Active
-- **CI:** Passing (`pages.yml`)
+- **CI:** Stale result (`pages.yml`)
 - **Description:** A private local GitHub development retrospective with a privacy\-safe public showcase\.
 - **Stats:** 46 open issues/PRs
 
