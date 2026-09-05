@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-04T09:45:27.546Z",
+  "generatedAt": "2026-09-05T09:10:20.875Z",
   "window": {
-    "from": "2025-09-05",
-    "to": "2026-09-04",
+    "from": "2025-09-06",
+    "to": "2026-09-05",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 289,
-      "pushedAt": "2026-09-04T09:44:09Z",
+      "openIssuesAndPullRequests": 299,
+      "pushedAt": "2026-09-05T09:09:34Z",
       "ci": {
         "state": "pending",
         "label": "Pending",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33857722663"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33957220411"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33857722663",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33957220411",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
