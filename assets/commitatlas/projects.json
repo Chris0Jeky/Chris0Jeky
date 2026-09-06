@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-05T09:10:20.875Z",
+  "generatedAt": "2026-09-06T09:31:37.058Z",
   "window": {
-    "from": "2025-09-06",
-    "to": "2026-09-05",
+    "from": "2025-09-07",
+    "to": "2026-09-06",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 299,
-      "pushedAt": "2026-09-05T09:09:34Z",
+      "openIssuesAndPullRequests": 293,
+      "pushedAt": "2026-09-06T08:47:58Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33957220411"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34009338342"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/33957220411",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34009338342",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -109,8 +109,8 @@
       "openIssuesAndPullRequests": 66,
       "pushedAt": "2026-09-03T12:59:00Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33700007074"
       },
@@ -174,8 +174,8 @@
       "openIssuesAndPullRequests": 21,
       "pushedAt": "2026-09-03T00:55:11Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/33701516820"
       },
