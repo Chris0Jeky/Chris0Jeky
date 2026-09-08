@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-07T10:30:37.463Z`.
-Window: `2025-09-08` → `2026-09-07` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-08T09:51:31.653Z`.
+Window: `2025-09-09` → `2026-09-08` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,16 +10,16 @@ Window: `2025-09-08` → `2026-09-07` (365 days).
 
 - **Repository:** `chris0jeky/Taskdeck`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci-required.yml`)
+- **CI:** Failing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 1 stars · 254 open issues/PRs
+- **Stats:** 1 stars · 265 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/34099223354) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/34177184635) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured

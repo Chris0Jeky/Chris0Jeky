@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-07T10:30:37.463Z",
+  "generatedAt": "2026-09-08T09:51:31.653Z",
   "window": {
-    "from": "2025-09-08",
-    "to": "2026-09-07",
+    "from": "2025-09-09",
+    "to": "2026-09-08",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 254,
-      "pushedAt": "2026-09-07T10:03:09Z",
+      "openIssuesAndPullRequests": 265,
+      "pushedAt": "2026-09-08T01:49:42Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "failing",
+        "label": "Failing",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34099223354"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34177184635"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34099223354",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34177184635",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -350,7 +350,7 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 9,
-      "pushedAt": "2026-09-03T13:22:07Z",
+      "pushedAt": "2026-09-07T23:56:14Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
