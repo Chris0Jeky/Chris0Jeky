@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-08T09:51:31.653Z`.
-Window: `2025-09-09` → `2026-09-08` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-09T09:54:40.483Z`.
+Window: `2025-09-10` → `2026-09-09` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,7 +12,7 @@ Window: `2025-09-09` → `2026-09-08` (365 days).
 - **Lifecycle:** Active
 - **CI:** Failing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 1 stars · 265 open issues/PRs
+- **Stats:** 1 stars · 263 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
