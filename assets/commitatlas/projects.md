@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-09T09:54:40.483Z`.
-Window: `2025-09-10` → `2026-09-09` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-10T09:51:56.036Z`.
+Window: `2025-09-11` → `2026-09-10` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,16 +10,16 @@ Window: `2025-09-10` → `2026-09-09` (365 days).
 
 - **Repository:** `chris0jeky/Taskdeck`
 - **Lifecycle:** Active
-- **CI:** Failing (`ci-required.yml`)
+- **CI:** Pending (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 1 stars · 263 open issues/PRs
+- **Stats:** 1 stars · 256 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/34177184635) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/34461183208) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -31,7 +31,7 @@ Window: `2025-09-10` → `2026-09-09` (365 days).
 - **Lifecycle:** Active
 - **CI:** Stale result (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 70 open issues/PRs
+- **Stats:** 72 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions
@@ -46,9 +46,9 @@ Window: `2025-09-10` → `2026-09-09` (365 days).
 
 - **Repository:** `chris0jeky/IdleHarbor`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** Free, open\-source Windows mouse jiggler and keep\-awake utility\. Native C\+\+20/Win32, ~530 KB, no runtime, no telemetry\. Bounded motion modes, Windows power requests, and safeguards that pause on real input, lock, battery, or full\-screen apps\.
-- **Stats:** 21 open issues/PRs
+- **Stats:** 22 open issues/PRs
 - **Release:** v0\.2\.0 (`v0.2.0`)
 
 ### Actions
@@ -65,7 +65,7 @@ Window: `2025-09-10` → `2026-09-09` (365 days).
 - **Lifecycle:** Active
 - **CI:** Stale result (`pages.yml`)
 - **Description:** A private local GitHub development retrospective with a privacy\-safe public showcase\.
-- **Stats:** 53 open issues/PRs
+- **Stats:** 56 open issues/PRs
 
 ### Actions
 
@@ -80,7 +80,7 @@ Window: `2025-09-10` → `2026-09-09` (365 days).
 - **Lifecycle:** Maintenance
 - **CI:** Stale result (`ci.yml`)
 - **Description:** An open\-source CLI plus GitHub Action that prevents unsafe prompt, model, retrieval, tool, or configuration changes from being merged
-- **Stats:** 1 open issues/PRs
+- **Stats:** 2 open issues/PRs
 - **Release:** llm\-release\-gate v0\.1\.2 (`v0.1.2`)
 
 ### Actions
@@ -96,7 +96,7 @@ Window: `2025-09-10` → `2026-09-09` (365 days).
 - **Lifecycle:** Maintenance
 - **CI:** Stale result (`ci.yml`)
 - **Description:** Browser\-based Markdown\-to\-PDF editor with live pagination and page\-break\-safe export for technical and research documents\.
-- **Stats:** 9 open issues/PRs
+- **Stats:** 10 open issues/PRs
 
 ### Actions
 

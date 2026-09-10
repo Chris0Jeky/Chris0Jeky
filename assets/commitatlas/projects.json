@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-09T09:54:40.483Z",
+  "generatedAt": "2026-09-10T09:51:56.036Z",
   "window": {
-    "from": "2025-09-10",
-    "to": "2026-09-09",
+    "from": "2025-09-11",
+    "to": "2026-09-10",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 263,
-      "pushedAt": "2026-09-09T09:53:26Z",
+      "openIssuesAndPullRequests": 256,
+      "pushedAt": "2026-09-10T09:50:07Z",
       "ci": {
-        "state": "failing",
-        "label": "Failing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34177184635"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34461183208"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34177184635",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34461183208",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -106,8 +106,8 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 70,
-      "pushedAt": "2026-09-07T06:23:04Z",
+      "openIssuesAndPullRequests": 72,
+      "pushedAt": "2026-09-10T00:13:35Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
@@ -171,11 +171,11 @@
       "primaryLanguage": "C++",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 21,
-      "pushedAt": "2026-09-07T07:53:30Z",
+      "openIssuesAndPullRequests": 22,
+      "pushedAt": "2026-09-10T00:17:45Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34097721975"
       },
@@ -240,8 +240,8 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 53,
-      "pushedAt": "2026-09-03T13:10:47Z",
+      "openIssuesAndPullRequests": 56,
+      "pushedAt": "2026-09-09T23:52:06Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
@@ -292,8 +292,8 @@
       "primaryLanguage": "Python",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 1,
-      "pushedAt": "2026-08-13T01:55:59Z",
+      "openIssuesAndPullRequests": 2,
+      "pushedAt": "2026-09-09T23:36:24Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
@@ -349,8 +349,8 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 9,
-      "pushedAt": "2026-09-07T23:56:14Z",
+      "openIssuesAndPullRequests": 10,
+      "pushedAt": "2026-09-09T23:56:27Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
