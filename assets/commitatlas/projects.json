@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-10T09:51:56.036Z",
+  "generatedAt": "2026-09-11T09:51:25.366Z",
   "window": {
-    "from": "2025-09-11",
-    "to": "2026-09-10",
+    "from": "2025-09-12",
+    "to": "2026-09-11",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 256,
-      "pushedAt": "2026-09-10T09:50:07Z",
+      "openIssuesAndPullRequests": 303,
+      "pushedAt": "2026-09-11T01:21:27Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34461183208"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34550335664"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34461183208",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34550335664",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -106,13 +106,13 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 72,
-      "pushedAt": "2026-09-10T00:13:35Z",
+      "openIssuesAndPullRequests": 68,
+      "pushedAt": "2026-09-10T21:54:55Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33700007074"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/34534716434"
       },
       "release": {
         "tag": "v0.4.0",
@@ -139,7 +139,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/33700007074",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/34534716434",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -172,12 +172,12 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 22,
-      "pushedAt": "2026-09-10T00:17:45Z",
+      "pushedAt": "2026-09-10T18:49:40Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34097721975"
+        "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34516712433"
       },
       "release": {
         "tag": "v0.2.0",
@@ -208,7 +208,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34097721975",
+          "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34516712433",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -241,12 +241,12 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 56,
-      "pushedAt": "2026-09-09T23:52:06Z",
+      "pushedAt": "2026-09-10T22:10:15Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "pages.yml",
-        "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/33759589035"
+        "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/34536072712"
       },
       "actions": [
         {
@@ -268,7 +268,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/33759589035",
+          "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/34536072712",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -293,12 +293,12 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 2,
-      "pushedAt": "2026-09-09T23:36:24Z",
+      "pushedAt": "2026-09-10T18:31:30Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/31659253403"
+        "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/34514874070"
       },
       "release": {
         "tag": "v0.1.2",
@@ -317,7 +317,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/31659253403",
+          "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/34514874070",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -349,13 +349,13 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 10,
-      "pushedAt": "2026-09-09T23:56:27Z",
+      "openIssuesAndPullRequests": 7,
+      "pushedAt": "2026-09-10T21:41:21Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/33760477254"
+        "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/34533538045"
       },
       "actions": [
         {
@@ -377,7 +377,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/33760477254",
+          "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/34533538045",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
