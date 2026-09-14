@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-13T10:23:57.011Z`.
-Window: `2025-09-14` → `2026-09-13` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-14T10:49:10.721Z`.
+Window: `2025-09-15` → `2026-09-14` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -29,9 +29,9 @@ Window: `2025-09-14` → `2026-09-13` (365 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 68 open issues/PRs
+- **Stats:** 73 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions
@@ -46,7 +46,7 @@ Window: `2025-09-14` → `2026-09-13` (365 days).
 
 - **Repository:** `chris0jeky/IdleHarbor`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** Free, open\-source Windows mouse jiggler and keep\-awake utility\. Native C\+\+20/Win32, ~530 KB, no runtime, no telemetry\. Bounded motion modes, Windows power requests, and safeguards that pause on real input, lock, battery, or full\-screen apps\.
 - **Stats:** 22 open issues/PRs
 - **Release:** v0\.2\.0 (`v0.2.0`)
@@ -63,7 +63,7 @@ Window: `2025-09-14` → `2026-09-13` (365 days).
 
 - **Repository:** `chris0jeky/developer-lens`
 - **Lifecycle:** Active
-- **CI:** Passing (`pages.yml`)
+- **CI:** Stale result (`pages.yml`)
 - **Description:** A private local GitHub development retrospective with a privacy\-safe public showcase\.
 - **Stats:** 56 open issues/PRs
 
@@ -78,7 +78,7 @@ Window: `2025-09-14` → `2026-09-13` (365 days).
 
 - **Repository:** `chris0jeky/llm-release-gate`
 - **Lifecycle:** Maintenance
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** An open\-source CLI plus GitHub Action that prevents unsafe prompt, model, retrieval, tool, or configuration changes from being merged
 - **Stats:** 2 open issues/PRs
 - **Release:** llm\-release\-gate v0\.1\.2 (`v0.1.2`)
@@ -94,7 +94,7 @@ Window: `2025-09-14` → `2026-09-13` (365 days).
 
 - **Repository:** `chris0jeky/MDviewer`
 - **Lifecycle:** Maintenance
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** Browser\-based Markdown\-to\-PDF editor with live pagination and page\-break\-safe export for technical and research documents\.
 - **Stats:** 7 open issues/PRs
 

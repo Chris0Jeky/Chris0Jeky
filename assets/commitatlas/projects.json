@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-13T10:23:57.011Z",
+  "generatedAt": "2026-09-14T10:49:10.721Z",
   "window": {
-    "from": "2025-09-14",
-    "to": "2026-09-13",
+    "from": "2025-09-15",
+    "to": "2026-09-14",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -106,11 +106,11 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 68,
-      "pushedAt": "2026-09-10T21:54:55Z",
+      "openIssuesAndPullRequests": 73,
+      "pushedAt": "2026-09-14T06:20:13Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/34534716434"
       },
@@ -172,10 +172,10 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 22,
-      "pushedAt": "2026-09-10T18:49:40Z",
+      "pushedAt": "2026-09-14T04:29:11Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34516712433"
       },
@@ -243,8 +243,8 @@
       "openIssuesAndPullRequests": 56,
       "pushedAt": "2026-09-10T22:10:15Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "pages.yml",
         "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/34536072712"
       },
@@ -295,8 +295,8 @@
       "openIssuesAndPullRequests": 2,
       "pushedAt": "2026-09-10T18:31:30Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/34514874070"
       },
@@ -352,8 +352,8 @@
       "openIssuesAndPullRequests": 7,
       "pushedAt": "2026-09-10T21:41:21Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/34533538045"
       },
