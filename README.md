@@ -25,7 +25,7 @@ I build software that turns ambiguous input, automation, and complex technical w
   </a>
 </div>
 
-<p align="center"><sub>Daily committed snapshot from GitHub's logged-out public profile view · the signed-in owner's calendar can differ because it may include private activity · exact 365-day window printed in the card · no credential or private repository detail requested · a failed refresh keeps the last committed good snapshot available · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
+<p align="center"><sub>Daily committed snapshot from GitHub's logged-out public profile view · the signed-in owner's contribution calendar can differ because it may include private activity · exact 365-day window ending on the date printed in the card · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
 
 ---
 
@@ -128,17 +128,17 @@ Source-backed GitHub analytics, deterministic README graphics, project-health vi
 
 ## Generated flagship snapshot
 
-The catalogue below is regenerated from one credential-free CommitAtlas public snapshot. Repository lifecycle is curated; CI is read only from the configured named workflow; releases and actions are source-backed or explicitly configured. The committed `.commitatlas.json` now tracks Taskdeck, Local Asset Studio, NavSentinel, Alibi, Pulseboard, and CommitAtlas. The first scheduled refresh after this configuration change will replace this block with exact public signals.
+The catalogue below is the last committed credential-free CommitAtlas snapshot. It stays marker-owned and unchanged in this documentation PR; the updated `.commitatlas.json` will move it to the current six flagships through the existing scheduled or manually dispatched generator after merge.
 
 <!-- commitatlas:project-catalog:start -->
-| Project | Status | Current public entry points |
+| Project | Status | Signals/actions |
 | --- | --- | --- |
-| [Taskdeck](https://github.com/Chris0Jeky/Taskdeck) | Active · beta | [Docs](https://chris0jeky.github.io/Taskdeck/) · [Latest stable release](https://github.com/Chris0Jeky/Taskdeck/releases/latest) |
-| [Local Asset Studio](https://github.com/Chris0Jeky/local-asset-studio) | Active · local workbench | [README](https://github.com/Chris0Jeky/local-asset-studio#readme) |
-| [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) | Active · pre-alpha | [README](https://github.com/Chris0Jeky/NavSentinel#readme) |
-| [Alibi](https://github.com/Chris0Jeky/Alibi) | Active · browser/PWA release | [Play](https://alibi-after-hours-preview.commit-atlas.workers.dev/) · [Release](https://github.com/Chris0Jeky/Alibi/releases/latest) |
-| [Pulseboard](https://github.com/Chris0Jeky/Pulseboard) | Active · hosted pilot | [Desk](https://pulseboard-observatory.commit-atlas.workers.dev/) · [README](https://github.com/Chris0Jeky/Pulseboard#readme) |
-| [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · v0.4.0 | [Studio](https://commit-atlas.commit-atlas.workers.dev/studio) · [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/latest) |
+| [Taskdeck](https://github.com/Chris0Jeky/Taskdeck) | Active · CI passing | 1 stars · 290 open issues/PRs; Language: C#; Workflow: ci-required.yml; Release: v0.2.0; Actions: [Website](https://chris0jeky.github.io/Taskdeck/) · [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/34723754391) · [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) · [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) · [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) · [Download](https://github.com/Chris0Jeky/Taskdeck/releases/latest) |
+| [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · CI stale | 73 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Release: v0.4.0; Actions: [Website](https://commit-atlas.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/34534716434) · [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) |
+| [IdleHarbor](https://github.com/Chris0Jeky/IdleHarbor) | Active · CI stale | 22 open issues/PRs; Language: C++; Workflow: ci.yml; Release: v0.2.0; Actions: [Website](https://chris0jeky.github.io/IdleHarbor/) · [CI](https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34516712433) · [Release](https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.2.0) · [Release download](https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.2.0/IdleHarbor-0.2.0-windows-arm64-portable.zip) |
+| [Developer Lens](https://github.com/Chris0Jeky/developer-lens) | Active · CI stale | 56 open issues/PRs; Language: TypeScript; Workflow: pages.yml; Actions: [Website](https://chris0jeky.github.io/developer-lens/) · [CI](https://github.com/Chris0Jeky/developer-lens/actions/runs/34536072712) · [Docs](https://github.com/Chris0Jeky/developer-lens#readme) |
+| [LLM Release Gate](https://github.com/Chris0Jeky/llm-release-gate) | Maintenance · CI stale | 2 open issues/PRs; Language: Python; Workflow: ci.yml; Release: v0.1.2; Actions: [CI](https://github.com/Chris0Jeky/llm-release-gate/actions/runs/34514874070) · [Release](https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2) · [Download](https://github.com/Chris0Jeky/llm-release-gate/releases/latest) |
+| [MDviewer](https://github.com/Chris0Jeky/MDviewer) | Maintenance · CI stale | 7 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Actions: [Website](https://mdviewer-c9r.pages.dev/) · [CI](https://github.com/Chris0Jeky/MDviewer/actions/runs/34533538045) · [Docs](https://github.com/Chris0Jeky/MDviewer#readme) |
 <!-- commitatlas:project-catalog:end -->
 
 <details>
