@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-14T10:49:10.721Z`.
-Window: `2025-09-15` → `2026-09-14` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-15T10:11:46.915Z`.
+Window: `2025-09-16` → `2026-09-15` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,7 +12,7 @@ Window: `2025-09-15` → `2026-09-14` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 1 stars · 290 open issues/PRs
+- **Stats:** 1 stars · 305 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
@@ -31,7 +31,7 @@ Window: `2025-09-15` → `2026-09-14` (365 days).
 - **Lifecycle:** Active
 - **CI:** Stale result (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 73 open issues/PRs
+- **Stats:** 74 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions
@@ -65,7 +65,7 @@ Window: `2025-09-15` → `2026-09-14` (365 days).
 - **Lifecycle:** Active
 - **CI:** Stale result (`pages.yml`)
 - **Description:** A private local GitHub development retrospective with a privacy\-safe public showcase\.
-- **Stats:** 56 open issues/PRs
+- **Stats:** 57 open issues/PRs
 
 ### Actions
 
@@ -96,7 +96,7 @@ Window: `2025-09-15` → `2026-09-14` (365 days).
 - **Lifecycle:** Maintenance
 - **CI:** Stale result (`ci.yml`)
 - **Description:** Browser\-based Markdown\-to\-PDF editor with live pagination and page\-break\-safe export for technical and research documents\.
-- **Stats:** 7 open issues/PRs
+- **Stats:** 12 open issues/PRs
 
 ### Actions
 
