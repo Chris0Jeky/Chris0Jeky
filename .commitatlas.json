@@ -37,46 +37,49 @@
       }
     },
     {
+      "repo": "Chris0Jeky/local-asset-studio",
+      "label": "Local Asset Studio",
+      "lifecycle": "active",
+      "workflow": "check.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/local-asset-studio#readme"
+      }
+    },
+    {
+      "repo": "Chris0Jeky/NavSentinel",
+      "label": "NavSentinel",
+      "lifecycle": "active",
+      "workflow": "ci.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/NavSentinel#readme"
+      }
+    },
+    {
+      "repo": "Chris0Jeky/Alibi",
+      "label": "Alibi",
+      "lifecycle": "active",
+      "workflow": "check.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/Alibi#readme",
+        "download": "https://github.com/Chris0Jeky/Alibi/releases/latest"
+      }
+    },
+    {
+      "repo": "Chris0Jeky/Pulseboard",
+      "label": "Pulseboard",
+      "lifecycle": "active",
+      "workflow": "observatory.yml",
+      "links": {
+        "docs": "https://github.com/Chris0Jeky/Pulseboard#readme"
+      }
+    },
+    {
       "repo": "Chris0Jeky/CommitAtlas",
       "label": "CommitAtlas",
       "lifecycle": "active",
       "workflow": "ci.yml",
       "links": {
         "docs": "https://github.com/Chris0Jeky/CommitAtlas#readme"
-      }
-    },
-    {
-      "repo": "Chris0Jeky/IdleHarbor",
-      "label": "IdleHarbor",
-      "lifecycle": "active",
-      "workflow": "ci.yml",
-      "links": {}
-    },
-    {
-      "repo": "Chris0Jeky/developer-lens",
-      "label": "Developer Lens",
-      "lifecycle": "active",
-      "workflow": "pages.yml",
-      "links": {
-        "docs": "https://github.com/Chris0Jeky/developer-lens#readme"
-      }
-    },
-    {
-      "repo": "Chris0Jeky/llm-release-gate",
-      "label": "LLM Release Gate",
-      "lifecycle": "maintenance",
-      "workflow": "ci.yml",
-      "links": {
-        "download": "https://github.com/Chris0Jeky/llm-release-gate/releases/latest"
-      }
-    },
-    {
-      "repo": "Chris0Jeky/MDviewer",
-      "label": "MDviewer",
-      "lifecycle": "maintenance",
-      "workflow": "ci.yml",
-      "links": {
-        "docs": "https://github.com/Chris0Jeky/MDviewer#readme"
       }
     }
   ]
