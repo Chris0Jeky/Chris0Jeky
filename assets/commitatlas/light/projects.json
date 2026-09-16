@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-15T10:11:46.915Z",
+  "generatedAt": "2026-09-16T10:04:58.561Z",
   "window": {
-    "from": "2025-09-16",
-    "to": "2026-09-15",
+    "from": "2025-09-17",
+    "to": "2026-09-16",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,11 +21,11 @@
       "primaryLanguage": "C#",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 305,
-      "pushedAt": "2026-09-15T09:56:56Z",
+      "openIssuesAndPullRequests": 307,
+      "pushedAt": "2026-09-16T02:32:37Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci-required.yml",
         "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/34723754391"
       },
@@ -98,6 +98,223 @@
       ]
     },
     {
+      "repo": "chris0jeky/local-asset-studio",
+      "name": "local-asset-studio",
+      "label": "Local Asset Studio",
+      "description": "Local creative workshop: image-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples",
+      "lifecycle": "active",
+      "primaryLanguage": "Python",
+      "stars": 0,
+      "forks": 0,
+      "openIssuesAndPullRequests": 161,
+      "pushedAt": "2026-09-16T09:51:14Z",
+      "ci": {
+        "state": "passing",
+        "label": "Passing",
+        "workflow": "check.yml",
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35081747960"
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35081747960",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio#readme",
+          "origin": "config",
+          "host": "github.com",
+          "external": false
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/NavSentinel",
+      "name": "NavSentinel",
+      "label": "NavSentinel",
+      "description": "MV3 browser extension: navigation intent firewall (policy-first browsing safety).",
+      "lifecycle": "active",
+      "primaryLanguage": "TypeScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssuesAndPullRequests": 101,
+      "pushedAt": "2026-09-16T05:28:54Z",
+      "ci": {
+        "state": "passing",
+        "label": "Passing",
+        "workflow": "ci.yml",
+        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/34911119299"
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/NavSentinel",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/34911119299",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/NavSentinel#readme",
+          "origin": "config",
+          "host": "github.com",
+          "external": false
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/Alibi",
+      "name": "Alibi",
+      "label": "Alibi",
+      "description": "An offline-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device-local saves. No account required.",
+      "lifecycle": "active",
+      "primaryLanguage": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssuesAndPullRequests": 67,
+      "pushedAt": "2026-09-16T05:14:55Z",
+      "ci": {
+        "state": "stale",
+        "label": "Stale result",
+        "workflow": "check.yml",
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/34705382214"
+      },
+      "release": {
+        "tag": "v0.11.3",
+        "name": "Alibi 0.11.3 — A clearer Expert collection",
+        "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.11.3",
+        "download": {
+          "name": "alibi-deluxe-cloudflare.zip",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.11.3/alibi-deluxe-cloudflare.zip"
+        }
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/Alibi",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "website",
+          "label": "Website",
+          "url": "https://alibi-after-hours-preview.commit-atlas.workers.dev/",
+          "origin": "snapshot",
+          "host": "alibi-after-hours-preview.commit-atlas.workers.dev",
+          "external": true
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/34705382214",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "release",
+          "label": "Release",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.11.3",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "release-download",
+          "label": "Release download",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.11.3/alibi-deluxe-cloudflare.zip",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/Alibi#readme",
+          "origin": "config",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "download",
+          "label": "Download",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/latest",
+          "origin": "config",
+          "host": "github.com",
+          "external": false
+        }
+      ]
+    },
+    {
+      "repo": "chris0jeky/Pulseboard",
+      "name": "Pulseboard",
+      "label": "Pulseboard",
+      "description": "Local-first real-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface.",
+      "lifecycle": "active",
+      "primaryLanguage": "JavaScript",
+      "stars": 0,
+      "forks": 0,
+      "openIssuesAndPullRequests": 18,
+      "pushedAt": "2026-09-15T09:39:06Z",
+      "ci": {
+        "state": "stale",
+        "label": "Stale result",
+        "workflow": "observatory.yml",
+        "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/34514707464"
+      },
+      "actions": [
+        {
+          "kind": "source",
+          "label": "Source",
+          "url": "https://github.com/Chris0Jeky/Pulseboard",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/34514707464",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "docs",
+          "label": "Docs",
+          "url": "https://github.com/Chris0Jeky/Pulseboard#readme",
+          "origin": "config",
+          "host": "github.com",
+          "external": false
+        }
+      ]
+    },
+    {
       "repo": "chris0jeky/CommitAtlas",
       "name": "CommitAtlas",
       "label": "CommitAtlas",
@@ -156,236 +373,6 @@
           "kind": "docs",
           "label": "Docs",
           "url": "https://github.com/Chris0Jeky/CommitAtlas#readme",
-          "origin": "config",
-          "host": "github.com",
-          "external": false
-        }
-      ]
-    },
-    {
-      "repo": "chris0jeky/IdleHarbor",
-      "name": "IdleHarbor",
-      "label": "IdleHarbor",
-      "description": "Free, open-source Windows mouse jiggler and keep-awake utility. Native C++20/Win32, ~530 KB, no runtime, no telemetry. Bounded motion modes, Windows power requests, and safeguards that pause on real input, lock, battery, or full-screen apps.",
-      "lifecycle": "active",
-      "primaryLanguage": "C++",
-      "stars": 0,
-      "forks": 0,
-      "openIssuesAndPullRequests": 22,
-      "pushedAt": "2026-09-14T04:29:11Z",
-      "ci": {
-        "state": "stale",
-        "label": "Stale result",
-        "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34516712433"
-      },
-      "release": {
-        "tag": "v0.2.0",
-        "name": "v0.2.0",
-        "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.2.0",
-        "download": {
-          "name": "IdleHarbor-0.2.0-windows-arm64-portable.zip",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.2.0/IdleHarbor-0.2.0-windows-arm64-portable.zip"
-        }
-      },
-      "actions": [
-        {
-          "kind": "source",
-          "label": "Source",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "website",
-          "label": "Website",
-          "url": "https://chris0jeky.github.io/IdleHarbor/",
-          "origin": "snapshot",
-          "host": "chris0jeky.github.io",
-          "external": true
-        },
-        {
-          "kind": "ci",
-          "label": "CI",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34516712433",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "release",
-          "label": "Release",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.2.0",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "release-download",
-          "label": "Release download",
-          "url": "https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.2.0/IdleHarbor-0.2.0-windows-arm64-portable.zip",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        }
-      ]
-    },
-    {
-      "repo": "chris0jeky/developer-lens",
-      "name": "developer-lens",
-      "label": "Developer Lens",
-      "description": "A private local GitHub development retrospective with a privacy-safe public showcase.",
-      "lifecycle": "active",
-      "primaryLanguage": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "openIssuesAndPullRequests": 57,
-      "pushedAt": "2026-09-15T09:49:23Z",
-      "ci": {
-        "state": "stale",
-        "label": "Stale result",
-        "workflow": "pages.yml",
-        "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/34536072712"
-      },
-      "actions": [
-        {
-          "kind": "source",
-          "label": "Source",
-          "url": "https://github.com/Chris0Jeky/developer-lens",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "website",
-          "label": "Website",
-          "url": "https://chris0jeky.github.io/developer-lens/",
-          "origin": "snapshot",
-          "host": "chris0jeky.github.io",
-          "external": true
-        },
-        {
-          "kind": "ci",
-          "label": "CI",
-          "url": "https://github.com/Chris0Jeky/developer-lens/actions/runs/34536072712",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "docs",
-          "label": "Docs",
-          "url": "https://github.com/Chris0Jeky/developer-lens#readme",
-          "origin": "config",
-          "host": "github.com",
-          "external": false
-        }
-      ]
-    },
-    {
-      "repo": "chris0jeky/llm-release-gate",
-      "name": "llm-release-gate",
-      "label": "LLM Release Gate",
-      "description": "An open-source CLI plus GitHub Action that prevents unsafe prompt, model, retrieval, tool, or configuration changes from being merged",
-      "lifecycle": "maintenance",
-      "primaryLanguage": "Python",
-      "stars": 0,
-      "forks": 0,
-      "openIssuesAndPullRequests": 2,
-      "pushedAt": "2026-09-10T18:31:30Z",
-      "ci": {
-        "state": "stale",
-        "label": "Stale result",
-        "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/34514874070"
-      },
-      "release": {
-        "tag": "v0.1.2",
-        "name": "llm-release-gate v0.1.2",
-        "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2"
-      },
-      "actions": [
-        {
-          "kind": "source",
-          "label": "Source",
-          "url": "https://github.com/Chris0Jeky/llm-release-gate",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "ci",
-          "label": "CI",
-          "url": "https://github.com/Chris0Jeky/llm-release-gate/actions/runs/34514874070",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "release",
-          "label": "Release",
-          "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "download",
-          "label": "Download",
-          "url": "https://github.com/Chris0Jeky/llm-release-gate/releases/latest",
-          "origin": "config",
-          "host": "github.com",
-          "external": false
-        }
-      ]
-    },
-    {
-      "repo": "chris0jeky/MDviewer",
-      "name": "MDviewer",
-      "label": "MDviewer",
-      "description": "Browser-based Markdown-to-PDF editor with live pagination and page-break-safe export for technical and research documents.",
-      "lifecycle": "maintenance",
-      "primaryLanguage": "TypeScript",
-      "stars": 0,
-      "forks": 0,
-      "openIssuesAndPullRequests": 12,
-      "pushedAt": "2026-09-14T23:57:24Z",
-      "ci": {
-        "state": "stale",
-        "label": "Stale result",
-        "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/34533538045"
-      },
-      "actions": [
-        {
-          "kind": "source",
-          "label": "Source",
-          "url": "https://github.com/Chris0Jeky/MDviewer",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "website",
-          "label": "Website",
-          "url": "https://mdviewer-c9r.pages.dev/",
-          "origin": "snapshot",
-          "host": "mdviewer-c9r.pages.dev",
-          "external": true
-        },
-        {
-          "kind": "ci",
-          "label": "CI",
-          "url": "https://github.com/Chris0Jeky/MDviewer/actions/runs/34533538045",
-          "origin": "snapshot",
-          "host": "github.com",
-          "external": false
-        },
-        {
-          "kind": "docs",
-          "label": "Docs",
-          "url": "https://github.com/Chris0Jeky/MDviewer#readme",
           "origin": "config",
           "host": "github.com",
           "external": false

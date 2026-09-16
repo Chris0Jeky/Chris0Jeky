@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-15T10:11:46.915Z`.
-Window: `2025-09-16` → `2026-09-15` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-16T10:04:58.561Z`.
+Window: `2025-09-17` → `2026-09-16` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,9 +10,9 @@ Window: `2025-09-16` → `2026-09-15` (365 days).
 
 - **Repository:** `chris0jeky/Taskdeck`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci-required.yml`)
+- **CI:** Stale result (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 1 stars · 305 open issues/PRs
+- **Stats:** 1 stars · 307 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
@@ -24,6 +24,67 @@ Window: `2025-09-16` → `2026-09-15` (365 days).
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
 - [Download](https://github.com/Chris0Jeky/Taskdeck/releases/latest) — configured
+
+## Local Asset Studio
+
+- **Repository:** `chris0jeky/local-asset-studio`
+- **Lifecycle:** Active
+- **CI:** Passing (`check.yml`)
+- **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
+- **Stats:** 161 open issues/PRs
+
+### Actions
+
+- [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35081747960) — observed
+- [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
+
+## NavSentinel
+
+- **Repository:** `chris0jeky/NavSentinel`
+- **Lifecycle:** Active
+- **CI:** Passing (`ci.yml`)
+- **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
+- **Stats:** 101 open issues/PRs
+
+### Actions
+
+- [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/34911119299) — observed
+- [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
+
+## Alibi
+
+- **Repository:** `chris0jeky/Alibi`
+- **Lifecycle:** Active
+- **CI:** Stale result (`check.yml`)
+- **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
+- **Stats:** 67 open issues/PRs
+- **Release:** Alibi 0\.11\.3 — A clearer Expert collection (`v0.11.3`)
+
+### Actions
+
+- [Source](https://github.com/Chris0Jeky/Alibi) — observed
+- [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) — observed · external host `alibi-after-hours-preview.commit-atlas.workers.dev`
+- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/34705382214) — observed
+- [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.11.3) — observed
+- [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.11.3/alibi-deluxe-cloudflare.zip) — observed
+- [Docs](https://github.com/Chris0Jeky/Alibi#readme) — configured
+- [Download](https://github.com/Chris0Jeky/Alibi/releases/latest) — configured
+
+## Pulseboard
+
+- **Repository:** `chris0jeky/Pulseboard`
+- **Lifecycle:** Active
+- **CI:** Stale result (`observatory.yml`)
+- **Description:** Local\-first real\-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface\.
+- **Stats:** 18 open issues/PRs
+
+### Actions
+
+- [Source](https://github.com/Chris0Jeky/Pulseboard) — observed
+- [CI](https://github.com/Chris0Jeky/Pulseboard/actions/runs/34514707464) — observed
+- [Docs](https://github.com/Chris0Jeky/Pulseboard#readme) — configured
 
 ## CommitAtlas
 
@@ -41,66 +102,3 @@ Window: `2025-09-16` → `2026-09-15` (365 days).
 - [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/34534716434) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured
-
-## IdleHarbor
-
-- **Repository:** `chris0jeky/IdleHarbor`
-- **Lifecycle:** Active
-- **CI:** Stale result (`ci.yml`)
-- **Description:** Free, open\-source Windows mouse jiggler and keep\-awake utility\. Native C\+\+20/Win32, ~530 KB, no runtime, no telemetry\. Bounded motion modes, Windows power requests, and safeguards that pause on real input, lock, battery, or full\-screen apps\.
-- **Stats:** 22 open issues/PRs
-- **Release:** v0\.2\.0 (`v0.2.0`)
-
-### Actions
-
-- [Source](https://github.com/Chris0Jeky/IdleHarbor) — observed
-- [Website](https://chris0jeky.github.io/IdleHarbor/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/IdleHarbor/actions/runs/34516712433) — observed
-- [Release](https://github.com/Chris0Jeky/IdleHarbor/releases/tag/v0.2.0) — observed
-- [Release download](https://github.com/Chris0Jeky/IdleHarbor/releases/download/v0.2.0/IdleHarbor-0.2.0-windows-arm64-portable.zip) — observed
-
-## Developer Lens
-
-- **Repository:** `chris0jeky/developer-lens`
-- **Lifecycle:** Active
-- **CI:** Stale result (`pages.yml`)
-- **Description:** A private local GitHub development retrospective with a privacy\-safe public showcase\.
-- **Stats:** 57 open issues/PRs
-
-### Actions
-
-- [Source](https://github.com/Chris0Jeky/developer-lens) — observed
-- [Website](https://chris0jeky.github.io/developer-lens/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/developer-lens/actions/runs/34536072712) — observed
-- [Docs](https://github.com/Chris0Jeky/developer-lens#readme) — configured
-
-## LLM Release Gate
-
-- **Repository:** `chris0jeky/llm-release-gate`
-- **Lifecycle:** Maintenance
-- **CI:** Stale result (`ci.yml`)
-- **Description:** An open\-source CLI plus GitHub Action that prevents unsafe prompt, model, retrieval, tool, or configuration changes from being merged
-- **Stats:** 2 open issues/PRs
-- **Release:** llm\-release\-gate v0\.1\.2 (`v0.1.2`)
-
-### Actions
-
-- [Source](https://github.com/Chris0Jeky/llm-release-gate) — observed
-- [CI](https://github.com/Chris0Jeky/llm-release-gate/actions/runs/34514874070) — observed
-- [Release](https://github.com/Chris0Jeky/llm-release-gate/releases/tag/v0.1.2) — observed
-- [Download](https://github.com/Chris0Jeky/llm-release-gate/releases/latest) — configured
-
-## MDviewer
-
-- **Repository:** `chris0jeky/MDviewer`
-- **Lifecycle:** Maintenance
-- **CI:** Stale result (`ci.yml`)
-- **Description:** Browser\-based Markdown\-to\-PDF editor with live pagination and page\-break\-safe export for technical and research documents\.
-- **Stats:** 12 open issues/PRs
-
-### Actions
-
-- [Source](https://github.com/Chris0Jeky/MDviewer) — observed
-- [Website](https://mdviewer-c9r.pages.dev/) — observed · external host `mdviewer-c9r.pages.dev`
-- [CI](https://github.com/Chris0Jeky/MDviewer/actions/runs/34533538045) — observed
-- [Docs](https://github.com/Chris0Jeky/MDviewer#readme) — configured
