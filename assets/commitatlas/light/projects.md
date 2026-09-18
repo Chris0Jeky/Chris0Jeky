@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-17T10:08:13.641Z`.
-Window: `2025-09-18` → `2026-09-17` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-18T10:15:30.213Z`.
+Window: `2025-09-19` → `2026-09-18` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,16 +10,16 @@ Window: `2025-09-18` → `2026-09-17` (365 days).
 
 - **Repository:** `chris0jeky/Taskdeck`
 - **Lifecycle:** Active
-- **CI:** Stale result (`ci-required.yml`)
+- **CI:** Pending (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 1 stars · 284 open issues/PRs
+- **Stats:** 1 stars · 325 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/34288499464) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/35332345568) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -31,12 +31,12 @@ Window: `2025-09-18` → `2026-09-17` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 140 open issues/PRs
+- **Stats:** 152 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35170940434) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35311003224) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
@@ -45,12 +45,12 @@ Window: `2025-09-18` → `2026-09-17` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci.yml`)
 - **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
-- **Stats:** 92 open issues/PRs
+- **Stats:** 91 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
-- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/35191285773) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/35259339565) — observed
 - [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
 
 ## Alibi
@@ -59,7 +59,7 @@ Window: `2025-09-18` → `2026-09-17` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
-- **Stats:** 48 open issues/PRs
+- **Stats:** 59 open issues/PRs
 - **Release:** Alibi 0\.11\.4 — A deeper Expert collection (`v0.11.4`)
 
 ### Actions
@@ -78,7 +78,7 @@ Window: `2025-09-18` → `2026-09-17` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`observatory.yml`)
 - **Description:** Local\-first real\-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface\.
-- **Stats:** 17 open issues/PRs
+- **Stats:** 29 open issues/PRs
 
 ### Actions
 
@@ -92,13 +92,13 @@ Window: `2025-09-18` → `2026-09-17` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 75 open issues/PRs
+- **Stats:** 71 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/35170591634) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/35232367617) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured
