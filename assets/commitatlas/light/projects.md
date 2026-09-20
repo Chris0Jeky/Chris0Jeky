@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-09-19T09:36:43.352Z`.
-Window: `2025-09-20` → `2026-09-19` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-09-20T09:52:56.201Z`.
+Window: `2025-09-21` → `2026-09-20` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,14 +12,14 @@ Window: `2025-09-20` → `2026-09-19` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci-required.yml`)
 - **Description:** Local\-first Kanban \+ capture pipeline for developers — review\-first automation \(proposal diffs\), offline by default\.
-- **Stats:** 1 stars · 292 open issues/PRs
+- **Stats:** 1 stars · 259 open issues/PRs
 - **Release:** Taskdeck v0\.2\.0 (`v0.2.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Taskdeck) — observed
 - [Website](https://chris0jeky.github.io/Taskdeck/) — observed · external host `chris0jeky.github.io`
-- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/35404673566) — observed
+- [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/35484384900) — observed
 - [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) — observed
 - [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) — configured
@@ -31,12 +31,12 @@ Window: `2025-09-20` → `2026-09-19` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 186 open issues/PRs
+- **Stats:** 203 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35409251718) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35451638664) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
@@ -45,7 +45,7 @@ Window: `2025-09-20` → `2026-09-19` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci.yml`)
 - **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
-- **Stats:** 91 open issues/PRs
+- **Stats:** 94 open issues/PRs
 
 ### Actions
 
@@ -57,9 +57,9 @@ Window: `2025-09-20` → `2026-09-19` (365 days).
 
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
-- **CI:** Passing (`check.yml`)
+- **CI:** Stale result (`check.yml`)
 - **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
-- **Stats:** 59 open issues/PRs
+- **Stats:** 61 open issues/PRs
 - **Release:** Alibi 0\.11\.4 — A deeper Expert collection (`v0.11.4`)
 
 ### Actions
@@ -76,9 +76,9 @@ Window: `2025-09-20` → `2026-09-19` (365 days).
 
 - **Repository:** `chris0jeky/Pulseboard`
 - **Lifecycle:** Active
-- **CI:** Passing (`observatory.yml`)
+- **CI:** Stale result (`observatory.yml`)
 - **Description:** Local\-first real\-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface\.
-- **Stats:** 29 open issues/PRs
+- **Stats:** 32 open issues/PRs
 
 ### Actions
 
