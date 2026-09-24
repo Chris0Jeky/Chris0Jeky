@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-23T10:07:24.239Z",
+  "generatedAt": "2026-09-24T10:13:57.443Z",
   "window": {
-    "from": "2025-09-24",
-    "to": "2026-09-23",
+    "from": "2025-09-25",
+    "to": "2026-09-24",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -21,13 +21,13 @@
       "primaryLanguage": "C#",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 347,
-      "pushedAt": "2026-09-23T06:19:09Z",
+      "openIssuesAndPullRequests": 331,
+      "pushedAt": "2026-09-24T09:49:02Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/35809442530"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/35982305128"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/35809442530",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/35982305128",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -106,13 +106,13 @@
       "primaryLanguage": "Python",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 173,
-      "pushedAt": "2026-09-23T06:51:32Z",
+      "openIssuesAndPullRequests": 169,
+      "pushedAt": "2026-09-24T10:02:57Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35828744216"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35984759062"
       },
       "actions": [
         {
@@ -126,7 +126,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35828744216",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35984759062",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -150,13 +150,13 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 197,
-      "pushedAt": "2026-09-23T08:02:20Z",
+      "openIssuesAndPullRequests": 166,
+      "pushedAt": "2026-09-23T23:38:04Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/35754578757"
+        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/35934563803"
       },
       "actions": [
         {
@@ -170,7 +170,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/35754578757",
+          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/35934563803",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -194,13 +194,13 @@
       "primaryLanguage": "JavaScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 61,
-      "pushedAt": "2026-09-23T03:42:05Z",
+      "openIssuesAndPullRequests": 52,
+      "pushedAt": "2026-09-24T09:56:04Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/35815367599"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/35984246288"
       },
       "release": {
         "tag": "v0.11.4",
@@ -231,7 +231,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/35815367599",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/35984246288",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -279,8 +279,8 @@
       "primaryLanguage": "JavaScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 11,
-      "pushedAt": "2026-09-23T01:31:24Z",
+      "openIssuesAndPullRequests": 12,
+      "pushedAt": "2026-09-24T04:44:49Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
@@ -324,12 +324,12 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 67,
-      "pushedAt": "2026-09-23T02:21:36Z",
+      "pushedAt": "2026-09-23T20:55:02Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/35810033277"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/35919068362"
       },
       "release": {
         "tag": "v0.4.0",
@@ -356,7 +356,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/35810033277",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/35919068362",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
