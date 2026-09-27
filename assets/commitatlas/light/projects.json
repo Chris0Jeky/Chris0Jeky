@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-09-26T09:58:15.976Z",
+  "generatedAt": "2026-09-27T10:37:20.060Z",
   "window": {
-    "from": "2025-09-27",
-    "to": "2026-09-26",
+    "from": "2025-09-28",
+    "to": "2026-09-27",
     "days": 365,
     "observedDays": 365,
     "complete": true
@@ -19,15 +19,15 @@
       "description": "Local-first Kanban + capture pipeline for developers — review-first automation (proposal diffs), offline by default.",
       "lifecycle": "active",
       "primaryLanguage": "C#",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 331,
-      "pushedAt": "2026-09-25T23:01:57Z",
+      "openIssuesAndPullRequests": 317,
+      "pushedAt": "2026-09-27T10:23:49Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "ci-required.yml",
-        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/36199355857"
+        "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/36312220687"
       },
       "release": {
         "tag": "v0.2.0",
@@ -58,7 +58,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/36199355857",
+          "url": "https://github.com/Chris0Jeky/Taskdeck/actions/runs/36312220687",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -104,15 +104,15 @@
       "description": "Local creative workshop: image-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples",
       "lifecycle": "active",
       "primaryLanguage": "Python",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 151,
-      "pushedAt": "2026-09-26T00:26:07Z",
+      "openIssuesAndPullRequests": 145,
+      "pushedAt": "2026-09-27T10:32:39Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/36204838135"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/36312875734"
       },
       "actions": [
         {
@@ -126,7 +126,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/36204838135",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/36312875734",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -148,15 +148,15 @@
       "description": "MV3 browser extension: navigation intent firewall (policy-first browsing safety).",
       "lifecycle": "active",
       "primaryLanguage": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 115,
-      "pushedAt": "2026-09-26T00:36:23Z",
+      "openIssuesAndPullRequests": 107,
+      "pushedAt": "2026-09-27T06:46:45Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "failing",
+        "label": "Failing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/36205468244"
+        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/36300523136"
       },
       "actions": [
         {
@@ -170,7 +170,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/36205468244",
+          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/36300523136",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -192,23 +192,23 @@
       "description": "An offline-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device-local saves. No account required.",
       "lifecycle": "active",
       "primaryLanguage": "JavaScript",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 61,
-      "pushedAt": "2026-09-26T00:38:23Z",
+      "openIssuesAndPullRequests": 73,
+      "pushedAt": "2026-09-27T04:54:03Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/36198459618"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/36294860735"
       },
       "release": {
-        "tag": "v0.12.0",
-        "name": "Alibi 0.12.0",
-        "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.12.0",
+        "tag": "v0.15.0",
+        "name": "Alibi 0.15.0",
+        "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.0",
         "download": {
           "name": "alibi-deluxe-cloudflare.zip",
-          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.12.0/alibi-deluxe-cloudflare.zip"
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.0/alibi-deluxe-cloudflare.zip"
         }
       },
       "actions": [
@@ -231,7 +231,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/36198459618",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/36294860735",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -239,7 +239,7 @@
         {
           "kind": "release",
           "label": "Release",
-          "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.12.0",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.0",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -247,7 +247,7 @@
         {
           "kind": "release-download",
           "label": "Release download",
-          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.12.0/alibi-deluxe-cloudflare.zip",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.0/alibi-deluxe-cloudflare.zip",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -277,15 +277,15 @@
       "description": "Local-first real-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface.",
       "lifecycle": "active",
       "primaryLanguage": "JavaScript",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 13,
-      "pushedAt": "2026-09-25T19:01:16Z",
+      "openIssuesAndPullRequests": 20,
+      "pushedAt": "2026-09-27T04:32:16Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "observatory.yml",
-        "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/36177091599"
+        "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/36294597823"
       },
       "actions": [
         {
@@ -299,7 +299,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/36177091599",
+          "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/36294597823",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -323,13 +323,13 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 62,
-      "pushedAt": "2026-09-25T21:10:01Z",
+      "openIssuesAndPullRequests": 64,
+      "pushedAt": "2026-09-27T04:18:02Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/36190025266"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/36287500637"
       },
       "release": {
         "tag": "v0.4.0",
@@ -356,7 +356,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/36190025266",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/36287500637",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
