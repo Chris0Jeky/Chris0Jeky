@@ -27,16 +27,6 @@
   ],
   "projects": [
     {
-      "repo": "Chris0Jeky/Taskdeck",
-      "label": "Taskdeck",
-      "lifecycle": "active",
-      "workflow": "ci-required.yml",
-      "links": {
-        "docs": "https://github.com/Chris0Jeky/Taskdeck#readme",
-        "download": "https://github.com/Chris0Jeky/Taskdeck/releases/latest"
-      }
-    },
-    {
       "repo": "Chris0Jeky/local-asset-studio",
       "label": "Local Asset Studio",
       "lifecycle": "active",

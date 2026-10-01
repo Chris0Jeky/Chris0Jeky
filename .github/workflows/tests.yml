@@ -38,3 +38,28 @@ jobs:
         run: |
           node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
           git diff --exit-code -- README.md
+
+  public-refresh-preview:
+    # Prove the real public-data refresh on the proposed config without pushing any branch.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out proposed profile
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Generate credential-free public preview
+        uses: Chris0Jeky/CommitAtlas@c68cf08ee55e029d9da28a7c022515e8261bef24
+        with:
+          config: .commitatlas.json
+      - name: Render the proposed project catalog
+        run: node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
+      - name: Preserve reviewable preview
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: profile-refresh-preview
+          path: |
+            README.md
+            assets/commitatlas/
+          retention-days: 7
+          if-no-files-found: error
