@@ -23,7 +23,7 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@f0fb0b66380bb626275073e076180fcba151cd4d
+        uses: Chris0Jeky/CommitAtlas@c68cf08ee55e029d9da28a7c022515e8261bef24
         with:
           config: .commitatlas.json
 
@@ -103,4 +103,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(profile): refresh CommitAtlas assets"
-          git push origin HEAD:main
+          git push origin "HEAD:${GITHUB_REF_NAME}"

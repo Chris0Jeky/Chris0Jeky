@@ -46,13 +46,13 @@ My current projects span developer productivity, creative tooling, browser secur
 <tr>
 <td width="50%" valign="top">
 
-#### [Taskdeck](https://github.com/Chris0Jeky/Taskdeck)
+#### Taskdeck
 
 A local-first work operating system that turns notes, transcripts, files, and agent requests into source-linked proposals. People and agents can prepare work, but approval and apply remain explicit capabilities.
 
-**Now:** public beta; stable v0.2.0 and v0.3.0 release candidate; .NET 8, Vue 3, SQLite, SignalR, and review-gated MCP access.
+**Now:** active private-source project built with .NET 8, Vue 3, SQLite, SignalR, and review-gated MCP access.
 
-[Documentation](https://chris0jeky.github.io/Taskdeck/) · [Latest stable release](https://github.com/Chris0Jeky/Taskdeck/releases/latest) · [v0.3.0-rc.1](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.3.0-rc.1)
+Implementation source remains private. Public summaries are maintained separately from the automated public-repository cards below.
 
 </td>
 <td width="50%" valign="top">
@@ -85,7 +85,7 @@ A local-first Chrome MV3 interaction guard for deceptive navigation, risky submi
 
 An offline-first illustrated puzzle cabinet, mystery collection, and local authoring workshop. It combines versioned logic puzzles, explainable deductions, durable local saves, Wrenmere, Quiet Wing, and a deliberate mobile path.
 
-**Now:** browser/PWA release 0.11.3 with 355 puzzles across thirteen families; Capacitor/Android is planned and architected, not yet claimed as shipped.
+**Now:** browser/PWA release 0.15.0; the hosted cabinet shows 510 puzzles across thirteen families. Android packaging is under qualification; physical-device acceptance is not implied.
 
 [Play](https://alibi-after-hours-preview.commit-atlas.workers.dev/) · [Latest release](https://github.com/Chris0Jeky/Alibi/releases/latest) · [Roadmap](https://github.com/Chris0Jeky/Alibi/blob/main/ROADMAP.md)
 
@@ -128,7 +128,7 @@ Source-backed GitHub analytics, deterministic README graphics, project-health vi
 
 ## Generated flagship snapshot
 
-The catalogue below is the last committed credential-free CommitAtlas snapshot. It stays marker-owned and unchanged in this documentation PR; the updated `.commitatlas.json` will move it to the current six flagships through the existing scheduled or manually dispatched generator after merge.
+The catalogue below is generated from five public repositories by the pinned, credential-free CommitAtlas workflow. Taskdeck stays in the authored flagship summary above while its implementation source is private. The manifests record the snapshot date; failed refreshes retain the last verified bundle.
 
 <!-- commitatlas:project-catalog:start -->
 | Project | Status | Signals/actions |
@@ -150,7 +150,7 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
     <a href="https://commit-atlas.commit-atlas.workers.dev/studio">
       <picture>
         <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/projects.svg" />
-        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for six selected Chris0Jeky projects" src="./assets/commitatlas/projects.svg" />
+        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for five public Chris0Jeky projects" src="./assets/commitatlas/projects.svg" />
       </picture>
     </a>
   </div>
