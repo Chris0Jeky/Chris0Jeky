@@ -49,7 +49,7 @@ jobs:
       - name: Generate public CommitAtlas assets
         id: commitatlas
         if: github.event_name != 'schedule' || steps.activity.outputs.has_commits == 'true'
-        uses: Chris0Jeky/CommitAtlas@0040d7d50edd3b16de2a50363fd5de355417eb7d
+        uses: Chris0Jeky/CommitAtlas@5cb95cd7b185df85ba948c14e1f505b880c98926
         with:
           config: .commitatlas.json
 

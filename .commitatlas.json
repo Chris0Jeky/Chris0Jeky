@@ -8,7 +8,7 @@
       "outputDir": "assets/commitatlas/light"
     }
   ],
-  "days": 365,
+  "days": "auto",
   "motion": "subtle",
   "layout": "wide",
   "responsiveAtlas": true,
