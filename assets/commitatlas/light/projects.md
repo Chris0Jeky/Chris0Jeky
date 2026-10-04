@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-04T14:42:38.517Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-04T20:13:31.043Z`.
 Window: `2024-10-08` → `2026-10-04` (727 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -40,7 +40,7 @@ Window: `2024-10-08` → `2026-10-04` (727 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
-- **Stats:** 1 stars · 124 open issues/PRs
+- **Stats:** 1 stars · 125 open issues/PRs
 - **Release:** Alibi 0\.15\.1 (`v0.15.1`)
 
 ### Actions
