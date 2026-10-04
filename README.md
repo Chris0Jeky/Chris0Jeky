@@ -46,17 +46,6 @@ My current projects span developer productivity, creative tooling, browser secur
 <tr>
 <td width="50%" valign="top">
 
-#### [Taskdeck](https://github.com/Chris0Jeky/Taskdeck)
-
-A local-first work operating system that turns notes, transcripts, files, and agent requests into source-linked proposals. People and agents can prepare work, but approval and apply remain explicit capabilities.
-
-**Now:** public beta; stable v0.2.0 and v0.3.0 release candidate; .NET 8, Vue 3, SQLite, SignalR, and review-gated MCP access.
-
-[Documentation](https://chris0jeky.github.io/Taskdeck/) · [Latest stable release](https://github.com/Chris0Jeky/Taskdeck/releases/latest) · [v0.3.0-rc.1](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.3.0-rc.1)
-
-</td>
-<td width="50%" valign="top">
-
 #### [Local Asset Studio](https://github.com/Chris0Jeky/local-asset-studio)
 
 A local creative workflow studio above ComfyUI for generative images, reference editing, animation, 3D, model research, native-tool handoff, and reproducible experiments.
