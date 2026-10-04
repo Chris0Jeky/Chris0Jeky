@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-04T12:10:11.121Z`.
-Window: `2025-10-05` → `2026-10-04` (365 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-04T14:42:38.517Z`.
+Window: `2024-10-08` → `2026-10-04` (727 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -80,6 +80,6 @@ Window: `2025-10-05` → `2026-10-04` (365 days).
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37173606415) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37209736456) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured

@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-10-04T12:10:11.121Z",
+  "generatedAt": "2026-10-04T14:42:38.517Z",
   "window": {
-    "from": "2025-10-05",
+    "from": "2024-10-08",
     "to": "2026-10-04",
-    "days": 365,
-    "observedDays": 365,
+    "days": 727,
+    "observedDays": 727,
     "complete": true
   },
   "projects": [
@@ -239,12 +239,12 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 57,
-      "pushedAt": "2026-10-04T03:16:37Z",
+      "pushedAt": "2026-10-04T14:34:03Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37173606415"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37209736456"
       },
       "release": {
         "tag": "v0.4.0",
@@ -271,7 +271,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37173606415",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37209736456",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
