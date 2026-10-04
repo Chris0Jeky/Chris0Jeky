@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-04T01:49:08.507Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-04T11:10:18.365Z`.
 Window: `2025-10-05` → `2026-10-04` (365 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -12,7 +12,7 @@ Window: `2025-10-05` → `2026-10-04` (365 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 2 stars · 176 open issues/PRs
+- **Stats:** 2 stars · 179 open issues/PRs
 
 ### Actions
 
@@ -47,7 +47,7 @@ Window: `2025-10-05` → `2026-10-04` (365 days).
 
 - [Source](https://github.com/Chris0Jeky/Alibi) — observed
 - [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) — observed · external host `alibi-after-hours-preview.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/37163917450) — observed
+- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/37191076193) — observed
 - [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.1) — observed
 - [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.1/alibi-deluxe-cloudflare.zip) — observed
 - [Docs](https://github.com/Chris0Jeky/Alibi#readme) — configured
@@ -80,6 +80,6 @@ Window: `2025-10-05` → `2026-10-04` (365 days).
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37168710362) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37173606415) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured

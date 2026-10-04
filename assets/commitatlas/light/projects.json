@@ -3,7 +3,7 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-10-04T01:49:08.507Z",
+  "generatedAt": "2026-10-04T11:10:18.365Z",
   "window": {
     "from": "2025-10-05",
     "to": "2026-10-04",
@@ -21,8 +21,8 @@
       "primaryLanguage": "Python",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 176,
-      "pushedAt": "2026-10-03T23:35:51Z",
+      "openIssuesAndPullRequests": 179,
+      "pushedAt": "2026-10-04T08:27:45Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
@@ -110,12 +110,12 @@
       "stars": 1,
       "forks": 0,
       "openIssuesAndPullRequests": 124,
-      "pushedAt": "2026-10-04T00:42:48Z",
+      "pushedAt": "2026-10-04T09:06:22Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/37163917450"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/37191076193"
       },
       "release": {
         "tag": "v0.15.1",
@@ -146,7 +146,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/37163917450",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/37191076193",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -239,12 +239,12 @@
       "stars": 0,
       "forks": 0,
       "openIssuesAndPullRequests": 57,
-      "pushedAt": "2026-10-04T01:45:19Z",
+      "pushedAt": "2026-10-04T03:16:37Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37168710362"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37173606415"
       },
       "release": {
         "tag": "v0.4.0",
@@ -271,7 +271,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37168710362",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37173606415",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
