@@ -3,7 +3,7 @@ name: Refresh CommitAtlas profile
 on:
   workflow_dispatch:
   schedule:
-    - cron: "23 5 * * *"
+    - cron: "23 5,17 * * *"
 
 permissions:
   contents: write
@@ -21,13 +21,40 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
 
+      - name: Check for pushed commits in the trailing 24h
+        id: activity
+        if: github.event_name == 'schedule'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cutoff=$(date -u -d '24 hours ago' +%s)
+          has_commits=false
+          for page in 1 2 3; do
+            events=$(gh api "users/Chris0Jeky/events/public?per_page=100&page=${page}" 2>/dev/null || true)
+            if [ -z "$events" ] || [ "$(echo "$events" | jq -r 'type')" != "array" ]; then
+              echo "::warning::Public events lookup failed; refreshing anyway."
+              has_commits=true
+              break
+            fi
+            if [ "$(echo "$events" | jq 'length')" -eq 0 ]; then break; fi
+            recent=$(echo "$events" | jq --argjson cutoff "$cutoff" '[.[] | select(.type == "PushEvent") | select((.created_at | fromdateiso8601) >= $cutoff)] | length')
+            if [ "$recent" -gt 0 ]; then has_commits=true; break; fi
+            oldest=$(echo "$events" | jq -r '.[-1].created_at | fromdateiso8601')
+            if [ "$oldest" -lt "$cutoff" ]; then break; fi
+          done
+          echo "has_commits=${has_commits}" >> "$GITHUB_OUTPUT"
+          echo "Push activity in trailing 24h: ${has_commits}"
+
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@f36349cfae20c07fd1f5d276e2748b909832b186
+        if: github.event_name != 'schedule' || steps.activity.outputs.has_commits == 'true'
+        uses: Chris0Jeky/CommitAtlas@0040d7d50edd3b16de2a50363fd5de355417eb7d
         with:
           config: .commitatlas.json
 
       - name: Validate generated bundle
+        if: github.event_name != 'schedule' || steps.activity.outputs.has_commits == 'true'
         shell: bash
         run: |
           node <<'NODE'
@@ -63,6 +90,7 @@ jobs:
           NODE
 
       - name: Validate light bundle
+        if: github.event_name != 'schedule' || steps.activity.outputs.has_commits == 'true'
         shell: bash
         run: |
           node <<'NODE'
@@ -89,10 +117,12 @@ jobs:
           NODE
 
       - name: Update generated selected work catalog
+        if: github.event_name != 'schedule' || steps.activity.outputs.has_commits == 'true'
         shell: bash
         run: node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
 
       - name: Commit refreshed public assets
+        if: github.event_name != 'schedule' || steps.activity.outputs.has_commits == 'true'
         shell: bash
         run: |
           git add -- README.md assets/commitatlas

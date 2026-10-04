@@ -17,7 +17,7 @@ test("one pinned CommitAtlas invocation produces the dark and light bundles", as
   assert.deepEqual(config.themes, [{ theme: "paper", outputDir: "assets/commitatlas/light" }]);
   assert.equal(config.outputDir, "assets/commitatlas");
   assert.equal((workflow.match(/uses: Chris0Jeky\/CommitAtlas@[0-9a-f]{40}/g) ?? []).length, 1);
-  assert.match(workflow, /uses: Chris0Jeky\/CommitAtlas@f36349cfae20c07fd1f5d276e2748b909832b186/);
+  assert.match(workflow, /uses: Chris0Jeky\/CommitAtlas@0040d7d50edd3b16de2a50363fd5de355417eb7d/);
   assert.match(workflow, /assets\/commitatlas\/light\/manifest\.json/);
   assert.match(workflow, /theme manifests do not describe one atomic snapshot/);
   await assert.rejects(readFile(retiredLightConfigPath, "utf8"), { code: "ENOENT" });
@@ -47,6 +47,13 @@ test("operating picture states the public-profile boundary and refresh fallback"
 
   assert.match(readme, /GitHub's logged-out public profile view/);
   assert.match(readme, /signed-in owner's contribution calendar can differ because it may include private activity/);
-  assert.match(readme, /Daily committed snapshot/);
+  assert.match(readme, /Twelve-hourly committed snapshot/);
   assert.match(readme, /a failed refresh keeps the last good snapshot online/);
+});
+
+test("scheduled refresh runs twelve-hourly and skips days without pushed commits", async () => {
+  const workflow = await readFile(workflowPath, "utf8");
+  assert.match(workflow, /cron: "23 5,17 \* \* \*"/);
+  assert.match(workflow, /has_commits/);
+  assert.match(workflow, /github\.event_name != 'schedule' \|\| steps\.activity\.outputs\.has_commits == 'true'/);
 });
