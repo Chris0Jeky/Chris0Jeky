@@ -117,7 +117,7 @@ Source-backed GitHub analytics, deterministic README graphics, project-health vi
 
 ## Generated flagship snapshot
 
-The catalogue below is the last committed credential-free CommitAtlas snapshot. It stays marker-owned and unchanged in this documentation PR; the updated `.commitatlas.json` will move it to the current six flagships through the existing scheduled or manually dispatched generator after merge.
+The catalogue below is the last committed credential-free CommitAtlas snapshot. It stays marker-owned and unchanged in this documentation PR; the updated `.commitatlas.json` will move it to the current five flagships through the existing scheduled or manually dispatched generator after merge.
 
 <!-- commitatlas:project-catalog:start -->
 | Project | Status | Signals/actions |
@@ -138,7 +138,7 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
     <a href="https://commit-atlas.commit-atlas.workers.dev/studio">
       <picture>
         <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/projects.svg" />
-        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for six selected Chris0Jeky projects" src="./assets/commitatlas/projects.svg" />
+        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for five selected Chris0Jeky projects" src="./assets/commitatlas/projects.svg" />
       </picture>
     </a>
   </div>
