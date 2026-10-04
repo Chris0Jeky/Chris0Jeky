@@ -75,7 +75,7 @@ export function validateCatalog(catalog) {
   exactKeys(window, ["from", "to", "days", "observedDays", "complete"], "catalog.window");
   date(window.from, "catalog.window.from");
   date(window.to, "catalog.window.to");
-  integer(window.days, "catalog.window.days", 1, 366);
+  integer(window.days, "catalog.window.days", 1, 731);
   integer(window.observedDays, "catalog.window.observedDays", 0, window.days);
   if (typeof window.complete !== "boolean") fail("catalog.window.complete must be a boolean");
   if (window.from > window.to) fail("catalog.window.from must not be after catalog.window.to");

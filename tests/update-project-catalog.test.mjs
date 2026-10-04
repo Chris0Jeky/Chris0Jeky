@@ -127,6 +127,15 @@ test("tolerates the additive host and external keys on a version 1 catalog", () 
   assert.equal(render(project(catalogV1(), { actions: disclosed(ACTIONS) })).readme, render(catalog()).readme);
 });
 
+test("accepts two-year catalog windows and rejects wider ones", () => {
+  const wide = { from: "2024-08-20", to: "2026-08-19", days: 731, observedDays: 731, complete: true };
+  assert.equal(render(catalog({ window: wide })).changed, true);
+  rejects(
+    catalog({ window: { ...wide, from: "2024-08-19", days: 732, observedDays: 732 } }),
+    /catalog\.window\.days must be a safe non-negative integer/,
+  );
+});
+
 test("fails closed for every unsupported catalog version", () => {
   for (const version of [0, 3, 1.5, -1, "2", "1", null, true, [2], { major: 2 }]) {
     rejects(catalog({ version }), /catalog\.version must be one of 1, 2/);
