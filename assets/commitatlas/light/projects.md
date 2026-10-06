@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-06T12:04:56.753Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-06T21:41:24.847Z`.
 Window: `2024-10-08` → `2026-10-06` (729 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -57,7 +57,7 @@ Window: `2024-10-08` → `2026-10-06` (729 days).
 
 - **Repository:** `chris0jeky/Pulseboard`
 - **Lifecycle:** Active
-- **CI:** Passing (`observatory.yml`)
+- **CI:** Stale result (`observatory.yml`)
 - **Description:** Local\-first real\-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface\.
 - **Stats:** 1 stars · 14 open issues/PRs
 
