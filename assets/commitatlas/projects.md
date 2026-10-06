@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-05T23:12:17.000Z`.
-Window: `2024-10-08` → `2026-10-05` (728 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-06T12:04:56.753Z`.
+Window: `2024-10-08` → `2026-10-06` (729 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -24,14 +24,14 @@ Window: `2024-10-08` → `2026-10-05` (728 days).
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Stale result (`ci.yml`)
+- **CI:** Passing (`ci.yml`)
 - **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
-- **Stats:** 1 stars · 113 open issues/PRs
+- **Stats:** 1 stars · 110 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
-- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/36937485449) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/37404127319) — observed
 - [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
 
 ## Alibi
