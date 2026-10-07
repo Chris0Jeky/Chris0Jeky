@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-07T11:50:30.542Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-07T22:03:31.250Z`.
 Window: `2024-10-08` → `2026-10-07` (730 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -24,14 +24,14 @@ Window: `2024-10-08` → `2026-10-07` (730 days).
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Pending (`ci.yml`)
+- **CI:** Passing (`ci.yml`)
 - **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
-- **Stats:** 1 stars · 112 open issues/PRs
+- **Stats:** 1 stars · 111 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
-- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/37615939707) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/37689182673) — observed
 - [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
 
 ## Alibi
@@ -40,7 +40,7 @@ Window: `2024-10-08` → `2026-10-07` (730 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
-- **Stats:** 1 stars · 135 open issues/PRs
+- **Stats:** 1 stars · 136 open issues/PRs
 - **Release:** Alibi 0\.15\.1 (`v0.15.1`)
 
 ### Actions
@@ -57,14 +57,14 @@ Window: `2024-10-08` → `2026-10-07` (730 days).
 
 - **Repository:** `chris0jeky/Pulseboard`
 - **Lifecycle:** Active
-- **CI:** Passing (`observatory.yml`)
+- **CI:** Stale result (`observatory.yml`)
 - **Description:** Local\-first real\-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface\.
 - **Stats:** 1 stars · 14 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Pulseboard) — observed
-- [CI](https://github.com/Chris0Jeky/Pulseboard/actions/runs/37615125865) — observed
+- [CI](https://github.com/Chris0Jeky/Pulseboard/actions/runs/36332985709) — observed
 - [Docs](https://github.com/Chris0Jeky/Pulseboard#readme) — configured
 
 ## CommitAtlas
@@ -80,6 +80,6 @@ Window: `2024-10-08` → `2026-10-07` (730 days).
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37615645019) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/37625072623) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured
