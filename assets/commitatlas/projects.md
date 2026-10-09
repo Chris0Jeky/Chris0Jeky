@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-08T22:09:59.060Z`.
-Window: `2024-10-08` → `2026-10-08` (731 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-09T11:57:21.198Z`.
+Window: `2024-10-09` → `2026-10-09` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,7 +12,7 @@ Window: `2024-10-08` → `2026-10-08` (731 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 2 stars · 179 open issues/PRs
+- **Stats:** 2 stars · 181 open issues/PRs
 
 ### Actions
 
@@ -24,14 +24,14 @@ Window: `2024-10-08` → `2026-10-08` (731 days).
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Failing (`ci.yml`)
+- **CI:** Passing (`ci.yml`)
 - **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
 - **Stats:** 1 stars · 117 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
-- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/37735272585) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/37892475778) — observed
 - [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
 
 ## Alibi
@@ -40,7 +40,7 @@ Window: `2024-10-08` → `2026-10-08` (731 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
-- **Stats:** 1 stars · 140 open issues/PRs
+- **Stats:** 1 stars · 146 open issues/PRs
 - **Release:** Alibi 0\.15\.1 (`v0.15.1`)
 
 ### Actions
@@ -59,7 +59,7 @@ Window: `2024-10-08` → `2026-10-08` (731 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`observatory.yml`)
 - **Description:** Local\-first real\-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface\.
-- **Stats:** 1 stars · 18 open issues/PRs
+- **Stats:** 1 stars · 21 open issues/PRs
 
 ### Actions
 
@@ -73,7 +73,7 @@ Window: `2024-10-08` → `2026-10-08` (731 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 58 open issues/PRs
+- **Stats:** 61 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions

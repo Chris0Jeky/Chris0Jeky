@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-10-08T22:09:59.060Z",
+  "generatedAt": "2026-10-09T11:57:21.198Z",
   "window": {
-    "from": "2024-10-08",
-    "to": "2026-10-08",
+    "from": "2024-10-09",
+    "to": "2026-10-09",
     "days": 731,
     "observedDays": 731,
     "complete": true
@@ -21,7 +21,7 @@
       "primaryLanguage": "Python",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 179,
+      "openIssuesAndPullRequests": 181,
       "pushedAt": "2026-10-08T01:33:25Z",
       "ci": {
         "state": "passing",
@@ -66,12 +66,12 @@
       "stars": 1,
       "forks": 0,
       "openIssuesAndPullRequests": 117,
-      "pushedAt": "2026-10-08T06:15:56Z",
+      "pushedAt": "2026-10-09T06:14:02Z",
       "ci": {
-        "state": "failing",
-        "label": "Failing",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/37735272585"
+        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/37892475778"
       },
       "actions": [
         {
@@ -85,7 +85,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/37735272585",
+          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/37892475778",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -109,7 +109,7 @@
       "primaryLanguage": "JavaScript",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 140,
+      "openIssuesAndPullRequests": 146,
       "pushedAt": "2026-10-07T23:31:06Z",
       "ci": {
         "state": "passing",
@@ -194,7 +194,7 @@
       "primaryLanguage": "JavaScript",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 18,
+      "openIssuesAndPullRequests": 21,
       "pushedAt": "2026-10-07T22:25:33Z",
       "ci": {
         "state": "passing",
@@ -238,7 +238,7 @@
       "primaryLanguage": "TypeScript",
       "stars": 0,
       "forks": 0,
-      "openIssuesAndPullRequests": 58,
+      "openIssuesAndPullRequests": 61,
       "pushedAt": "2026-10-08T12:33:10Z",
       "ci": {
         "state": "passing",
