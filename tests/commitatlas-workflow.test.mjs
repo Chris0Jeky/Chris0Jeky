@@ -88,11 +88,18 @@ test("operating picture states public boundaries, refresh fallback, and delivery
 
   assert.match(readme, /GitHub's logged-out public profile view/);
   assert.match(readme, /signed-in owner's contribution calendar can differ because it may include private activity/);
-  assert.match(readme, /Daily committed snapshot/);
+  assert.match(readme, /Twelve-hourly committed snapshot/);
   assert.match(readme, /a failed refresh keeps the last good snapshot online/);
   assert.match(readme, /assets\/commitatlas\/delivery\.svg/);
   assert.match(readme, /assets\/commitatlas\/light\/delivery\.svg/);
   assert.match(readme, /assets\/commitatlas\/delivery\.json/);
   assert.match(readme, /six configured public repositories/i);
   assert.match(readme, /activity flow[^\n]*not quality[^\n]*impact/i);
+});
+
+test("scheduled refresh runs twelve-hourly and skips days without pushed commits", async () => {
+  const workflow = await readFile(workflowPath, "utf8");
+  assert.match(workflow, /cron: "23 5,17 \* \* \*"/);
+  assert.match(workflow, /has_commits/);
+  assert.match(workflow, /github\.event_name != 'schedule' \|\| steps\.activity\.outputs\.has_commits == 'true'/);
 });

@@ -25,7 +25,7 @@ I build software that turns ambiguous input, automation, and complex technical w
   </a>
 </div>
 
-<p align="center"><sub>Daily committed snapshot from GitHub's logged-out public profile view · the signed-in owner's contribution calendar can differ because it may include private activity · exact 365-day window ending on the date printed in the card · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
+<p align="center"><sub>Twelve-hourly committed snapshot from GitHub's logged-out public profile view · the signed-in owner's contribution calendar can differ because it may include private activity · automatic full-history, up to two years, window ending on the date printed in the card · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
 
 ---
 
@@ -44,17 +44,6 @@ My current projects span developer productivity, creative tooling, browser secur
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-#### [Taskdeck](https://github.com/Chris0Jeky/Taskdeck)
-
-A local-first work operating system that turns notes, transcripts, files, and agent requests into source-linked proposals. People and agents can prepare work, but approval and apply remain explicit capabilities.
-
-**Now:** public beta; stable v0.2.0 and v0.3.0 release candidate; .NET 8, Vue 3, SQLite, SignalR, and review-gated MCP access.
-
-[Documentation](https://chris0jeky.github.io/Taskdeck/) · [Latest stable release](https://github.com/Chris0Jeky/Taskdeck/releases/latest) · [v0.3.0-rc.1](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.3.0-rc.1)
-
-</td>
 <td width="50%" valign="top">
 
 #### [Local Asset Studio](https://github.com/Chris0Jeky/local-asset-studio)
@@ -128,17 +117,16 @@ Source-backed GitHub analytics, deterministic README graphics, project-health vi
 
 ## Generated flagship snapshot
 
-The catalogue below is the last committed credential-free CommitAtlas snapshot. It stays marker-owned and unchanged in this documentation PR; the updated `.commitatlas.json` will move it to the current six flagships through the existing scheduled or manually dispatched generator after merge.
+The catalogue below is the last committed credential-free CommitAtlas snapshot. It stays marker-owned and unchanged in this documentation PR; the updated `.commitatlas.json` will move it to the current five flagships through the existing scheduled or manually dispatched generator after merge.
 
 <!-- commitatlas:project-catalog:start -->
 | Project | Status | Signals/actions |
 | --- | --- | --- |
-| [Taskdeck](https://github.com/Chris0Jeky/Taskdeck) | Active · CI passing | 1 stars · 282 open issues/PRs; Language: C#; Workflow: ci-required.yml; Release: v0.2.0; Actions: [Website](https://chris0jeky.github.io/Taskdeck/) · [CI](https://github.com/Chris0Jeky/Taskdeck/actions/runs/35511515700) · [Release](https://github.com/Chris0Jeky/Taskdeck/releases/tag/v0.2.0) · [Release download](https://github.com/Chris0Jeky/Taskdeck/releases/download/v0.2.0/taskdeck-v0.2.0-provenance.txt) · [Docs](https://github.com/Chris0Jeky/Taskdeck#readme) · [Download](https://github.com/Chris0Jeky/Taskdeck/releases/latest) |
-| [Local Asset Studio](https://github.com/Chris0Jeky/local-asset-studio) | Active · CI passing | 221 open issues/PRs; Language: Python; Workflow: check.yml; Actions: [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/35558504406) · [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) |
-| [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) | Active · CI passing | 105 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Actions: [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/35529982506) · [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) |
-| [Alibi](https://github.com/Chris0Jeky/Alibi) | Active · CI pending | 84 open issues/PRs; Language: JavaScript; Workflow: check.yml; Release: v0.11.4; Actions: [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/35590587875) · [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.11.4) · [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.11.4/alibi-deluxe-cloudflare.zip) · [Docs](https://github.com/Chris0Jeky/Alibi#readme) · [Download](https://github.com/Chris0Jeky/Alibi/releases/latest) |
-| [Pulseboard](https://github.com/Chris0Jeky/Pulseboard) | Active · CI stale | 32 open issues/PRs; Language: JavaScript; Workflow: observatory.yml; Actions: [CI](https://github.com/Chris0Jeky/Pulseboard/actions/runs/35199874340) · [Docs](https://github.com/Chris0Jeky/Pulseboard#readme) |
-| [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · CI stale | 71 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Release: v0.4.0; Actions: [Website](https://commit-atlas.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/35232367617) · [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) |
+| [Local Asset Studio](https://github.com/Chris0Jeky/local-asset-studio) | Active · CI passing | 2 stars · 181 open issues/PRs; Language: Python; Workflow: check.yml; Actions: [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/38543714384) · [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) |
+| [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) | Active · CI passing | 1 stars · 119 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Actions: [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/38318503380) · [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) |
+| [Alibi](https://github.com/Chris0Jeky/Alibi) | Active · CI passing | 1 stars · 139 open issues/PRs; Language: JavaScript; Workflow: check.yml; Release: v0.15.2; Actions: [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/38541391439) · [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.2) · [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.2/alibi-deluxe-cloudflare.zip) · [Docs](https://github.com/Chris0Jeky/Alibi#readme) · [Download](https://github.com/Chris0Jeky/Alibi/releases/latest) |
+| [Pulseboard](https://github.com/Chris0Jeky/Pulseboard) | Active · CI passing | 1 stars · 17 open issues/PRs; Language: JavaScript; Workflow: observatory.yml; Actions: [CI](https://github.com/Chris0Jeky/Pulseboard/actions/runs/38498704635) · [Docs](https://github.com/Chris0Jeky/Pulseboard#readme) |
+| [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · CI passing | 55 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Release: v0.4.0; Actions: [Website](https://commit-atlas.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/38490073024) · [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) |
 <!-- commitatlas:project-catalog:end -->
 
 <details>
@@ -150,7 +138,7 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
     <a href="https://commit-atlas.commit-atlas.workers.dev/studio">
       <picture>
         <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/projects.svg" />
-        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for six selected Chris0Jeky projects" src="./assets/commitatlas/projects.svg" />
+        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for five selected Chris0Jeky projects" src="./assets/commitatlas/projects.svg" />
       </picture>
     </a>
   </div>
