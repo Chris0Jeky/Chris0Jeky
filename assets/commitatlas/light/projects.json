@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-10-14T10:18:09.921Z",
+  "generatedAt": "2026-10-17T19:28:00.641Z",
   "window": {
-    "from": "2024-10-16",
-    "to": "2026-10-14",
-    "days": 729,
-    "observedDays": 729,
+    "from": "2024-10-17",
+    "to": "2026-10-17",
+    "days": 731,
+    "observedDays": 731,
     "complete": true
   },
   "projects": [
@@ -19,15 +19,15 @@
       "description": "Local creative workshop: image-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples",
       "lifecycle": "active",
       "primaryLanguage": "Python",
-      "stars": 2,
+      "stars": 4,
       "forks": 0,
-      "openIssuesAndPullRequests": 181,
-      "pushedAt": "2026-10-14T09:37:27Z",
+      "openIssuesAndPullRequests": 146,
+      "pushedAt": "2026-10-17T12:55:45Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/38543714384"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/39034482417"
       },
       "actions": [
         {
@@ -41,7 +41,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/38543714384",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/39034482417",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -63,15 +63,15 @@
       "description": "MV3 browser extension: navigation intent firewall (policy-first browsing safety).",
       "lifecycle": "active",
       "primaryLanguage": "TypeScript",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 119,
-      "pushedAt": "2026-10-12T23:28:39Z",
+      "openIssuesAndPullRequests": 114,
+      "pushedAt": "2026-10-17T02:06:39Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/38318503380"
+        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/38993623774"
       },
       "actions": [
         {
@@ -85,7 +85,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/38318503380",
+          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/38993623774",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -107,15 +107,15 @@
       "description": "An offline-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device-local saves. No account required.",
       "lifecycle": "active",
       "primaryLanguage": "JavaScript",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 139,
-      "pushedAt": "2026-10-14T09:18:32Z",
+      "openIssuesAndPullRequests": 119,
+      "pushedAt": "2026-10-17T15:00:31Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/38541391439"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/39043158623"
       },
       "release": {
         "tag": "v0.15.2",
@@ -146,7 +146,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/38541391439",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/39043158623",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -192,15 +192,15 @@
       "description": "Local-first real-time dashboard with pluggable feeds, FastAPI WebSockets, and a Vue 3 interface.",
       "lifecycle": "active",
       "primaryLanguage": "JavaScript",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 17,
-      "pushedAt": "2026-10-14T01:59:57Z",
+      "openIssuesAndPullRequests": 15,
+      "pushedAt": "2026-10-16T21:33:41Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "observatory.yml",
-        "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/38498704635"
+        "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/38970209919"
       },
       "actions": [
         {
@@ -214,7 +214,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/38498704635",
+          "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/38970209919",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -236,15 +236,15 @@
       "description": "A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards.",
       "lifecycle": "active",
       "primaryLanguage": "TypeScript",
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 55,
-      "pushedAt": "2026-10-14T00:25:15Z",
+      "openIssuesAndPullRequests": 52,
+      "pushedAt": "2026-10-16T19:11:42Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/38490073024"
+        "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/38953100554"
       },
       "release": {
         "tag": "v0.4.0",
@@ -271,7 +271,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/38490073024",
+          "url": "https://github.com/Chris0Jeky/CommitAtlas/actions/runs/38953100554",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
