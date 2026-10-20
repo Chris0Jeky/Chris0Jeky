@@ -31,7 +31,7 @@ I build software that turns ambiguous input, automation, and complex technical w
 
 ## What I build
 
-My current projects span developer productivity, creative tooling, browser security, puzzle systems, operational evidence, and engineering research. They share a common approach:
+My current projects span developer productivity, creative tooling, developer tooling, browser security, puzzle systems, operational evidence, and engineering research. They share a common approach:
 
 - **local-first where ownership matters;**
 - **review before consequential automation;**
