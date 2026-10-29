@@ -17,7 +17,7 @@ test("PR preview uses only read permission and checks out the exact uncredential
   assert.match(preview, /^on:\n  pull_request:\n    paths:/m);
   for (const relative of [".commitatlas.json", ".github/workflows/commitatlas.yml",
     ".github/workflows/commitatlas-preview.yml", "scripts/validate-commitatlas-bundle.mjs",
-    "scripts/update-project-catalog.mjs", "README.md", "assets/commitatlas/**"]) {
+    "scripts/update-project-catalog.mjs", "scripts/update-commitatlas-image-versions.mjs", "README.md", "assets/commitatlas/**"]) {
     assert.ok(preview.includes("      - " + relative + "\n"), "missing preview path: " + relative);
   }
   const permissions = preview.match(/^permissions:\n((?:  .+\n)+)/m)?.[1];
@@ -37,7 +37,7 @@ test("PR preview uses only read permission and checks out the exact uncredential
 test("preview uploads a verified ZIP containing only the profile README and assets", async () => {
   const preview = await readFile(previewPath, "utf8");
   const names = ["Generate public CommitAtlas assets", "Validate complete paired bundle",
-    "Update generated selected work catalog", "Upload verified profile preview"];
+    "Update generated selected work catalog", "Version generated CommitAtlas image URLs", "Upload verified profile preview"];
   const positions = names.map((name) => {
     step(preview, name);
     return preview.indexOf("      - name: " + name);
@@ -48,7 +48,9 @@ test("preview uploads a verified ZIP containing only the profile README and asse
   assert.match(validate, /run: node scripts\/validate-commitatlas-bundle\.mjs\s*$/);
   const catalog = step(preview, names[2]);
   assert.match(catalog, /run: node scripts\/update-project-catalog\.mjs README\.md assets\/commitatlas\/projects\.json/);
-  const upload = step(preview, names[3]);
+  const versions = step(preview, names[3]);
+  assert.match(versions, /run: node scripts\/update-commitatlas-image-versions\.mjs\s*$/);
+  const upload = step(preview, names[4]);
   assert.match(upload, /uses: actions\/upload-artifact@[a-f0-9]{40}\n/);
   assert.match(upload, /name: commitatlas-profile-preview-\$\{\{ github\.event\.pull_request\.head\.sha \}\}/);
   assert.match(upload, /path: \|\n            README\.md\n            assets\/commitatlas\n/);
@@ -66,10 +68,15 @@ test("shared validation runs before the only write-capable workflow publishes", 
   assert.match(refresh, /push:\n    branches: \[main\]/);
   assert.doesNotMatch(refresh, /pull_request/);
   const validate = step(refresh, "Validate complete paired bundle");
+  const catalog = step(refresh, "Update generated selected work catalog");
+  const versions = step(refresh, "Version generated CommitAtlas image URLs");
   const commit = step(refresh, "Commit refreshed public assets");
-  assert.ok(refresh.indexOf(validate) < refresh.indexOf(commit));
+  assert.ok(refresh.indexOf(validate) < refresh.indexOf(catalog));
+  assert.ok(refresh.indexOf(catalog) < refresh.indexOf(versions));
+  assert.ok(refresh.indexOf(versions) < refresh.indexOf(commit));
   assert.match(validate, /COMMITATLAS_OUTPUTS_JSON: \$\{\{ toJSON\(steps\.commitatlas\.outputs\) \}\}/);
   assert.match(validate, /run: node scripts\/validate-commitatlas-bundle\.mjs/);
+  assert.match(versions, /run: node scripts\/update-commitatlas-image-versions\.mjs\s*$/);
   assert.match(commit, /git add -- README\.md assets\/commitatlas/);
   assert.match(commit, /git push origin HEAD:main/);
 });
