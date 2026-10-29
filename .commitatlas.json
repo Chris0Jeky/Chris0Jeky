@@ -73,5 +73,20 @@
       }
     }
   ],
-  "reducedMotion": true
+  "reducedMotion": true,
+  "scenePack": "survey",
+  "scenes": [
+    "identity-beacon",
+    "evidence-coverage",
+    "activity-terrain"
+  ],
+  "identity": {
+    "name": "Cristian (Chris) Tcaci",
+    "tagline": "Backend & platform engineer · Local-first systems · Evidence-based automation",
+    "focus": [
+      "Local Asset Studio",
+      "NavSentinel",
+      "Alibi"
+    ]
+  }
 }

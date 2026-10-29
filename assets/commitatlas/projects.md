@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-29T03:17:20.907Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-29T03:40:02.428Z`.
 Window: `2024-10-30` → `2026-10-29` (730 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -24,23 +24,23 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Pending (`ci.yml`)
 - **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
-- **Stats:** 2 stars · 109 open issues/PRs
+- **Stats:** 2 stars · 107 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
-- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/40273479963) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/40812087015) — observed
 - [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
 
 ## Alibi
 
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
-- **CI:** Pending (`check.yml`)
+- **CI:** Passing (`check.yml`)
 - **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
-- **Stats:** 2 stars · 85 open issues/PRs
+- **Stats:** 2 stars · 89 open issues/PRs
 - **Release:** 0\.15\.2: Paintings for your desk and games (`v0.15.2`)
 
 ### Actions
@@ -70,7 +70,7 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 
 - **Repository:** `chris0jeky/CommitAtlas`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Pending (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
 - **Stats:** 1 stars · 46 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
@@ -79,6 +79,6 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 
 - [Source](https://github.com/Chris0Jeky/CommitAtlas) — observed
 - [Website](https://commit-atlas.commit-atlas.workers.dev/) — observed · external host `commit-atlas.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/40808392149) — observed
+- [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/40813346455) — observed
 - [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) — observed
 - [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) — configured

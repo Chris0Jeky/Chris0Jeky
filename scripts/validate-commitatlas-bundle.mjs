@@ -7,10 +7,13 @@ const EXPECTED_ARTIFACTS = [
   "activity-still.svg", "activity.svg", "atlas-compact-still.svg", "atlas-compact.svg",
   "atlas-still.svg", "atlas.svg", "breakdown.svg", "cadence.svg", "languages.svg",
   "profile.svg", "projects.json", "projects.md", "projects.svg", "releases.svg",
-  "rhythm.svg", "streak.svg",
+  "rhythm.svg", "scene-activity-terrain.still.svg", "scene-activity-terrain.svg",
+  "scene-evidence-coverage.still.svg", "scene-evidence-coverage.svg",
+  "scene-identity-beacon.still.svg", "scene-identity-beacon.svg", "streak.svg",
 ];
 const EXPECTED_OUTPUTS = {
   manifest: "manifest.json", atlas: "atlas.svg", "atlas-compact": "atlas-compact.svg",
+  "atlas-still": "atlas-still.svg", "atlas-compact-still": "atlas-compact-still.svg", "activity-still": "activity-still.svg",
   profile: "profile.svg", streak: "streak.svg", activity: "activity.svg",
   breakdown: "breakdown.svg", rhythm: "rhythm.svg", languages: "languages.svg",
   projects: "projects.svg", cadence: "cadence.svg", releases: "releases.svg",
@@ -18,6 +21,7 @@ const EXPECTED_OUTPUTS = {
 };
 const PRIMARY = "assets/commitatlas";
 const LIGHT = PRIMARY + "/light";
+const SCENES = ["activity-terrain", "evidence-coverage", "identity-beacon"];
 const MAX_ARTIFACT_BYTES = 128 * 1024;
 
 /** Validate the complete upload/commit inventory without modifying any file. */
@@ -25,6 +29,20 @@ export function validateCommitAtlasBundle(root, outputs) {
   if (!isRecord(outputs)) throw new Error("Action outputs must be an object");
   for (const [name, target] of Object.entries(EXPECTED_OUTPUTS)) {
     if (outputs[name] !== PRIMARY + "/" + target) throw new Error("Unexpected Action output " + name);
+  }
+  for (const name of ["atlas-wide", "atlas-wide-still"]) {
+    if (outputs[name] !== "") throw new Error("Unexpected Action output " + name);
+  }
+  for (const [name, suffix] of [["scenes", ".svg"], ["scene-stills", ".still.svg"]]) {
+    const expected = [PRIMARY, LIGHT].flatMap((directory) => SCENES.map((id) => `${directory}/scene-${id}${suffix}`));
+    let paths;
+    try {
+      if (typeof outputs[name] !== "string") throw new Error("not a JSON string");
+      paths = JSON.parse(outputs[name]);
+    } catch {
+      throw new Error("Unexpected Action output " + name);
+    }
+    if (JSON.stringify(paths) !== JSON.stringify(expected)) throw new Error("Unexpected Action output " + name);
   }
   readRegular(root, "README.md", 1_000_000);
   assertDirectory(root, "assets");

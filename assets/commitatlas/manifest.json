@@ -8,37 +8,37 @@
     "to": "2026-10-29",
     "days": 730
   },
-  "generatedAt": "2026-10-29T03:17:20.907Z",
+  "generatedAt": "2026-10-29T03:40:02.428Z",
   "artifacts": [
     {
       "path": "activity-still.svg",
-      "bytes": 17064,
-      "sha256": "73b79d5d7566b48dec03f377e965e333ac44809ad450034916e66ee0d2eb5bd4"
+      "bytes": 17072,
+      "sha256": "27e3b2dc7b704bd50f57edcc1490b55d3357118b3d43b9ac2153436a00f68362"
     },
     {
       "path": "activity.svg",
-      "bytes": 18281,
-      "sha256": "04b023f7d17c7e8c33310211afde946aa99729271d847b7e23277cc3cd6017f0"
+      "bytes": 18289,
+      "sha256": "03a4638189c8117764fdf457aeaca3dd884cdf7b1eca79659e30e7398912328d"
     },
     {
       "path": "atlas-compact-still.svg",
-      "bytes": 23467,
-      "sha256": "0f5e59e18988d4242e3d5eeba384d0d4d68894de84e49cb576242eefb4fd3afa"
+      "bytes": 23472,
+      "sha256": "0491b0130a2f17437a8f448c99ab733f4dd076013f3be6204a93b8cb179e2f85"
     },
     {
       "path": "atlas-compact.svg",
-      "bytes": 24886,
-      "sha256": "0808d3c9d77574515460e608353cd334324062e3dff1d3a0fcede9e6f5a0410f"
+      "bytes": 24891,
+      "sha256": "85b72fac72a83d50244771b40e1bc08de136b942bd9d6f88c39e8733c4f92f8c"
     },
     {
       "path": "atlas-still.svg",
-      "bytes": 22906,
-      "sha256": "bba996e236f4575defcde955637115040ee324590ae23e6c9bc63c6c2aba5d68"
+      "bytes": 22911,
+      "sha256": "c1a702c388c34a4605269618de65bb090bdf00d24e607c9879a2d2746474ba55"
     },
     {
       "path": "atlas.svg",
-      "bytes": 24330,
-      "sha256": "cf9ce6dba09d6788dbfdafbb7be0e29804452591d9ab900564e35a4e6a078fe5"
+      "bytes": 24335,
+      "sha256": "a79bc457904b2169a1f76604076abae4dbad8a4b64a964986849f3a655f65083"
     },
     {
       "path": "breakdown.svg",
@@ -47,8 +47,8 @@
     },
     {
       "path": "cadence.svg",
-      "bytes": 5645,
-      "sha256": "f71eccf4ec7221bc0bccd3bd44a2e00fcc173790e67d59aac5590ada7714b874"
+      "bytes": 5675,
+      "sha256": "d890741557c444822c168a4010745f45bcb2cbcba29ee3a55da54d21e4db5a2f"
     },
     {
       "path": "languages.svg",
@@ -58,22 +58,22 @@
     {
       "path": "profile.svg",
       "bytes": 3709,
-      "sha256": "387d3164d63aa9b6f46c37e297c8b8a9f83941a4e3eef9985bfc768571f24d72"
+      "sha256": "ce4dba1d8e12c28fc97b36dd4eb9a55717cf6609df5120206f8343ece28bb0f0"
     },
     {
       "path": "projects.json",
       "bytes": 9109,
-      "sha256": "8376f4ea1d51f53c9f0461a3a7314328387254bb420ef60d556a6922a96257d8"
+      "sha256": "72c21e7900b07f4794df8fa379d18cca2e07b772b79f3c3a33444b3a694e62da"
     },
     {
       "path": "projects.md",
       "bytes": 3890,
-      "sha256": "917ba58021cb1d84206c706e589f1da5acbb401197f6233e2bc6b3ebd61733ac"
+      "sha256": "fe2c72257d13716dcb823d2204089edd4ac5f0f5ed2147116d3997b46dad75e4"
     },
     {
       "path": "projects.svg",
       "bytes": 5965,
-      "sha256": "41ac7be4866b5acc4a0b1fa9e87f82e3e037c442336496f7e66c368f86b4c9c7"
+      "sha256": "5923309e02fecf3e0985798ed40777f5368fd5885b71dd236edd1744ebcbebca"
     },
     {
       "path": "releases.svg",
@@ -82,13 +82,43 @@
     },
     {
       "path": "rhythm.svg",
-      "bytes": 5034,
-      "sha256": "9e07df5b8e53247b1685ab4204ffb9c7eab97722a96077d1abb8d24d73b060c7"
+      "bytes": 5033,
+      "sha256": "c5b1cf774d09805e63a52e451233d3eba2f454175843090866c33e1a3354a120"
+    },
+    {
+      "path": "scene-activity-terrain.still.svg",
+      "bytes": 12133,
+      "sha256": "badca79a5d37dd3c6bc9f6dd32a3b9d91e4778498d3c6da7cce535817f08066f"
+    },
+    {
+      "path": "scene-activity-terrain.svg",
+      "bytes": 12804,
+      "sha256": "b1f0c9e4ce94a9f83990a5a2e38719bd9f564e271c0b7e02a562baf4efbd04bb"
+    },
+    {
+      "path": "scene-evidence-coverage.still.svg",
+      "bytes": 9696,
+      "sha256": "36fcd8a38f863694fb3999f71c2a429377d19bbafd8581f7743d865df3b4d636"
+    },
+    {
+      "path": "scene-evidence-coverage.svg",
+      "bytes": 13680,
+      "sha256": "405f716b22826e9e16706c7fbd73b3f2159659b4c27d8ed8e2478f1f880b0b89"
+    },
+    {
+      "path": "scene-identity-beacon.still.svg",
+      "bytes": 5332,
+      "sha256": "69753ec211e3082352d5e445d6e0b6e7fe5cc0a1becb0e3c8343de214b0e34dc"
+    },
+    {
+      "path": "scene-identity-beacon.svg",
+      "bytes": 7294,
+      "sha256": "aaa25edcb0377e2ba3d1832d6e4ef5d825840d9beb68d828ace787a31e254bf5"
     },
     {
       "path": "streak.svg",
       "bytes": 2864,
-      "sha256": "00442f859af65addf007d0052d3cdf1ce95c52d58cf9af8c61eed5d34daaa085"
+      "sha256": "8b7cd3d754473daf67c5a93d831a295b55f890c95f22cde0b029df37bc336c44"
     }
   ]
 }

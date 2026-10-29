@@ -89,7 +89,10 @@ test("ambient density cards have reduced-motion sources before animated sources"
   assert.equal(config.days, "auto", "streak history must not be truncated with the calendar");
   assert.equal(config.motion, "ambient");
   assert.equal(config.reducedMotion, true);
-  const picture = readme.match(/<picture>[\s\S]*?<\/picture>/)?.[0] ?? "";
+  const atlasPictures = [...readme.matchAll(/<picture>[\s\S]*?<\/picture>/g)].map(([markup]) => markup)
+    .filter((markup) => /<img\b[^>]*\bsrc="\.\/assets\/commitatlas\/atlas(?:-wide)?\.svg(?:\?v=[a-f0-9]{16})?"/.test(markup));
+  assert.equal(atlasPictures.length, 1, "find the Atlas picture independently of the profile header");
+  const picture = atlasPictures[0];
   const sources = [...picture.matchAll(/<source media="([^"]+)" srcset="([^"]+)"/g)];
   const themes = await manifests();
   assert.equal(sources.filter((match) => match[1].includes("prefers-reduced-motion")).length, 4);

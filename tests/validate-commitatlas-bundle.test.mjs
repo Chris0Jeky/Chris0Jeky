@@ -13,12 +13,21 @@ const ARTIFACTS = [
   "activity-still.svg", "activity.svg", "atlas-compact-still.svg", "atlas-compact.svg",
   "atlas-still.svg", "atlas.svg", "breakdown.svg", "cadence.svg", "languages.svg",
   "profile.svg", "projects.json", "projects.md", "projects.svg", "releases.svg",
-  "rhythm.svg", "streak.svg",
+  "rhythm.svg", "scene-activity-terrain.still.svg", "scene-activity-terrain.svg",
+  "scene-evidence-coverage.still.svg", "scene-evidence-coverage.svg",
+  "scene-identity-beacon.still.svg", "scene-identity-beacon.svg", "streak.svg",
 ];
+const SCENES = ["activity-terrain", "evidence-coverage", "identity-beacon"];
+const THEMES = ["assets/commitatlas", "assets/commitatlas/light"];
 const OUTPUTS = {
   manifest: "assets/commitatlas/manifest.json",
   atlas: "assets/commitatlas/atlas.svg",
   "atlas-compact": "assets/commitatlas/atlas-compact.svg",
+  "atlas-still": "assets/commitatlas/atlas-still.svg",
+  "atlas-compact-still": "assets/commitatlas/atlas-compact-still.svg",
+  "activity-still": "assets/commitatlas/activity-still.svg",
+  "atlas-wide": "",
+  "atlas-wide-still": "",
   profile: "assets/commitatlas/profile.svg",
   streak: "assets/commitatlas/streak.svg",
   activity: "assets/commitatlas/activity.svg",
@@ -30,8 +39,9 @@ const OUTPUTS = {
   releases: "assets/commitatlas/releases.svg",
   "projects-json": "assets/commitatlas/projects.json",
   "projects-markdown": "assets/commitatlas/projects.md",
+  scenes: JSON.stringify(THEMES.flatMap((directory) => SCENES.map((id) => `${directory}/scene-${id}.svg`))),
+  "scene-stills": JSON.stringify(THEMES.flatMap((directory) => SCENES.map((id) => `${directory}/scene-${id}.still.svg`))),
 };
-const THEMES = ["assets/commitatlas", "assets/commitatlas/light"];
 const script = fileURLToPath(new URL("../scripts/validate-commitatlas-bundle.mjs", import.meta.url));
 
 function fixture(t) {
@@ -65,14 +75,14 @@ test("accepts the complete paired snapshot and all selected Action outputs witho
   const root = fixture(t);
   const before = fs.readFileSync(path.join(root, "README.md"), "utf8");
   const manifest = validateCommitAtlasBundle(root, OUTPUTS);
-  assert.equal(manifest.artifacts.length, 16);
+  assert.equal(manifest.artifacts.length, 22);
   assert.equal(manifest.window.to, "2026-10-29");
   assert.equal(fs.readFileSync(path.join(root, "README.md"), "utf8"), before);
 });
 
 test("rejects every missing reduced-motion companion in either theme", async (t) => {
   for (const directory of THEMES) {
-    for (const name of ["activity-still.svg", "atlas-still.svg", "atlas-compact-still.svg"]) {
+    for (const name of ["activity-still.svg", "atlas-still.svg", "atlas-compact-still.svg", ...SCENES.map((id) => `scene-${id}.still.svg`)]) {
       await t.test(directory + "/" + name, (t) => {
         const root = fixture(t);
         fs.unlinkSync(path.join(root, directory, name));
@@ -167,6 +177,40 @@ test("requires every selected Action output to name its expected repository-rela
       assert.throws(() => validateCommitAtlasBundle(root, { ...OUTPUTS, [name]: "../unexpected" }), /Action output/);
     });
   }
+});
+
+test("scene Action outputs are separate complete ordered arrays for both themes", async (t) => {
+  for (const output of ["scenes", "scene-stills"]) {
+    const expected = JSON.parse(OUTPUTS[output]);
+    const other = output === "scenes" ? "scene-stills" : "scenes";
+    for (const [label, value] of [
+      ["missing", undefined], ["invalid JSON", "{"], ["wrong type", expected],
+      ["not an array", "null"], ["ordinary and still swapped", OUTPUTS[other]],
+      ["missing light theme", JSON.stringify(expected.slice(0, 3))],
+      ["duplicate", JSON.stringify([...expected.slice(0, -1), expected[0]])],
+      ["traversal", JSON.stringify(["../scene.svg", ...expected.slice(1)])],
+      ["unselected scene", JSON.stringify([...expected, "assets/commitatlas/scene-signature.svg"])],
+      ["reordered", JSON.stringify([...expected].reverse())],
+    ]) {
+      await t.test(output + ": " + label, (t) => {
+        const root = fixture(t);
+        const before = fs.readFileSync(path.join(root, "README.md"));
+        assert.throws(() => validateCommitAtlasBundle(root, { ...OUTPUTS, [output]: value }), /Action output/);
+        assert.deepEqual(fs.readFileSync(path.join(root, "README.md")), before);
+      });
+    }
+  }
+});
+
+test("corrupt scene bytes in the later theme reject the whole bundle before README changes", (t) => {
+  const root = fixture(t);
+  const target = path.join(root, THEMES[1], "scene-evidence-coverage.still.svg");
+  const before = fs.readFileSync(path.join(root, "README.md"));
+  const bytes = fs.readFileSync(target);
+  bytes[0] ^= 1;
+  fs.writeFileSync(target, bytes);
+  assert.throws(() => validateCommitAtlasBundle(root, OUTPUTS), /Manifest mismatch.*light\/scene-evidence-coverage\.still\.svg/);
+  assert.deepEqual(fs.readFileSync(path.join(root, "README.md")), before);
 });
 
 test("rejects unmanifested files and directories from the upload inventory", async (t) => {
