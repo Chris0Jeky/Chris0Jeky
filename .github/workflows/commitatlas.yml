@@ -7,6 +7,7 @@ on:
     paths:
       - .commitatlas.json
       - .github/workflows/commitatlas.yml
+      - scripts/update-commitatlas-image-versions.mjs
   schedule:
     - cron: "23 5,17 * * *"
 
@@ -41,6 +42,10 @@ jobs:
       - name: Update generated selected work catalog
         shell: bash
         run: node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
+
+      - name: Version generated CommitAtlas image URLs
+        shell: bash
+        run: node scripts/update-commitatlas-image-versions.mjs
 
       - name: Commit refreshed public assets
         shell: bash

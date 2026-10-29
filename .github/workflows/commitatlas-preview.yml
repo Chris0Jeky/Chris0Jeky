@@ -8,6 +8,7 @@ on:
       - .github/workflows/commitatlas-preview.yml
       - scripts/validate-commitatlas-bundle.mjs
       - scripts/update-project-catalog.mjs
+      - scripts/update-commitatlas-image-versions.mjs
       - tests/**
       - README.md
       - assets/commitatlas/**
@@ -47,6 +48,10 @@ jobs:
       - name: Update generated selected work catalog
         shell: bash
         run: node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
+
+      - name: Version generated CommitAtlas image URLs
+        shell: bash
+        run: node scripts/update-commitatlas-image-versions.mjs
 
       - name: Upload verified profile preview
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9

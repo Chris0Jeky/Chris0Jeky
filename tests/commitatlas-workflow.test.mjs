@@ -10,6 +10,21 @@ const readmePath = new URL("../README.md", import.meta.url);
 const workflowPath = new URL("../.github/workflows/commitatlas.yml", import.meta.url);
 const previewPath = new URL("../.github/workflows/commitatlas-preview.yml", import.meta.url);
 
+async function manifests() {
+  return Promise.all(["../assets/commitatlas/manifest.json", "../assets/commitatlas/light/manifest.json"]
+    .map(async (relative) => JSON.parse(await readFile(new URL(relative, import.meta.url), "utf8"))));
+}
+
+function ownedImagePath(url, themes) {
+  const match = /^(\.\/assets\/commitatlas\/(light\/)?([a-z0-9][a-z0-9.-]*\.svg))(?:\?v=([a-f0-9]{16}))?(?:#[^\s"'<>]*)?$/.exec(url);
+  assert.ok(match, "owned SVG URL must have a canonical path and at most one hash version: " + url);
+  const artifact = themes[match[2] ? 1 : 0].artifacts.find((entry) => entry.path === match[3]);
+  assert.ok(artifact, "owned SVG URL must name a manifest artifact: " + url);
+  assert.match(artifact.sha256, /^[a-f0-9]{64}$/);
+  if (match[4]) assert.equal(match[4], artifact.sha256.slice(0, 16), "image version must match its own theme's artifact");
+  return match[1];
+}
+
 test("one pinned CommitAtlas invocation produces the dark and light bundles", async () => {
   const config = JSON.parse(await readFile(configPath, "utf8"));
   const workflow = await readFile(workflowPath, "utf8");
@@ -65,6 +80,7 @@ test("scheduled refresh runs twelve-hourly even when no public push event is pre
   assert.doesNotMatch(workflow, /has_commits|events\/public|steps\.activity/);
   assert.match(workflow, /push:\n\s+branches: \[main\]/);
   assert.match(workflow, /paths:\n\s+- \.commitatlas\.json\n\s+- \.github\/workflows\/commitatlas\.yml/);
+  assert.ok(workflow.includes("      - scripts/update-commitatlas-image-versions.mjs\n"), "merging the updater must trigger a refresh");
 });
 
 test("ambient density cards have reduced-motion sources before animated sources", async () => {
@@ -75,8 +91,17 @@ test("ambient density cards have reduced-motion sources before animated sources"
   assert.equal(config.reducedMotion, true);
   const picture = readme.match(/<picture>[\s\S]*?<\/picture>/)?.[0] ?? "";
   const sources = [...picture.matchAll(/<source media="([^"]+)" srcset="([^"]+)"/g)];
+  const themes = await manifests();
   assert.equal(sources.filter((match) => match[1].includes("prefers-reduced-motion")).length, 4);
-  assert.ok(sources.slice(0, 4).every((match) => match[1].includes("prefers-reduced-motion") && match[2].endsWith("-still.svg")));
+  assert.ok(sources.slice(0, 4).every((match) => match[1].includes("prefers-reduced-motion") && ownedImagePath(match[2], themes).endsWith("-still.svg")));
   assert.match(readme, /latest 365 observed days/);
+});
+
+test("owned README image versions, when present, match their exact manifest artifacts", async () => {
+  const readme = await readFile(readmePath, "utf8");
+  const themes = await manifests();
+  const images = [...readme.matchAll(/\b(?:src|srcset|href)="(\.\/assets\/commitatlas\/[^\"]+\.svg[^\"]*)"/g)];
+  assert.ok(images.length > 0);
+  for (const match of images) ownedImagePath(match[1], themes);
 });
 
