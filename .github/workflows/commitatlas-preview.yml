@@ -1,0 +1,61 @@
+name: Preview CommitAtlas profile
+
+on:
+  pull_request:
+    paths:
+      - .commitatlas.json
+      - .github/workflows/commitatlas.yml
+      - .github/workflows/commitatlas-preview.yml
+      - scripts/validate-commitatlas-bundle.mjs
+      - scripts/update-project-catalog.mjs
+      - tests/**
+      - README.md
+      - assets/commitatlas/**
+
+permissions:
+  contents: read
+
+concurrency:
+  group: commitatlas-profile-preview-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    if: github.repository == 'Chris0Jeky/Chris0Jeky'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
+
+      - name: Generate public CommitAtlas assets
+        id: commitatlas
+        uses: Chris0Jeky/CommitAtlas@2c2a1af4985e2327e38b5e10d1d04a729b048283
+        with:
+          config: .commitatlas.json
+
+      - name: Validate complete paired bundle
+        shell: bash
+        env:
+          COMMITATLAS_OUTPUTS_JSON: ${{ toJSON(steps.commitatlas.outputs) }}
+        run: node scripts/validate-commitatlas-bundle.mjs
+
+      - name: Update generated selected work catalog
+        shell: bash
+        run: node scripts/update-project-catalog.mjs README.md assets/commitatlas/projects.json
+
+      - name: Upload verified profile preview
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9
+        with:
+          name: commitatlas-profile-preview-${{ github.event.pull_request.head.sha }}
+          path: |
+            README.md
+            assets/commitatlas
+          archive: true
+          include-hidden-files: false
+          if-no-files-found: error
+          retention-days: 14
