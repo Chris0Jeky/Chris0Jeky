@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-29T03:10:13.437Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-29T03:17:20.907Z`.
 Window: `2024-10-30` → `2026-10-29` (730 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -10,7 +10,7 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 
 - **Repository:** `chris0jeky/local-asset-studio`
 - **Lifecycle:** Active
-- **CI:** Pending (`check.yml`)
+- **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
 - **Stats:** 4 stars · 121 open issues/PRs
 
