@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-29T03:48:06.689Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-29T11:35:04.917Z`.
 Window: `2024-10-30` → `2026-10-29` (730 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -12,21 +12,21 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 4 stars · 121 open issues/PRs
+- **Stats:** 4 stars · 125 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/40808998551) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/40854716153) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Pending (`ci.yml`)
-- **Description:** MV3 browser extension: navigation intent firewall \(policy\-first browsing safety\)\.
-- **Stats:** 2 stars · 107 open issues/PRs
+- **CI:** Passing (`ci.yml`)
+- **Description:** Heedline \(pre\-alpha\): a local\-first Chrome MV3 guard for deceptive navigation and risky browser actions, with inspectable decisions and no runtime network lookup\.
+- **Stats:** 2 stars · 108 open issues/PRs
 
 ### Actions
 
@@ -39,15 +39,15 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
-- **Description:** An offline\-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device\-local saves\. No account required\.
-- **Stats:** 2 stars · 89 open issues/PRs
+- **Description:** An offline\-first illustrated puzzle cabinet with explainable logic puzzles, mystery casebooks, local authoring and device\-local saves\. No account required\.
+- **Stats:** 2 stars · 84 open issues/PRs
 - **Release:** 0\.15\.2: Paintings for your desk and games (`v0.15.2`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Alibi) — observed
 - [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) — observed · external host `alibi-after-hours-preview.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/40808393536) — observed
+- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/40849947910) — observed
 - [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.2) — observed
 - [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.2/alibi-deluxe-cloudflare.zip) — observed
 - [Docs](https://github.com/Chris0Jeky/Alibi#readme) — configured
@@ -72,7 +72,7 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 1 stars · 46 open issues/PRs
+- **Stats:** 1 stars · 48 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions

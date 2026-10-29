@@ -3,7 +3,7 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-10-29T03:48:06.689Z",
+  "generatedAt": "2026-10-29T11:35:04.917Z",
   "window": {
     "from": "2024-10-30",
     "to": "2026-10-29",
@@ -21,13 +21,13 @@
       "primaryLanguage": "Python",
       "stars": 4,
       "forks": 0,
-      "openIssuesAndPullRequests": 121,
-      "pushedAt": "2026-10-29T02:53:21Z",
+      "openIssuesAndPullRequests": 125,
+      "pushedAt": "2026-10-29T10:05:08Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/40808998551"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/40854716153"
       },
       "actions": [
         {
@@ -41,7 +41,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/40808998551",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/40854716153",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -60,16 +60,16 @@
       "repo": "chris0jeky/NavSentinel",
       "name": "NavSentinel",
       "label": "NavSentinel",
-      "description": "MV3 browser extension: navigation intent firewall (policy-first browsing safety).",
+      "description": "Heedline (pre-alpha): a local-first Chrome MV3 guard for deceptive navigation and risky browser actions, with inspectable decisions and no runtime network lookup.",
       "lifecycle": "active",
       "primaryLanguage": "TypeScript",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 107,
-      "pushedAt": "2026-10-29T03:25:46Z",
+      "openIssuesAndPullRequests": 108,
+      "pushedAt": "2026-10-29T04:23:32Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/40812087015"
       },
@@ -104,18 +104,18 @@
       "repo": "chris0jeky/Alibi",
       "name": "Alibi",
       "label": "Alibi",
-      "description": "An offline-first puzzle PWA: 324 puzzles across 13 families, mystery casebooks, 59 challenges, creative spaces and device-local saves. No account required.",
+      "description": "An offline-first illustrated puzzle cabinet with explainable logic puzzles, mystery casebooks, local authoring and device-local saves. No account required.",
       "lifecycle": "active",
       "primaryLanguage": "JavaScript",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 89,
-      "pushedAt": "2026-10-29T03:47:07Z",
+      "openIssuesAndPullRequests": 84,
+      "pushedAt": "2026-10-29T09:28:49Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/40808393536"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/40849947910"
       },
       "release": {
         "tag": "v0.15.2",
@@ -146,7 +146,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/40808393536",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/40849947910",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -229,8 +229,8 @@
       "primaryLanguage": "TypeScript",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 46,
-      "pushedAt": "2026-10-29T03:39:12Z",
+      "openIssuesAndPullRequests": 48,
+      "pushedAt": "2026-10-29T05:48:33Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
