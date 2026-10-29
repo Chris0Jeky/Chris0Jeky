@@ -28,70 +28,15 @@ jobs:
 
       - name: Generate public CommitAtlas assets
         id: commitatlas
-        uses: Chris0Jeky/CommitAtlas@3e7a9ada434cfced55bacbfc5e43f9c3979465f3
+        uses: Chris0Jeky/CommitAtlas@2c2a1af4985e2327e38b5e10d1d04a729b048283
         with:
           config: .commitatlas.json
 
-      - name: Validate generated bundle
+      - name: Validate complete paired bundle
         shell: bash
-        run: |
-          node <<'NODE'
-          const fs = require('node:fs');
-          const crypto = require('node:crypto');
-          const manifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas.outputs.manifest }}', 'utf8'));
-          const expected = ['activity-still.svg', 'activity.svg', 'atlas-compact-still.svg', 'atlas-compact.svg', 'atlas-still.svg', 'atlas.svg', 'breakdown.svg', 'cadence.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'releases.svg', 'rhythm.svg', 'streak.svg'];
-          const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
-          if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
-            throw new Error('Unexpected CommitAtlas responsive manifest');
-          }
-          if ('${{ steps.commitatlas.outputs.atlas-compact }}' !== 'assets/commitatlas/atlas-compact.svg') {
-            throw new Error('Compact Atlas output is missing');
-          }
-          const expectedOutputs = {
-            breakdown: 'assets/commitatlas/breakdown.svg',
-            rhythm: 'assets/commitatlas/rhythm.svg',
-            'projects-json': 'assets/commitatlas/projects.json',
-            'projects-markdown': 'assets/commitatlas/projects.md',
-          };
-          if ('${{ steps.commitatlas.outputs.breakdown }}' !== expectedOutputs.breakdown) throw new Error('Breakdown output is missing');
-          if ('${{ steps.commitatlas.outputs.rhythm }}' !== expectedOutputs.rhythm) throw new Error('Rhythm output is missing');
-          if ('${{ steps.commitatlas.outputs['projects-json'] }}' !== expectedOutputs['projects-json']) throw new Error('Projects JSON output is missing');
-          if ('${{ steps.commitatlas.outputs['projects-markdown'] }}' !== expectedOutputs['projects-markdown']) throw new Error('Projects Markdown output is missing');
-          for (const artifact of manifest.artifacts) {
-            const path = `assets/commitatlas/${artifact.path}`;
-            const body = fs.readFileSync(path);
-            const digest = crypto.createHash('sha256').update(body).digest('hex');
-            if (body.length !== artifact.bytes || digest !== artifact.sha256) {
-              throw new Error(`Manifest mismatch for ${path}`);
-            }
-          }
-          NODE
-
-      - name: Validate light bundle
-        shell: bash
-        run: |
-          node <<'NODE'
-          const fs = require('node:fs');
-          const crypto = require('node:crypto');
-          const primaryManifest = JSON.parse(fs.readFileSync('${{ steps.commitatlas.outputs.manifest }}', 'utf8'));
-          const manifest = JSON.parse(fs.readFileSync('assets/commitatlas/light/manifest.json', 'utf8'));
-          const expected = ['activity-still.svg', 'activity.svg', 'atlas-compact-still.svg', 'atlas-compact.svg', 'atlas-still.svg', 'atlas.svg', 'breakdown.svg', 'cadence.svg', 'languages.svg', 'profile.svg', 'projects.json', 'projects.md', 'projects.svg', 'releases.svg', 'rhythm.svg', 'streak.svg'];
-          const artifacts = manifest.artifacts.map((artifact) => artifact.path).sort();
-          if (manifest.user !== 'Chris0Jeky' || JSON.stringify(artifacts) !== JSON.stringify(expected)) {
-            throw new Error('Unexpected CommitAtlas light manifest');
-          }
-          if (manifest.generatedAt !== primaryManifest.generatedAt || JSON.stringify(manifest.window) !== JSON.stringify(primaryManifest.window)) {
-            throw new Error('CommitAtlas theme manifests do not describe one atomic snapshot');
-          }
-          for (const artifact of manifest.artifacts) {
-            const path = `assets/commitatlas/light/${artifact.path}`;
-            const body = fs.readFileSync(path);
-            const digest = crypto.createHash('sha256').update(body).digest('hex');
-            if (body.length !== artifact.bytes || digest !== artifact.sha256) {
-              throw new Error(`Manifest mismatch for ${path}`);
-            }
-          }
-          NODE
+        env:
+          COMMITATLAS_OUTPUTS_JSON: ${{ toJSON(steps.commitatlas.outputs) }}
+        run: node scripts/validate-commitatlas-bundle.mjs
 
       - name: Update generated selected work catalog
         shell: bash

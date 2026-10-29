@@ -8,18 +8,26 @@ const configPath = new URL("../.commitatlas.json", import.meta.url);
 const retiredLightConfigPath = new URL("../.commitatlas.light.json", import.meta.url);
 const readmePath = new URL("../README.md", import.meta.url);
 const workflowPath = new URL("../.github/workflows/commitatlas.yml", import.meta.url);
+const previewPath = new URL("../.github/workflows/commitatlas-preview.yml", import.meta.url);
 
 test("one pinned CommitAtlas invocation produces the dark and light bundles", async () => {
   const config = JSON.parse(await readFile(configPath, "utf8"));
   const workflow = await readFile(workflowPath, "utf8");
+  const preview = await readFile(previewPath, "utf8");
 
   assert.equal(config.theme, "ember");
   assert.deepEqual(config.themes, [{ theme: "paper", outputDir: "assets/commitatlas/light" }]);
   assert.equal(config.outputDir, "assets/commitatlas");
   assert.equal((workflow.match(/uses: Chris0Jeky\/CommitAtlas@[0-9a-f]{40}/g) ?? []).length, 1);
   assert.doesNotMatch(workflow, /uses: Chris0Jeky\/CommitAtlas@5cb95cd7b185df85ba948c14e1f505b880c98926/);
-  assert.match(workflow, /assets\/commitatlas\/light\/manifest\.json/);
-  assert.match(workflow, /theme manifests do not describe one atomic snapshot/);
+  const pin = workflow.match(/uses: Chris0Jeky\/CommitAtlas@([0-9a-f]{40})/)?.[1];
+  const previewPins = [...preview.matchAll(/uses: Chris0Jeky\/CommitAtlas@([0-9a-f]{40})/g)];
+  assert.equal(previewPins.length, 1);
+  assert.equal(previewPins[0][1], pin, "preview and refresh must use the same immutable producer");
+  for (const source of [workflow, preview]) {
+    assert.match(source, /run: node scripts\/validate-commitatlas-bundle\.mjs/);
+    assert.match(source, /COMMITATLAS_OUTPUTS_JSON: \$\{\{ toJSON\(steps\.commitatlas\.outputs\) \}\}/);
+  }
   await assert.rejects(readFile(retiredLightConfigPath, "utf8"), { code: "ENOENT" });
 });
 
@@ -62,7 +70,6 @@ test("scheduled refresh runs twelve-hourly even when no public push event is pre
 test("ambient density cards have reduced-motion sources before animated sources", async () => {
   const config = JSON.parse(await readFile(configPath, "utf8"));
   const readme = await readFile(readmePath, "utf8");
-  const workflow = await readFile(workflowPath, "utf8");
   assert.equal(config.days, "auto", "streak history must not be truncated with the calendar");
   assert.equal(config.motion, "ambient");
   assert.equal(config.reducedMotion, true);
@@ -70,7 +77,6 @@ test("ambient density cards have reduced-motion sources before animated sources"
   const sources = [...picture.matchAll(/<source media="([^"]+)" srcset="([^"]+)"/g)];
   assert.equal(sources.filter((match) => match[1].includes("prefers-reduced-motion")).length, 4);
   assert.ok(sources.slice(0, 4).every((match) => match[1].includes("prefers-reduced-motion") && match[2].endsWith("-still.svg")));
-  for (const name of ["activity-still.svg", "atlas-still.svg", "atlas-compact-still.svg"]) assert.ok(workflow.includes(`'${name}'`));
   assert.match(readme, /latest 365 observed days/);
 });
 
