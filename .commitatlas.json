@@ -9,7 +9,7 @@
     }
   ],
   "days": "auto",
-  "motion": "subtle",
+  "motion": "ambient",
   "layout": "wide",
   "responsiveAtlas": true,
   "outputDir": "assets/commitatlas",
@@ -72,5 +72,6 @@
         "docs": "https://github.com/Chris0Jeky/CommitAtlas#readme"
       }
     }
-  ]
+  ],
+  "reducedMotion": true
 }

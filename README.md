@@ -17,6 +17,10 @@ I build software that turns ambiguous input, automation, and complex technical w
 <div align="center">
   <a href="https://commit-atlas.commit-atlas.workers.dev/studio">
     <picture>
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/commitatlas/light/atlas-compact-still.svg" />
+      <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/commitatlas/atlas-compact-still.svg" />
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/atlas-still.svg" />
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/atlas-still.svg" />
       <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/commitatlas/light/atlas-compact.svg" />
       <source media="(max-width: 600px)" srcset="./assets/commitatlas/atlas-compact.svg" />
       <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/atlas.svg" />
@@ -25,7 +29,9 @@ I build software that turns ambiguous input, automation, and complex technical w
   </a>
 </div>
 
-<p align="center"><sub>Twelve-hourly committed snapshot from GitHub's logged-out public profile view · the signed-in owner's contribution calendar can differ because it may include private activity · automatic full-history, up to two years, window ending on the date printed in the card · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
+<p align="center"><sub>Twelve-hourly committed snapshot from GitHub's logged-out public profile view · the signed-in owner's contribution calendar can differ because it may include private activity · calendar shows the latest 365 observed days; streaks retain the full fetched history, up to two years, ending on the printed date · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
+
+<p align="center"><a href="https://github.com/Chris0Jeky/Chris0Jeky/actions/workflows/commitatlas.yml"><img alt="Profile refresh workflow status" src="https://github.com/Chris0Jeky/Chris0Jeky/actions/workflows/commitatlas.yml/badge.svg" /></a> · <a href="./assets/commitatlas/atlas-still.svg">Still version</a></p>
 
 ---
 
@@ -117,7 +123,7 @@ Source-backed GitHub analytics, deterministic README graphics, project-health vi
 
 ## Generated flagship snapshot
 
-The catalogue below is the last committed credential-free CommitAtlas snapshot. It stays marker-owned and unchanged in this documentation PR; the updated `.commitatlas.json` will move it to the current five flagships through the existing scheduled or manually dispatched generator after merge.
+The catalogue below is the last committed credential-free CommitAtlas snapshot. The refresh workflow updates this marker-owned section from the same validated snapshot as the cards; a failed refresh preserves the previous committed catalogue.
 
 <!-- commitatlas:project-catalog:start -->
 | Project | Status | Signals/actions |
@@ -211,3 +217,4 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
   <br />
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:B71C1C,100:FF8F00&height=92&section=footer" alt="Profile footer" />
 </div>
+
