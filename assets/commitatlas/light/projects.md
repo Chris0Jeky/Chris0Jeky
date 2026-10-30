@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-10-29T11:35:04.917Z`.
-Window: `2024-10-30` → `2026-10-29` (730 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-10-30T21:33:42.036Z`.
+Window: `2024-10-30` → `2026-10-30` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,42 +12,42 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 4 stars · 125 open issues/PRs
+- **Stats:** 4 stars · 137 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/40854716153) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41096556429) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Pending (`ci.yml`)
 - **Description:** Heedline \(pre\-alpha\): a local\-first Chrome MV3 guard for deceptive navigation and risky browser actions, with inspectable decisions and no runtime network lookup\.
-- **Stats:** 2 stars · 108 open issues/PRs
+- **Stats:** 2 stars · 119 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
-- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/40812087015) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/41130265962) — observed
 - [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
 
 ## Alibi
 
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
-- **CI:** Passing (`check.yml`)
+- **CI:** Pending (`check.yml`)
 - **Description:** An offline\-first illustrated puzzle cabinet with explainable logic puzzles, mystery casebooks, local authoring and device\-local saves\. No account required\.
-- **Stats:** 2 stars · 84 open issues/PRs
+- **Stats:** 2 stars · 93 open issues/PRs
 - **Release:** 0\.15\.2: Paintings for your desk and games (`v0.15.2`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Alibi) — observed
 - [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) — observed · external host `alibi-after-hours-preview.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/40849947910) — observed
+- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/41127917003) — observed
 - [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.2) — observed
 - [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.2/alibi-deluxe-cloudflare.zip) — observed
 - [Docs](https://github.com/Chris0Jeky/Alibi#readme) — configured
@@ -59,7 +59,7 @@ Window: `2024-10-30` → `2026-10-29` (730 days).
 - **Lifecycle:** Active
 - **CI:** CI unavailable (`observatory.yml`)
 - **Description:** Operations desk for bounded product signals, synthetic checks, release context and reviewed development evidence; includes a frozen feed workbench\.
-- **Stats:** 2 stars · 16 open issues/PRs
+- **Stats:** 2 stars · 19 open issues/PRs
 
 ### Actions
 
