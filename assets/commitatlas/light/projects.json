@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-10-30T21:33:42.036Z",
+  "generatedAt": "2026-10-31T20:29:01.752Z",
   "window": {
-    "from": "2024-10-30",
-    "to": "2026-10-30",
-    "days": 731,
-    "observedDays": 731,
+    "from": "2024-11-05",
+    "to": "2026-10-31",
+    "days": 726,
+    "observedDays": 726,
     "complete": true
   },
   "projects": [
@@ -19,15 +19,15 @@
       "description": "Local creative workshop: image-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples",
       "lifecycle": "active",
       "primaryLanguage": "Python",
-      "stars": 4,
+      "stars": 5,
       "forks": 0,
-      "openIssuesAndPullRequests": 137,
-      "pushedAt": "2026-10-30T17:12:33Z",
+      "openIssuesAndPullRequests": 142,
+      "pushedAt": "2026-10-31T18:18:54Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41096556429"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41228798315"
       },
       "actions": [
         {
@@ -41,7 +41,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41096556429",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41228798315",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -65,13 +65,13 @@
       "primaryLanguage": "TypeScript",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 119,
-      "pushedAt": "2026-10-30T21:20:06Z",
+      "openIssuesAndPullRequests": 120,
+      "pushedAt": "2026-10-31T04:02:15Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "failing",
+        "label": "Failing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/41130265962"
+        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/41145440669"
       },
       "actions": [
         {
@@ -85,7 +85,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/41130265962",
+          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/41145440669",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -109,13 +109,13 @@
       "primaryLanguage": "JavaScript",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 93,
-      "pushedAt": "2026-10-30T21:02:16Z",
+      "openIssuesAndPullRequests": 95,
+      "pushedAt": "2026-10-31T07:20:44Z",
       "ci": {
-        "state": "pending",
-        "label": "Pending",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41127917003"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41177665558"
       },
       "release": {
         "tag": "v0.15.2",
@@ -146,7 +146,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41127917003",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41177665558",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
