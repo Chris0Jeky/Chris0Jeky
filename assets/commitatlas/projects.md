@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-01T21:14:16.897Z`.
-Window: `2024-11-05` → `2026-11-01` (727 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-02T13:37:18.589Z`.
+Window: `2024-11-05` → `2026-11-02` (728 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,14 +10,14 @@ Window: `2024-11-05` → `2026-11-01` (727 days).
 
 - **Repository:** `chris0jeky/local-asset-studio`
 - **Lifecycle:** Active
-- **CI:** Passing (`check.yml`)
+- **CI:** Pending (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 5 stars · 148 open issues/PRs
+- **Stats:** 5 stars · 150 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41349111255) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41452642105) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
@@ -47,7 +47,7 @@ Window: `2024-11-05` → `2026-11-01` (727 days).
 
 - [Source](https://github.com/Chris0Jeky/Alibi) — observed
 - [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) — observed · external host `alibi-after-hours-preview.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/41177665558) — observed
+- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/41368016248) — observed
 - [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.2) — observed
 - [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.2/alibi-deluxe-cloudflare.zip) — observed
 - [Docs](https://github.com/Chris0Jeky/Alibi#readme) — configured
@@ -72,7 +72,7 @@ Window: `2024-11-05` → `2026-11-01` (727 days).
 - **Lifecycle:** Active
 - **CI:** Stale result (`ci.yml`)
 - **Description:** A modular GitHub portfolio dashboard with contribution stats, streaks, activity graphs, project health, CI status, and beautiful shareable cards\.
-- **Stats:** 1 stars · 48 open issues/PRs
+- **Stats:** 1 stars · 49 open issues/PRs
 - **Release:** CommitAtlas v0\.4\.0 — truthful under pressure (`v0.4.0`)
 
 ### Actions

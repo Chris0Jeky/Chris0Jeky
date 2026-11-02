@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-11-01T21:14:16.897Z",
+  "generatedAt": "2026-11-02T13:37:18.589Z",
   "window": {
     "from": "2024-11-05",
-    "to": "2026-11-01",
-    "days": 727,
-    "observedDays": 727,
+    "to": "2026-11-02",
+    "days": 728,
+    "observedDays": 728,
     "complete": true
   },
   "projects": [
@@ -21,13 +21,13 @@
       "primaryLanguage": "Python",
       "stars": 5,
       "forks": 0,
-      "openIssuesAndPullRequests": 148,
-      "pushedAt": "2026-11-01T21:05:54Z",
+      "openIssuesAndPullRequests": 150,
+      "pushedAt": "2026-11-02T13:37:17Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41349111255"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41452642105"
       },
       "actions": [
         {
@@ -41,7 +41,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41349111255",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41452642105",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -110,12 +110,12 @@
       "stars": 2,
       "forks": 0,
       "openIssuesAndPullRequests": 95,
-      "pushedAt": "2026-11-01T00:36:36Z",
+      "pushedAt": "2026-11-02T00:36:06Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41177665558"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41368016248"
       },
       "release": {
         "tag": "v0.15.2",
@@ -146,7 +146,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41177665558",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41368016248",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -229,8 +229,8 @@
       "primaryLanguage": "TypeScript",
       "stars": 1,
       "forks": 0,
-      "openIssuesAndPullRequests": 48,
-      "pushedAt": "2026-10-29T11:46:08Z",
+      "openIssuesAndPullRequests": 49,
+      "pushedAt": "2026-11-02T07:11:24Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
