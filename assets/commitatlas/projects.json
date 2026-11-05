@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-11-02T23:54:24.916Z",
+  "generatedAt": "2026-11-05T13:17:15.011Z",
   "window": {
     "from": "2024-11-05",
-    "to": "2026-11-02",
-    "days": 728,
-    "observedDays": 728,
+    "to": "2026-11-05",
+    "days": 731,
+    "observedDays": 731,
     "complete": true
   },
   "projects": [
@@ -21,13 +21,13 @@
       "primaryLanguage": "Python",
       "stars": 5,
       "forks": 0,
-      "openIssuesAndPullRequests": 157,
-      "pushedAt": "2026-11-02T16:13:56Z",
+      "openIssuesAndPullRequests": 149,
+      "pushedAt": "2026-11-05T04:26:31Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41479430410"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41967829846"
       },
       "actions": [
         {
@@ -41,7 +41,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41479430410",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41967829846",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -68,8 +68,8 @@
       "openIssuesAndPullRequests": 120,
       "pushedAt": "2026-10-31T04:02:15Z",
       "ci": {
-        "state": "failing",
-        "label": "Failing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/41145440669"
       },
@@ -112,8 +112,8 @@
       "openIssuesAndPullRequests": 95,
       "pushedAt": "2026-11-02T00:36:06Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "check.yml",
         "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41368016248"
       },

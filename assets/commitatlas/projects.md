@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-02T23:54:24.916Z`.
-Window: `2024-11-05` → `2026-11-02` (728 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-05T13:17:15.011Z`.
+Window: `2024-11-05` → `2026-11-05` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,19 +12,19 @@ Window: `2024-11-05` → `2026-11-02` (728 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 5 stars · 157 open issues/PRs
+- **Stats:** 5 stars · 149 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41479430410) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41967829846) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Failing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** Heedline \(pre\-alpha\): a local\-first Chrome MV3 guard for deceptive navigation and risky browser actions, with inspectable decisions and no runtime network lookup\.
 - **Stats:** 2 stars · 120 open issues/PRs
 
@@ -38,7 +38,7 @@ Window: `2024-11-05` → `2026-11-02` (728 days).
 
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
-- **CI:** Passing (`check.yml`)
+- **CI:** Stale result (`check.yml`)
 - **Description:** An offline\-first illustrated puzzle cabinet with explainable logic puzzles, mystery casebooks, local authoring and device\-local saves\. No account required\.
 - **Stats:** 2 stars · 95 open issues/PRs
 - **Release:** 0\.15\.2: Paintings for your desk and games (`v0.15.2`)
