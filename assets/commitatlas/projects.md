@@ -1,6 +1,6 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-05T13:17:15.011Z`.
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-05T22:42:10.774Z`.
 Window: `2024-11-05` → `2026-11-05` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
@@ -12,12 +12,12 @@ Window: `2024-11-05` → `2026-11-05` (731 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 5 stars · 149 open issues/PRs
+- **Stats:** 5 stars · 144 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/41967829846) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42114961617) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
