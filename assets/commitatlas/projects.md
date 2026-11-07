@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-06T13:00:21.328Z`.
-Window: `2024-11-06` → `2026-11-06` (731 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-07T11:47:02.863Z`.
+Window: `2024-11-11` → `2026-11-07` (727 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -17,7 +17,7 @@ Window: `2024-11-06` → `2026-11-06` (731 days).
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42114961617) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42260472165) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel

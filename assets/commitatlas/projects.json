@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-11-06T13:00:21.328Z",
+  "generatedAt": "2026-11-07T11:47:02.863Z",
   "window": {
-    "from": "2024-11-06",
-    "to": "2026-11-06",
-    "days": 731,
-    "observedDays": 731,
+    "from": "2024-11-11",
+    "to": "2026-11-07",
+    "days": 727,
+    "observedDays": 727,
     "complete": true
   },
   "projects": [
@@ -22,12 +22,12 @@
       "stars": 5,
       "forks": 0,
       "openIssuesAndPullRequests": 144,
-      "pushedAt": "2026-11-05T21:41:45Z",
+      "pushedAt": "2026-11-06T17:18:46Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42114961617"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42260472165"
       },
       "actions": [
         {
@@ -41,7 +41,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42114961617",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42260472165",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
