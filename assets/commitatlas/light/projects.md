@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-08T21:13:51.329Z`.
-Window: `2024-11-11` → `2026-11-08` (728 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-10T00:43:35.914Z`.
+Window: `2024-11-11` → `2026-11-10` (730 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,9 +10,9 @@ Window: `2024-11-11` → `2026-11-08` (728 days).
 
 - **Repository:** `chris0jeky/local-asset-studio`
 - **Lifecycle:** Active
-- **CI:** Passing (`check.yml`)
+- **CI:** Stale result (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 5 stars · 145 open issues/PRs
+- **Stats:** 5 stars · 146 open issues/PRs
 
 ### Actions
 
@@ -38,18 +38,18 @@ Window: `2024-11-11` → `2026-11-08` (728 days).
 
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
-- **CI:** Stale result (`check.yml`)
+- **CI:** Passing (`check.yml`)
 - **Description:** An offline\-first illustrated puzzle cabinet with explainable logic puzzles, mystery casebooks, local authoring and device\-local saves\. No account required\.
 - **Stats:** 2 stars · 95 open issues/PRs
-- **Release:** 0\.15\.2: Paintings for your desk and games (`v0.15.2`)
+- **Release:** 0\.16\.0 · More Sun & Moon, a new Lab, and sturdier saves (`v0.16.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Alibi) — observed
 - [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) — observed · external host `alibi-after-hours-preview.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/41368016248) — observed
-- [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.2) — observed
-- [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.2/alibi-deluxe-cloudflare.zip) — observed
+- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/42702228878) — observed
+- [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.16.0) — observed
+- [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.16.0/alibi-deluxe-cloudflare.zip) — observed
 - [Docs](https://github.com/Chris0Jeky/Alibi#readme) — configured
 - [Download](https://github.com/Chris0Jeky/Alibi/releases/latest) — configured
 
@@ -57,13 +57,14 @@ Window: `2024-11-11` → `2026-11-08` (728 days).
 
 - **Repository:** `chris0jeky/Pulseboard`
 - **Lifecycle:** Active
-- **CI:** CI unavailable (`observatory.yml`)
+- **CI:** Passing (`observatory.yml`)
 - **Description:** Operations desk for bounded product signals, synthetic checks, release context and reviewed development evidence; includes a frozen feed workbench\.
 - **Stats:** 2 stars · 19 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Pulseboard) — observed
+- [CI](https://github.com/Chris0Jeky/Pulseboard/actions/runs/42667341013) — observed
 - [Docs](https://github.com/Chris0Jeky/Pulseboard#readme) — configured
 
 ## CommitAtlas

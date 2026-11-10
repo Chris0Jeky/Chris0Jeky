@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-11-08T21:13:51.329Z",
+  "generatedAt": "2026-11-10T00:43:35.914Z",
   "window": {
     "from": "2024-11-11",
-    "to": "2026-11-08",
-    "days": 728,
-    "observedDays": 728,
+    "to": "2026-11-10",
+    "days": 730,
+    "observedDays": 730,
     "complete": true
   },
   "projects": [
@@ -21,11 +21,11 @@
       "primaryLanguage": "Python",
       "stars": 5,
       "forks": 0,
-      "openIssuesAndPullRequests": 145,
+      "openIssuesAndPullRequests": 146,
       "pushedAt": "2026-11-06T17:18:46Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "check.yml",
         "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42260472165"
       },
@@ -110,20 +110,20 @@
       "stars": 2,
       "forks": 0,
       "openIssuesAndPullRequests": 95,
-      "pushedAt": "2026-11-02T00:36:06Z",
+      "pushedAt": "2026-11-09T21:57:14Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41368016248"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/42702228878"
       },
       "release": {
-        "tag": "v0.15.2",
-        "name": "0.15.2: Paintings for your desk and games",
-        "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.2",
+        "tag": "v0.16.0",
+        "name": "0.16.0 · More Sun & Moon, a new Lab, and sturdier saves",
+        "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.16.0",
         "download": {
           "name": "alibi-deluxe-cloudflare.zip",
-          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.2/alibi-deluxe-cloudflare.zip"
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.16.0/alibi-deluxe-cloudflare.zip"
         }
       },
       "actions": [
@@ -146,7 +146,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/41368016248",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/42702228878",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -154,7 +154,7 @@
         {
           "kind": "release",
           "label": "Release",
-          "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.15.2",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/tag/v0.16.0",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -162,7 +162,7 @@
         {
           "kind": "release-download",
           "label": "Release download",
-          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.15.2/alibi-deluxe-cloudflare.zip",
+          "url": "https://github.com/Chris0Jeky/Alibi/releases/download/v0.16.0/alibi-deluxe-cloudflare.zip",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -195,17 +195,26 @@
       "stars": 2,
       "forks": 0,
       "openIssuesAndPullRequests": 19,
-      "pushedAt": "2026-10-29T16:23:51Z",
+      "pushedAt": "2026-11-09T17:43:05Z",
       "ci": {
-        "state": "unavailable",
-        "label": "CI unavailable",
-        "workflow": "observatory.yml"
+        "state": "passing",
+        "label": "Passing",
+        "workflow": "observatory.yml",
+        "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/42667341013"
       },
       "actions": [
         {
           "kind": "source",
           "label": "Source",
           "url": "https://github.com/Chris0Jeky/Pulseboard",
+          "origin": "snapshot",
+          "host": "github.com",
+          "external": false
+        },
+        {
+          "kind": "ci",
+          "label": "CI",
+          "url": "https://github.com/Chris0Jeky/Pulseboard/actions/runs/42667341013",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -230,7 +239,7 @@
       "stars": 1,
       "forks": 0,
       "openIssuesAndPullRequests": 49,
-      "pushedAt": "2026-11-02T07:11:24Z",
+      "pushedAt": "2026-11-09T07:13:53Z",
       "ci": {
         "state": "stale",
         "label": "Stale result",
