@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-10T13:34:04.260Z`.
-Window: `2024-11-11` → `2026-11-10` (730 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-11T12:46:45.716Z`.
+Window: `2024-11-11` → `2026-11-11` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -38,16 +38,16 @@ Window: `2024-11-11` → `2026-11-10` (730 days).
 
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
-- **CI:** Passing (`check.yml`)
+- **CI:** Pending (`check.yml`)
 - **Description:** An offline\-first illustrated puzzle cabinet with explainable logic puzzles, mystery casebooks, local authoring and device\-local saves\. No account required\.
-- **Stats:** 2 stars · 95 open issues/PRs
+- **Stats:** 2 stars · 100 open issues/PRs
 - **Release:** 0\.16\.0 · More Sun & Moon, a new Lab, and sturdier saves (`v0.16.0`)
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/Alibi) — observed
 - [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) — observed · external host `alibi-after-hours-preview.commit-atlas.workers.dev`
-- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/42702228878) — observed
+- [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/43018370900) — observed
 - [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.16.0) — observed
 - [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.16.0/alibi-deluxe-cloudflare.zip) — observed
 - [Docs](https://github.com/Chris0Jeky/Alibi#readme) — configured

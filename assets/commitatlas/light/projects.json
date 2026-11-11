@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-11-10T13:34:04.260Z",
+  "generatedAt": "2026-11-11T12:46:45.716Z",
   "window": {
     "from": "2024-11-11",
-    "to": "2026-11-10",
-    "days": 730,
-    "observedDays": 730,
+    "to": "2026-11-11",
+    "days": 731,
+    "observedDays": 731,
     "complete": true
   },
   "projects": [
@@ -109,13 +109,13 @@
       "primaryLanguage": "JavaScript",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 95,
-      "pushedAt": "2026-11-09T21:57:14Z",
+      "openIssuesAndPullRequests": 100,
+      "pushedAt": "2026-11-11T12:13:08Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "pending",
+        "label": "Pending",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/42702228878"
+        "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/43018370900"
       },
       "release": {
         "tag": "v0.16.0",
@@ -146,7 +146,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/42702228878",
+          "url": "https://github.com/Chris0Jeky/Alibi/actions/runs/43018370900",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
