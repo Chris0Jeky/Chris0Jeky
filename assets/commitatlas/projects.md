@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-14T12:17:03.040Z`.
-Window: `2024-11-14` → `2026-11-14` (731 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-15T21:52:36.775Z`.
+Window: `2024-11-15` → `2026-11-15` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -38,7 +38,7 @@ Window: `2024-11-14` → `2026-11-14` (731 days).
 
 - **Repository:** `chris0jeky/Alibi`
 - **Lifecycle:** Active
-- **CI:** Failing (`check.yml`)
+- **CI:** Stale result (`check.yml`)
 - **Description:** An offline\-first illustrated puzzle cabinet with explainable logic puzzles, mystery casebooks, local authoring and device\-local saves\. No account required\.
 - **Stats:** 2 stars · 117 open issues/PRs
 - **Release:** 0\.16\.0 · More Sun & Moon, a new Lab, and sturdier saves (`v0.16.0`)
@@ -57,7 +57,7 @@ Window: `2024-11-14` → `2026-11-14` (731 days).
 
 - **Repository:** `chris0jeky/Pulseboard`
 - **Lifecycle:** Active
-- **CI:** Passing (`observatory.yml`)
+- **CI:** Stale result (`observatory.yml`)
 - **Description:** Operations desk for bounded product signals, synthetic checks, release context and reviewed development evidence; includes a frozen feed workbench\.
 - **Stats:** 2 stars · 19 open issues/PRs
 
