@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-15T21:52:36.775Z`.
-Window: `2024-11-15` → `2026-11-15` (731 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-17T23:52:01.419Z`.
+Window: `2024-11-18` → `2026-11-17` (730 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -10,14 +10,14 @@ Window: `2024-11-15` → `2026-11-15` (731 days).
 
 - **Repository:** `chris0jeky/local-asset-studio`
 - **Lifecycle:** Active
-- **CI:** Stale result (`check.yml`)
+- **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 5 stars · 146 open issues/PRs
+- **Stats:** 5 stars · 147 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/42260472165) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44182436719) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
@@ -26,7 +26,7 @@ Window: `2024-11-15` → `2026-11-15` (731 days).
 - **Lifecycle:** Active
 - **CI:** Stale result (`ci.yml`)
 - **Description:** Heedline \(pre\-alpha\): a local\-first Chrome MV3 guard for deceptive navigation and risky browser actions, with inspectable decisions and no runtime network lookup\.
-- **Stats:** 2 stars · 120 open issues/PRs
+- **Stats:** 2 stars · 125 open issues/PRs
 
 ### Actions
 
