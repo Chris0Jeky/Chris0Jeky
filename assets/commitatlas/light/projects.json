@@ -3,12 +3,12 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-11-17T23:52:01.419Z",
+  "generatedAt": "2026-11-18T23:25:12.448Z",
   "window": {
     "from": "2024-11-18",
-    "to": "2026-11-17",
-    "days": 730,
-    "observedDays": 730,
+    "to": "2026-11-18",
+    "days": 731,
+    "observedDays": 731,
     "complete": true
   },
   "projects": [
@@ -19,15 +19,15 @@
       "description": "Local creative workshop: image-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples",
       "lifecycle": "active",
       "primaryLanguage": "Python",
-      "stars": 5,
+      "stars": 6,
       "forks": 0,
       "openIssuesAndPullRequests": 147,
-      "pushedAt": "2026-11-17T21:41:26Z",
+      "pushedAt": "2026-11-18T22:56:00Z",
       "ci": {
         "state": "passing",
         "label": "Passing",
         "workflow": "check.yml",
-        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44182436719"
+        "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44416207807"
       },
       "actions": [
         {
@@ -41,7 +41,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44182436719",
+          "url": "https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44416207807",
           "origin": "snapshot",
           "host": "github.com",
           "external": false
@@ -65,13 +65,13 @@
       "primaryLanguage": "TypeScript",
       "stars": 2,
       "forks": 0,
-      "openIssuesAndPullRequests": 125,
-      "pushedAt": "2026-11-17T23:43:46Z",
+      "openIssuesAndPullRequests": 122,
+      "pushedAt": "2026-11-18T00:46:44Z",
       "ci": {
-        "state": "stale",
-        "label": "Stale result",
+        "state": "passing",
+        "label": "Passing",
         "workflow": "ci.yml",
-        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/41145440669"
+        "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/44210607751"
       },
       "actions": [
         {
@@ -85,7 +85,7 @@
         {
           "kind": "ci",
           "label": "CI",
-          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/41145440669",
+          "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/44210607751",
           "origin": "snapshot",
           "host": "github.com",
           "external": false

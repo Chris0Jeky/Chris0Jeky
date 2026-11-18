@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-17T23:52:01.419Z`.
-Window: `2024-11-18` → `2026-11-17` (730 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-18T23:25:12.448Z`.
+Window: `2024-11-18` → `2026-11-18` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -12,26 +12,26 @@ Window: `2024-11-18` → `2026-11-17` (730 days).
 - **Lifecycle:** Active
 - **CI:** Passing (`check.yml`)
 - **Description:** Local creative workshop: image\-generation presets, ComfyUI workflows, asset tools, reproducible experiments, and Blender examples
-- **Stats:** 5 stars · 147 open issues/PRs
+- **Stats:** 6 stars · 147 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/local-asset-studio) — observed
-- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44182436719) — observed
+- [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44416207807) — observed
 - [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) — configured
 
 ## NavSentinel
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Stale result (`ci.yml`)
+- **CI:** Passing (`ci.yml`)
 - **Description:** Heedline \(pre\-alpha\): a local\-first Chrome MV3 guard for deceptive navigation and risky browser actions, with inspectable decisions and no runtime network lookup\.
-- **Stats:** 2 stars · 125 open issues/PRs
+- **Stats:** 2 stars · 122 open issues/PRs
 
 ### Actions
 
 - [Source](https://github.com/Chris0Jeky/NavSentinel) — observed
-- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/41145440669) — observed
+- [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/44210607751) — observed
 - [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) — configured
 
 ## Alibi
