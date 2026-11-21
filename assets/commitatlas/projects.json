@@ -3,10 +3,10 @@
   "generator": "CommitAtlas",
   "user": "Chris0Jeky",
   "source": "github-public-rest",
-  "generatedAt": "2026-11-18T23:25:12.448Z",
+  "generatedAt": "2026-11-21T22:12:49.420Z",
   "window": {
-    "from": "2024-11-18",
-    "to": "2026-11-18",
+    "from": "2024-11-21",
+    "to": "2026-11-21",
     "days": 731,
     "observedDays": 731,
     "complete": true
@@ -68,8 +68,8 @@
       "openIssuesAndPullRequests": 122,
       "pushedAt": "2026-11-18T00:46:44Z",
       "ci": {
-        "state": "passing",
-        "label": "Passing",
+        "state": "stale",
+        "label": "Stale result",
         "workflow": "ci.yml",
         "url": "https://github.com/Chris0Jeky/NavSentinel/actions/runs/44210607751"
       },

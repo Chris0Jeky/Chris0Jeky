@@ -1,13 +1,13 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-identity-beacon.still.svg?v=897b75c0df31548b" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/scene-identity-beacon.still.svg?v=358802072283fee1" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-identity-beacon.svg?v=f37fa579e3c5ce6c" />
-  <img width="520" alt="Cristian (Chris) Tcaci, backend and platform engineer, with three configured public project signals" src="./assets/commitatlas/scene-identity-beacon.svg?v=e553bb3c69a0eea0" />
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-identity-beacon.still.svg?v=c2118ea95099c15d" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/scene-identity-beacon.still.svg?v=319bf700efa3b4dc" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-identity-beacon.svg?v=af59896fce8a1ee7" />
+  <img width="520" alt="Cristian (Chris) Tcaci, backend and platform engineer, with three configured public project signals" src="./assets/commitatlas/scene-identity-beacon.svg?v=cd5f7aea445204d0" />
 </picture>
 
-<p><a href="./assets/commitatlas/scene-identity-beacon.still.svg?v=358802072283fee1">Full-size still header</a></p>
+<p><a href="./assets/commitatlas/scene-identity-beacon.still.svg?v=319bf700efa3b4dc">Full-size still header</a></p>
 
 ### Backend & platform engineer · Local-first systems · Evidence-based automation
 
@@ -24,31 +24,31 @@ I build software that turns ambiguous input, automation, and complex technical w
 <div align="center">
   <a href="https://commit-atlas.commit-atlas.workers.dev/studio">
     <picture>
-      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/commitatlas/light/atlas-compact-still.svg?v=2022ec7312130d3b" />
-      <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/commitatlas/atlas-compact-still.svg?v=de9e29430638f27b" />
-      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/atlas-still.svg?v=5e2bbfccde77d47f" />
-      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/atlas-still.svg?v=1c5dd3d8b207061b" />
-      <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/commitatlas/light/atlas-compact.svg?v=f14a5af74483c6a0" />
-      <source media="(max-width: 600px)" srcset="./assets/commitatlas/atlas-compact.svg?v=fabc91bfa40fbaff" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/atlas.svg?v=b7ef578cae1dbd9a" />
-      <img width="860" alt="CommitAtlas developer atlas for Chris0Jeky from GitHub's logged-out public profile view, with contribution density, streaks, activity mix, momentum, languages, and project health" src="./assets/commitatlas/atlas.svg?v=b6750edf655150fa" />
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/commitatlas/light/atlas-compact-still.svg?v=b76d0e0f3f65d758" />
+      <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="./assets/commitatlas/atlas-compact-still.svg?v=776aee5d7d38fa3c" />
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/atlas-still.svg?v=6c8aaeda0d2e1ee4" />
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/atlas-still.svg?v=159555961e74419b" />
+      <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="./assets/commitatlas/light/atlas-compact.svg?v=b5485e991d2777a2" />
+      <source media="(max-width: 600px)" srcset="./assets/commitatlas/atlas-compact.svg?v=c7e5af6c4c0f7085" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/atlas.svg?v=255d1b6f10f34db2" />
+      <img width="860" alt="CommitAtlas developer atlas for Chris0Jeky from GitHub's logged-out public profile view, with contribution density, streaks, activity mix, momentum, languages, and project health" src="./assets/commitatlas/atlas.svg?v=a47f111adf067862" />
     </picture>
   </a>
 </div>
 
 <div align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-evidence-coverage.still.svg?v=ba7997eb61582e47" />
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/scene-evidence-coverage.still.svg?v=93bc491b6798cc77" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-evidence-coverage.svg?v=150970dace37b2c7" />
-    <img width="720" alt="CommitAtlas evidence coverage for the public contribution calendar and five configured projects, with unavailable signals stated explicitly" src="./assets/commitatlas/scene-evidence-coverage.svg?v=ad7dc08b40b09f8b" />
+    <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-evidence-coverage.still.svg?v=f976acaed8946234" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/scene-evidence-coverage.still.svg?v=54f2b98a910d5773" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-evidence-coverage.svg?v=4c82835c7a26fdfe" />
+    <img width="720" alt="CommitAtlas evidence coverage for the public contribution calendar and five configured projects, with unavailable signals stated explicitly" src="./assets/commitatlas/scene-evidence-coverage.svg?v=d85b4a4af3d4e8fe" />
   </picture>
-  <p><a href="./assets/commitatlas/scene-evidence-coverage.still.svg?v=93bc491b6798cc77">Still evidence coverage</a></p>
+  <p><a href="./assets/commitatlas/scene-evidence-coverage.still.svg?v=54f2b98a910d5773">Still evidence coverage</a></p>
 </div>
 
 <p align="center"><sub>Twelve-hourly committed snapshot from GitHub's logged-out public profile view · the signed-in owner's contribution calendar can differ because it may include private activity · calendar shows the latest 365 observed days; streaks retain the full fetched history, up to two years, ending on the printed date · no credential or private repository detail requested · a failed refresh keeps the last good snapshot online · <a href="https://commit-atlas.commit-atlas.workers.dev/studio">Open Studio</a> · <a href="https://github.com/Chris0Jeky/CommitAtlas">Source</a></sub></p>
 
-<p align="center"><a href="https://github.com/Chris0Jeky/Chris0Jeky/actions/workflows/commitatlas.yml"><img alt="Profile refresh workflow status" src="https://github.com/Chris0Jeky/Chris0Jeky/actions/workflows/commitatlas.yml/badge.svg" /></a> · <a href="./assets/commitatlas/atlas-still.svg?v=1c5dd3d8b207061b">Still version</a></p>
+<p align="center"><a href="https://github.com/Chris0Jeky/Chris0Jeky/actions/workflows/commitatlas.yml"><img alt="Profile refresh workflow status" src="https://github.com/Chris0Jeky/Chris0Jeky/actions/workflows/commitatlas.yml/badge.svg" /></a> · <a href="./assets/commitatlas/atlas-still.svg?v=159555961e74419b">Still version</a></p>
 
 ---
 
@@ -146,7 +146,7 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
 | Project | Status | Signals/actions |
 | --- | --- | --- |
 | [Local Asset Studio](https://github.com/Chris0Jeky/local-asset-studio) | Active · CI passing | 6 stars · 147 open issues/PRs; Language: Python; Workflow: check.yml; Actions: [CI](https://github.com/Chris0Jeky/local-asset-studio/actions/runs/44416207807) · [Docs](https://github.com/Chris0Jeky/local-asset-studio#readme) |
-| [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) | Active · CI passing | 2 stars · 122 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Actions: [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/44210607751) · [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) |
+| [NavSentinel](https://github.com/Chris0Jeky/NavSentinel) | Active · CI stale | 2 stars · 122 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Actions: [CI](https://github.com/Chris0Jeky/NavSentinel/actions/runs/44210607751) · [Docs](https://github.com/Chris0Jeky/NavSentinel#readme) |
 | [Alibi](https://github.com/Chris0Jeky/Alibi) | Active · CI stale | 2 stars · 117 open issues/PRs; Language: JavaScript; Workflow: check.yml; Release: v0.16.0; Actions: [Website](https://alibi-after-hours-preview.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/Alibi/actions/runs/43094016216) · [Release](https://github.com/Chris0Jeky/Alibi/releases/tag/v0.16.0) · [Release download](https://github.com/Chris0Jeky/Alibi/releases/download/v0.16.0/alibi-deluxe-cloudflare.zip) · [Docs](https://github.com/Chris0Jeky/Alibi#readme) · [Download](https://github.com/Chris0Jeky/Alibi/releases/latest) |
 | [Pulseboard](https://github.com/Chris0Jeky/Pulseboard) | Active · CI stale | 2 stars · 19 open issues/PRs; Language: JavaScript; Workflow: observatory.yml; Actions: [CI](https://github.com/Chris0Jeky/Pulseboard/actions/runs/43083778499) · [Docs](https://github.com/Chris0Jeky/Pulseboard#readme) |
 | [CommitAtlas](https://github.com/Chris0Jeky/CommitAtlas) | Active · CI stale | 1 stars · 49 open issues/PRs; Language: TypeScript; Workflow: ci.yml; Release: v0.4.0; Actions: [Website](https://commit-atlas.commit-atlas.workers.dev/) · [CI](https://github.com/Chris0Jeky/CommitAtlas/actions/runs/40813346455) · [Release](https://github.com/Chris0Jeky/CommitAtlas/releases/tag/v0.4.0) · [Docs](https://github.com/Chris0Jeky/CommitAtlas#readme) |
@@ -160,8 +160,8 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
   <div align="center">
     <a href="https://commit-atlas.commit-atlas.workers.dev/studio">
       <picture>
-        <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/projects.svg?v=87f221af8bb1fa95" />
-        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for five selected Chris0Jeky projects" src="./assets/commitatlas/projects.svg?v=3a09f5aea37f37cf" />
+        <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/projects.svg?v=3699db85b0b56c9f" />
+        <img width="860" alt="CommitAtlas project lifecycle and named-workflow CI snapshot for five selected Chris0Jeky projects" src="./assets/commitatlas/projects.svg?v=82d9dea65572da1a" />
       </picture>
     </a>
   </div>
@@ -170,20 +170,20 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
   <p>Observed weekly contributions and the latest verified release markers in the fetched window. This is not a complete release history.</p>
   <div align="center">
     <picture>
-      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-activity-terrain.still.svg?v=d99d5d5cac21f000" />
-      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/scene-activity-terrain.still.svg?v=3d667ca86603c7b1" />
-      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-activity-terrain.svg?v=8447cb57401cb0f4" />
-      <img width="720" alt="CommitAtlas activity terrain showing weekly public contributions, the observed streak and latest verified release markers" src="./assets/commitatlas/scene-activity-terrain.svg?v=3e458acd99de6246" />
+      <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-activity-terrain.still.svg?v=c6e0c2409e339ca9" />
+      <source media="(prefers-reduced-motion: reduce)" srcset="./assets/commitatlas/scene-activity-terrain.still.svg?v=82b0cfe0c855386e" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/scene-activity-terrain.svg?v=5b67190d70ee8ddc" />
+      <img width="720" alt="CommitAtlas activity terrain showing weekly public contributions, the observed streak and latest verified release markers" src="./assets/commitatlas/scene-activity-terrain.svg?v=eee8c2e1354092fa" />
     </picture>
-    <p><a href="./assets/commitatlas/scene-activity-terrain.still.svg?v=3d667ca86603c7b1">Still activity terrain</a></p>
+    <p><a href="./assets/commitatlas/scene-activity-terrain.still.svg?v=82b0cfe0c855386e">Still activity terrain</a></p>
   </div>
 
   <h3>Annual activity mix</h3>
   <p>GitHub public-profile activity percentages. These are annual profile-view percentages, not exact counts for the Atlas window.</p>
   <div align="center">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/breakdown.svg?v=f2ae5ec99c0ec22f" />
-      <img width="720" alt="CommitAtlas annual public-profile activity percentages for Chris0Jeky" src="./assets/commitatlas/breakdown.svg?v=2f8e0c4d88fd191e" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/breakdown.svg?v=8b6a7c1b7dd22bc9" />
+      <img width="720" alt="CommitAtlas annual public-profile activity percentages for Chris0Jeky" src="./assets/commitatlas/breakdown.svg?v=cdcab055fad8cf30" />
     </picture>
   </div>
 
@@ -191,16 +191,16 @@ The catalogue below is the last committed credential-free CommitAtlas snapshot. 
   <p>A transparent summary of density, streak, and recent momentum—not a GitHub rank or comparison with other people.</p>
   <div align="center">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/rhythm.svg?v=1df86d1c0e36e424" />
-      <img width="720" alt="CommitAtlas personal consistency rhythm summary for Chris0Jeky, not a GitHub rank" src="./assets/commitatlas/rhythm.svg?v=fcb2ae3b84a0bcf5" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/rhythm.svg?v=7e089140d0056809" />
+      <img width="720" alt="CommitAtlas personal consistency rhythm summary for Chris0Jeky, not a GitHub rank" src="./assets/commitatlas/rhythm.svg?v=2756231e0c9db14f" />
     </picture>
   </div>
 
   <h3>Weekly cadence and releases</h3>
   <div align="center">
     <picture>
-      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/cadence.svg?v=d111d42d32fd2089" />
-      <img width="720" alt="CommitAtlas weekday contribution-share view for Chris0Jeky on UTC boundaries" src="./assets/commitatlas/cadence.svg?v=4d58de16b33220bc" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/commitatlas/light/cadence.svg?v=9ac10014161e1fed" />
+      <img width="720" alt="CommitAtlas weekday contribution-share view for Chris0Jeky on UTC boundaries" src="./assets/commitatlas/cadence.svg?v=9ec574a3881e06a3" />
     </picture>
     <br />
     <picture>

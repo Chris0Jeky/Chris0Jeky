@@ -1,7 +1,7 @@
 # Project catalog
 
-Generated for **Chris0Jeky** from public GitHub data at `2026-11-18T23:25:12.448Z`.
-Window: `2024-11-18` → `2026-11-18` (731 days).
+Generated for **Chris0Jeky** from public GitHub data at `2026-11-21T22:12:49.420Z`.
+Window: `2024-11-21` → `2026-11-21` (731 days).
 
 > Source: `github-public-rest`. Links are emitted only when observed in the public snapshot or explicitly configured.
 > A destination outside GitHub's own hosts is labelled with its hostname; CommitAtlas does not vouch for it.
@@ -24,7 +24,7 @@ Window: `2024-11-18` → `2026-11-18` (731 days).
 
 - **Repository:** `chris0jeky/NavSentinel`
 - **Lifecycle:** Active
-- **CI:** Passing (`ci.yml`)
+- **CI:** Stale result (`ci.yml`)
 - **Description:** Heedline \(pre\-alpha\): a local\-first Chrome MV3 guard for deceptive navigation and risky browser actions, with inspectable decisions and no runtime network lookup\.
 - **Stats:** 2 stars · 122 open issues/PRs
 
